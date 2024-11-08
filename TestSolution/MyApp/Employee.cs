@@ -13,8 +13,9 @@ namespace MyApp
         private double hra;
         private double daysworking;
 
-        public Employee(string firstname, string lastname, int age, int id, double da, double hra, double daysworking) : base(firstname, lastname, age)
-        {
+        public Employee(string firstname, string lastname, int age, int id, double da, double hra, double daysworking) : base(firstname, lastname, age) 
+                                                                                                                        // Constructor chaining
+         {
             this.id = id;
             this.da = da;
             this.hra = hra;

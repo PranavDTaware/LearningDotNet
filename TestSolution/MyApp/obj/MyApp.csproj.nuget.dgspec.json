@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\FullStack\\.NET\\TestSolution\\MyApp\\MyApp.csproj": {}
+    "I:\\FullStack\\LearningDotNet\\TestSolution\\MyApp\\MyApp.csproj": {}
   },
   "projects": {
-    "I:\\FullStack\\.NET\\TestSolution\\MyApp\\MyApp.csproj": {
+    "I:\\FullStack\\LearningDotNet\\TestSolution\\MyApp\\MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\FullStack\\.NET\\TestSolution\\MyApp\\MyApp.csproj",
+        "projectUniqueName": "I:\\FullStack\\LearningDotNet\\TestSolution\\MyApp\\MyApp.csproj",
         "projectName": "MyApp",
-        "projectPath": "I:\\FullStack\\.NET\\TestSolution\\MyApp\\MyApp.csproj",
+        "projectPath": "I:\\FullStack\\LearningDotNet\\TestSolution\\MyApp\\MyApp.csproj",
         "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-        "outputPath": "I:\\FullStack\\.NET\\TestSolution\\MyApp\\obj\\",
+        "outputPath": "I:\\FullStack\\LearningDotNet\\TestSolution\\MyApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",

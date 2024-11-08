@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\FullStack\\.NET\\Practice\\TestApp\\TestApp.csproj",
+      "projectUniqueName": "I:\\FullStack\\LearningDotNet\\Practice\\TestApp\\TestApp.csproj",
       "projectName": "TestApp",
-      "projectPath": "I:\\FullStack\\.NET\\Practice\\TestApp\\TestApp.csproj",
+      "projectPath": "I:\\FullStack\\LearningDotNet\\Practice\\TestApp\\TestApp.csproj",
       "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-      "outputPath": "I:\\FullStack\\.NET\\Practice\\TestApp\\obj\\",
+      "outputPath": "I:\\FullStack\\LearningDotNet\\Practice\\TestApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",
