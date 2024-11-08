@@ -1,0 +1,14 @@
+I:\FullStack\.NET\TestSolution\MyApp\bin\Debug\net8.0\MyApp.exe
+I:\FullStack\.NET\TestSolution\MyApp\bin\Debug\net8.0\MyApp.deps.json
+I:\FullStack\.NET\TestSolution\MyApp\bin\Debug\net8.0\MyApp.runtimeconfig.json
+I:\FullStack\.NET\TestSolution\MyApp\bin\Debug\net8.0\MyApp.dll
+I:\FullStack\.NET\TestSolution\MyApp\bin\Debug\net8.0\MyApp.pdb
+I:\FullStack\.NET\TestSolution\MyApp\obj\Debug\net8.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+I:\FullStack\.NET\TestSolution\MyApp\obj\Debug\net8.0\MyApp.AssemblyInfoInputs.cache
+I:\FullStack\.NET\TestSolution\MyApp\obj\Debug\net8.0\MyApp.AssemblyInfo.cs
+I:\FullStack\.NET\TestSolution\MyApp\obj\Debug\net8.0\MyApp.csproj.CoreCompileInputs.cache
+I:\FullStack\.NET\TestSolution\MyApp\obj\Debug\net8.0\MyApp.dll
+I:\FullStack\.NET\TestSolution\MyApp\obj\Debug\net8.0\refint\MyApp.dll
+I:\FullStack\.NET\TestSolution\MyApp\obj\Debug\net8.0\MyApp.pdb
+I:\FullStack\.NET\TestSolution\MyApp\obj\Debug\net8.0\MyApp.genruntimeconfig.cache
+I:\FullStack\.NET\TestSolution\MyApp\obj\Debug\net8.0\ref\MyApp.dll
