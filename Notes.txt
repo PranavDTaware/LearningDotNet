@@ -1,0 +1,13 @@
+1. Heap (For Reference Types)
+In C#, when you create an object using the new keyword, the object is allocated on the heap. The heap is a region of memory used for dynamic memory allocation, where objects that are reference types (e.g., class, arrays, strings) are stored.
+
+How It Works:
+When you create an instance of a class (for example, new Account()), the memory for the object is allocated on the heap.
+A reference to the object is stored in a variable. The variable itself is stored on the stack, but it holds a reference (pointer) to the location in memory where the object exists on the heap.
+
+2. Stack (For Value Types)
+When you create a value type (such as int, float, struct, or bool), the value is stored directly on the stack. The stack is a region of memory used for static memory allocation. When a value type variable is created, its value is stored on the stack.
+
+How It Works:
+When you create a value type, such as an int or a struct, the actual data is stored in the stack.
+The stack is much faster than the heap for allocating memory but is more limited in terms of size and scope. Typically, the stack is used for local variables and method calls.
