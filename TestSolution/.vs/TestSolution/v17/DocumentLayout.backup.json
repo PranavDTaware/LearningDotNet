@@ -30,9 +30,9 @@
               "Title": "Employee.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\TestSolution\\MyApp\\Employee.cs",
               "RelativeDocumentMoniker": "MyApp\\Employee.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\TestSolution\\MyApp\\Employee.cs",
-              "RelativeToolTip": "MyApp\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB4AAAAAAAAAA==",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\TestSolution\\MyApp\\Employee.cs*",
+              "RelativeToolTip": "MyApp\\Employee.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T06:00:49.252Z",
               "EditorCaption": ""
@@ -47,7 +47,8 @@
               "RelativeToolTip": "MyApp\\Person.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T05:30:05.939Z"
+              "WhenOpened": "2024-11-08T05:30:05.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -55,9 +56,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\TestSolution\\MyApp\\Program.cs",
               "RelativeDocumentMoniker": "MyApp\\Program.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\TestSolution\\MyApp\\Program.cs*",
-              "RelativeToolTip": "MyApp\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABHAAAAAAAAAA==",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\TestSolution\\MyApp\\Program.cs",
+              "RelativeToolTip": "MyApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T05:10:57.523Z",
               "EditorCaption": ""
