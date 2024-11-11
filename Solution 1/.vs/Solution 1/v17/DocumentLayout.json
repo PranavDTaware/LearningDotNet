@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +28,22 @@
               "RelativeDocumentMoniker": "TesterApp\\Program.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\Program.cs",
               "RelativeToolTip": "TesterApp\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T07:33:44.884Z",
+              "WhenOpened": "2024-11-11T11:04:46.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\Product.cs",
+              "RelativeDocumentMoniker": "TesterApp\\Product.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\Product.cs",
+              "RelativeToolTip": "TesterApp\\Product.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T11:05:28.515Z",
               "EditorCaption": ""
             }
           ]
