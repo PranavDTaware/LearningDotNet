@@ -1,4 +1,5 @@
 ﻿using System;
+using TesterApp;
 
 
 //access specifiers in c#
@@ -82,6 +83,21 @@ class Program
 
         Console.WriteLine("Program title=" + theProgram.Name); // Get bloack is called
         theProgram.Display();
+
+        Product theProduct1 = new Product(1, "Rose", "Valentine", 4500, 10);
+        Product theProduct2 = new Product(2, "Lily", "Wedding FLower", 5000, 10);
+        Product theProduct3 = new Product(3, "Gerbera", "Wedding FLower", 3000, 10);
+
+        Console.WriteLine(theProduct1);
+        Console.WriteLine(theProduct2);
+        Console.WriteLine(theProduct3);
+
+
+        Account acc1 = new Account(60000);
+        acc1.Deposit(5000);
+        Console.WriteLine("amount deposited = " + acc1.Balance);
+        
+        Console.ReadLine(); // to hold the program
     }
 
 

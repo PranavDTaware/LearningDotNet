@@ -14,7 +14,7 @@ namespace TesterApp
         private float unitPrice;
         private int id;
 
-        public string Title //capital T is property and t is private variable(data member)
+        public string Title //T is property and t is private variable(data member)
         {
             get { return this.title; }
             set { this.title = value; }
@@ -41,6 +41,28 @@ namespace TesterApp
         public int Id  //Readonly property(only get block)
         {
             get { return this.id; }
+        }
+
+        public Product() { }
+
+        public Product(int id, string title,  string description, int quantity, float unitPrice)
+        {
+            this.id = id;
+            this.title = title;
+            this.description = description;
+            this.quantity = quantity;
+            this.unitPrice = unitPrice;
+        }
+
+        ~Product() 
+        {
+            //to deintialize object instance before getting destroyed
+        }
+
+        public override string ToString()
+        {
+            // return base.ToString();
+            return this.id + " " + this.title + " " + this.description + " " + this.quantity + " " + this.unitPrice;    
         }
     }
 }
