@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CRM;
 
-namespace TesterApp
+namespace Membership
 {
     public static class AccountManager
     {
@@ -20,10 +16,39 @@ namespace TesterApp
         }
 
 
-        public static bool Register(string loginId, string namestring password, string email, int contactnumber, string location)
+        public static bool Register(string loginId, string name, string password,
+                                    string email, int contactnumber, string location)
         {
             bool status = false;
-            Customer customer1 = new Customer();
+
+            Customer theCustomer = new Customer();
+            theCustomer.FullName = name;
+            theCustomer.UserId = loginId;
+            theCustomer.Password = password;
+            theCustomer.Email = email;
+            theCustomer.Location = location;
+
+            if(theCustomer != null)
+                status = true;
+            return status;
+
+        }
+
+        public static bool ChangePassword(string loginId, string existingPassword, string newPassword )
+        {
+            bool status = false;
+            // Set new password for userId
+            // you need make changes into file, database...
+
+
+            return status;
+        }
+
+        public static bool ForgotPassword(string loginId)
+        {
+            bool status = false;
+            //logic in future
+            return status;
         }
     }
 }
