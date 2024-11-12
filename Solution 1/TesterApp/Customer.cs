@@ -13,7 +13,7 @@ namespace CRM
         public string Password { get; set; }
         public string FullName { get; set; }
         public string Email { get; set; }
-        public int ContactNumber { get; set; }
+        public string ContactNumber { get; set; }
         public string Location { get; set; }
     }
 }

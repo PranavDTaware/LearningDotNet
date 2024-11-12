@@ -17,7 +17,7 @@ namespace Membership
 
 
         public static bool Register(string loginId, string name, string password,
-                                    string email, int contactnumber, string location)
+                                    string email, string contactnumber, string location)
         {
             bool status = false;
 
