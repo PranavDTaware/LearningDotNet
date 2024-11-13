@@ -31,5 +31,10 @@ namespace HR
         protected string FirstName {  get; set; } 
         protected string LastName { get; set; }
         protected DateTime BirthDate {get; set; }
+
+        public override string ToString()
+        {
+            return FirstName + " " + LastName + " " + BirthDate;
+        }
     }
 }

@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>TesterApp.BankTest</StartupObject>
+    <StartupObject>TesterApp.InheritanceTest</StartupObject>
   </PropertyGroup>
 
 </Project>

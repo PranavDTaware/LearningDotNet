@@ -23,10 +23,16 @@ namespace HR
         public float BasicSalary { get; set; }
         public int WorkingDays { get; set; }
 
-        public float CalculateSalary()
+        public virtual float CalculateSalary()
         {
             float salary = BasicSalary + (100 *WorkingDays);
             return salary;
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + this.ID + " " + this.Department + " " +
+                        this.WorkingDays + " " + this.BasicSalary;
         }
 
     }
