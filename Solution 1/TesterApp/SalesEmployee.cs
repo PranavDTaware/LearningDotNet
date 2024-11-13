@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace HR
 {
-     class SalesEmployee : Employee
+    //to block inheritance use sealed keyword
+     public sealed class SalesEmployee : Employee
     {
         public float Incentive;
         public SalesEmployee(string fname, string lname, 
