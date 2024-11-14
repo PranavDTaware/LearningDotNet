@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\constreadonlytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\constreadonlytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\testerapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\testerapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\boxingunboxingtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\boxingunboxingtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\languagefeaturestest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\languagefeaturestest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,24 +42,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TesterApp",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\TesterApp.csproj",
+              "RelativeDocumentMoniker": "TesterApp\\TesterApp.csproj",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\TesterApp.csproj",
+              "RelativeToolTip": "TesterApp\\TesterApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-14T11:32:42.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConstreadonlyTest.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\ConstreadonlyTest.cs",
+              "RelativeDocumentMoniker": "TesterApp\\ConstreadonlyTest.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\ConstreadonlyTest.cs*",
+              "RelativeToolTip": "TesterApp\\ConstreadonlyTest.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:15:48.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BoxingUnboxingTest.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\BoxingUnboxingTest.cs",
+              "RelativeDocumentMoniker": "TesterApp\\BoxingUnboxingTest.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\BoxingUnboxingTest.cs",
+              "RelativeToolTip": "TesterApp\\BoxingUnboxingTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:02:34.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LanguageFeaturesTest.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\LanguageFeaturesTest.cs",
               "RelativeDocumentMoniker": "TesterApp\\LanguageFeaturesTest.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\LanguageFeaturesTest.cs*",
-              "RelativeToolTip": "TesterApp\\LanguageFeaturesTest.cs*",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA7wCAAAAArAAAAAAAAAA==",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\LanguageFeaturesTest.cs",
+              "RelativeToolTip": "TesterApp\\LanguageFeaturesTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T10:56:24.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Employee.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\Employee.cs",
               "RelativeDocumentMoniker": "TesterApp\\Employee.cs",
@@ -59,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Person.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\Person.cs",
               "RelativeDocumentMoniker": "TesterApp\\Person.cs",
@@ -71,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "InheritanceTest.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\InheritanceTest.cs",
               "RelativeDocumentMoniker": "TesterApp\\InheritanceTest.cs",
@@ -83,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "SalesEmployee.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\SalesEmployee.cs",
               "RelativeDocumentMoniker": "TesterApp\\SalesEmployee.cs",
