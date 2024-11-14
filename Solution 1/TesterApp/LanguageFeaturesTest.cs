@@ -1,9 +1,43 @@
 ﻿
 
+using System.Drawing;
+
 namespace TesterApp
 {
     public class LanguageFeaturesTest
     {
+
+        // Abstract class enforce overriding
+        public abstract class Shape
+        {
+            //Minimum one method has to be abstract method
+           abstract public void Draw();
+            public string Color {  get; set; }
+            public string Width { get; set; }
+            public void Display()
+            {
+                Console.WriteLine("Shape is getting Displayed....");
+            }
+
+        }
+
+        public class Line : Shape
+        {
+            public Point StartPoint { get; set; }
+            public Point EndPoint { get; set; }
+            public override void Draw()
+            {
+                Console.WriteLine("Line is Drawn..");
+                Console.WriteLine("Frirst Point{0},{1}",StartPoint.X, StartPoint.Y);
+                Console.WriteLine("Second Point {0},{1}", EndPoint.X, EndPoint.Y);
+                Console.WriteLine("Color ={0}", Color);
+                Console.WriteLine("Width ={0}", Width);
+            }
+        }
+
+
+
+
         //Prototype
         // is used to define contract
         // is used to define specification
@@ -82,7 +116,8 @@ namespace TesterApp
 
 
             //reference type
-            //class, interface, delegate, event
+            //class : are of two types: cont=concrete class and abstract
+            //interface, delegate, event
             //values pointed by reference type are always store on heap
 
             // Heap is managd by Garbage Collecetor
@@ -93,23 +128,30 @@ namespace TesterApp
             outputDevice = laserprinter;
 
             // late binding
-            outputDevice.Print();  //Printer method will be called
             outputDevice.start();
+            outputDevice.Print();  //Printer method will be called
             outputDevice.stop();
 
 
-            ThreeDPrinter jobPrinter = new ThreeDPrinter();
-            outputDevice = jobPrinter;
+            outputDevice = new ThreeDPrinter();
             
             //late binding
-            outputDevice.Print(); //3D printer method will be called
             outputDevice.start();
+            outputDevice.Print(); //3D printer method will be called
             outputDevice.stop();
 
             LanguageFeaturesTest test = new LanguageFeaturesTest();
 
+            Shape theShape = new Line();
+            theShape.Draw();
+
+
             Console.WriteLine("Welcome to C#");
             Console.ReadLine();
+
+
+            //early binding : resolving funtion at compile time
+            //late binding : resolve fuction at runtime
         }
     }
 }
