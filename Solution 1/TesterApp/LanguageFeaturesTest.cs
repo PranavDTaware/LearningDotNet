@@ -23,15 +23,15 @@ namespace TesterApp
 
         public class Line : Shape
         {
-            public Point StartPoint { get; set; }
-            public Point EndPoint { get; set; }
+            public Point StartPoint;
+            public Point EndPoint;
             public override void Draw()
             {
                 Console.WriteLine("Line is Drawn..");
-                Console.WriteLine("Frirst Point{0},{1}",StartPoint.X, StartPoint.Y);
+                Console.WriteLine("Frirst Point {0},{1}",StartPoint.X, StartPoint.Y);
                 Console.WriteLine("Second Point {0},{1}", EndPoint.X, EndPoint.Y);
-                Console.WriteLine("Color ={0}", Color);
-                Console.WriteLine("Width ={0}", Width);
+                Console.WriteLine("Color = {0}", Color);
+                Console.WriteLine("Width = {0}", Width);
             }
         }
 
@@ -122,6 +122,8 @@ namespace TesterApp
 
             // Heap is managd by Garbage Collecetor
 
+
+            Console.WriteLine("Demo for Interface interface");
             IPrintable outputDevice = null;
 
             Printer laserprinter = new Printer();
@@ -142,7 +144,18 @@ namespace TesterApp
 
             LanguageFeaturesTest test = new LanguageFeaturesTest();
 
+
+            Console.WriteLine("Demo abstract class");
             Shape theShape = new Line();
+            theShape.Color = "Red";
+            theShape.Width = "5";
+            Line l = theShape as Line;
+            l.StartPoint = new Point();
+            l.StartPoint.X = 96;
+            l.StartPoint.Y = 5;
+            l.EndPoint = new Point();
+            l.EndPoint.X = 45;
+            l.EndPoint.Y = 5;
             theShape.Draw();
 
 
