@@ -4,9 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TesterApp
+namespace OrderProcessing
 {
-    internal class Order
+    public  class Order
     {
+        public int OrderId { get; set; }
+        public DateTime OrderDate { get; set; }
+        public Order()
+        {
+
+        }
     }
 }

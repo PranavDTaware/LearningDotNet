@@ -4,9 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TesterApp
+namespace OrderProcessing
 {
-    internal class DeliveryManager
+    public class DeliveryManager:Manager
     {
+        List<Order> orders = new List<Order>();
+        public List<Order> Orders
+        public void Insert(Order order)
+        {
+            orders.Add(order);
+        }
+
+        public void Update(Order order)
+        {
+
+        }
+
+        public void Delete(Order order)
+        {
+            orders.Remove(order);
+        }
     }
 }

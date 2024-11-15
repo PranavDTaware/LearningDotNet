@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TesterApp
+namespace OrderProcessing
 {
-    internal class WorkOrderTest
+    class WorkOrderTest
     {
+        public static void Main(string[] args)
+        {
+            
+        }
     }
 }
