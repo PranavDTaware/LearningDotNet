@@ -40,6 +40,7 @@ namespace OrderProcessing
         {
             List<Order> orders = new List<Order>();
             //Get all WorkOrders orders
+            orders = mgr.Orders;
             return orders;
         }
 

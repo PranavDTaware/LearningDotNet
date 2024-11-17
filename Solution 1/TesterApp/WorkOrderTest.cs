@@ -49,7 +49,10 @@ namespace OrderProcessing
             IOrderService service = new WorkOrderService();
             service.Create(theOrder);
 
-            List
+            List<Order> allOrders = service.GetHashCode();
+
+            Console.WriteLine("WorkOrder Details");
+            Console.WriteLine("--------------------");
         }
     }
 }
