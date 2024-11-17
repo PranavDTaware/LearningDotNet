@@ -1,0 +1,12 @@
+I:\FullStack\LearningDotNet\Solution 1\Mathlib\bin\Debug\net8.0\Mathlib.deps.json
+I:\FullStack\LearningDotNet\Solution 1\Mathlib\bin\Debug\net8.0\Mathlib.dll
+I:\FullStack\LearningDotNet\Solution 1\Mathlib\bin\Debug\net8.0\Mathlib.pdb
+I:\FullStack\LearningDotNet\Solution 1\Mathlib\obj\Debug\net8.0\Mathlib.GeneratedMSBuildEditorConfig.editorconfig
+I:\FullStack\LearningDotNet\Solution 1\Mathlib\obj\Debug\net8.0\Mathlib.AssemblyInfoInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\Mathlib\obj\Debug\net8.0\Mathlib.AssemblyInfo.cs
+I:\FullStack\LearningDotNet\Solution 1\Mathlib\obj\Debug\net8.0\Mathlib.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\Mathlib\obj\Debug\net8.0\Mathlib.sourcelink.json
+I:\FullStack\LearningDotNet\Solution 1\Mathlib\obj\Debug\net8.0\Mathlib.dll
+I:\FullStack\LearningDotNet\Solution 1\Mathlib\obj\Debug\net8.0\refint\Mathlib.dll
+I:\FullStack\LearningDotNet\Solution 1\Mathlib\obj\Debug\net8.0\Mathlib.pdb
+I:\FullStack\LearningDotNet\Solution 1\Mathlib\obj\Debug\net8.0\ref\Mathlib.dll

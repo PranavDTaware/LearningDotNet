@@ -14,3 +14,5 @@ int subResult = math.Subtract(20, 2);
 Console.WriteLine("Result = {0}", addResult);
 
 Console.WriteLine("Result = {0}", subResult);
+
+Console.ReadLine();
