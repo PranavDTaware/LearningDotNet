@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OrderProcessing
 {
-    class WorkOrderService:IOderService
+    class WorkOrderService:IOrderService
     {
         private DeliveryManager mgr = new DeliveryManager();
         public WorkOrderService()
