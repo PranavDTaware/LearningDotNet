@@ -4,9 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TesterApp
+
+namespace OrderProcessing
 {
-    internal class PurchaseOrderService
+    public class PurchaseOrderService : IOrderService
     {
+        PurchaseManager mgr = new PurchaseManager();
+
+        public PurchaseOrderService()
+        {
+
+        }
+
+        public bool Cancel(Order order)
+        {
+            bool status = false;
+            return status;
+        }
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TesterApp
+namespace OrderProcessing
 {
-    internal class PurchaseManager
+    public class PurchaseManager
     {
     }
 }
