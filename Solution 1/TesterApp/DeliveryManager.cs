@@ -9,7 +9,7 @@ namespace OrderProcessing
     public class DeliveryManager:Manager
     {
         List<Order> orders = new List<Order>();
-        public List<Order> Orders
+        public List<Order> Orders;
         public void Insert(Order order)
         {
             orders.Add(order);
