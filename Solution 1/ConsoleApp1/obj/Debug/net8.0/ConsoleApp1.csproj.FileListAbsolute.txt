@@ -13,3 +13,7 @@ I:\FullStack\LearningDotNet\Solution 1\ConsoleApp1\obj\Debug\net8.0\refint\Conso
 I:\FullStack\LearningDotNet\Solution 1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
 I:\FullStack\LearningDotNet\Solution 1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
 I:\FullStack\LearningDotNet\Solution 1\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
+I:\FullStack\LearningDotNet\Solution 1\ConsoleApp1\bin\Debug\net8.0\Mathlib.dll
+I:\FullStack\LearningDotNet\Solution 1\ConsoleApp1\bin\Debug\net8.0\Mathlib.pdb
+I:\FullStack\LearningDotNet\Solution 1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.AssemblyReference.cache
+I:\FullStack\LearningDotNet\Solution 1\ConsoleApp1\obj\Debug\net8.0\ConsoleA.CB28C8CC.Up2Date

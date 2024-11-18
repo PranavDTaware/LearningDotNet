@@ -11,7 +11,20 @@ namespace Mathlib
         private int real;
         private int imag;
 
+        public int Real
+        {
+            get { return real; }
+            set { real = value; }
+        }
+
+        public int Imag
+        {
+            get { return imag; }
+            set { imag = value; }
+        }
+
         public Complex() { }
+
         public Complex(int r ,int i)
         {
             real = r;
