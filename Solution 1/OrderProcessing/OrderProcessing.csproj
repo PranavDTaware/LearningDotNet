@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CRM\CRM.csproj" />
+    <ProjectReference Include="..\ShoppingCart\ShoppingCart.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -3,52 +3,20 @@
   "WorkspaceRootPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|i:\\fullstack\\learningdotnet\\solution 1\\orderprocessing\\purchasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\purchasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|i:\\fullstack\\learningdotnet\\solution 1\\orderprocessing\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|i:\\fullstack\\learningdotnet\\solution 1\\orderprocessing\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AADAFD3-C939-4BAD-A64F-2FFF1AB862CB}|Banking\\Banking.csproj|i:\\fullstack\\learningdotnet\\solution 1\\banking\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AADAFD3-C939-4BAD-A64F-2FFF1AB862CB}|Banking\\Banking.csproj|solutionrelative:banking\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|i:\\fullstack\\learningdotnet\\solution 1\\orderprocessing\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F71B51B-2AFA-44D0-B579-CF575D0BC616}|CRM\\CRM.csproj|i:\\fullstack\\learningdotnet\\solution 1\\crm\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F71B51B-2AFA-44D0-B579-CF575D0BC616}|CRM\\CRM.csproj|solutionrelative:crm\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\workordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\workordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4082A791-3D21-4F00-8AC7-F7DAED77DB18}|HR\\HR.csproj|i:\\fullstack\\learningdotnet\\solution 1\\hr\\salesemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4082A791-3D21-4F00-8AC7-F7DAED77DB18}|HR\\HR.csproj|solutionrelative:hr\\salesemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4082A791-3D21-4F00-8AC7-F7DAED77DB18}|HR\\HR.csproj|i:\\fullstack\\learningdotnet\\solution 1\\hr\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4082A791-3D21-4F00-8AC7-F7DAED77DB18}|HR\\HR.csproj|solutionrelative:hr\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4082A791-3D21-4F00-8AC7-F7DAED77DB18}|HR\\HR.csproj|i:\\fullstack\\learningdotnet\\solution 1\\hr\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4082A791-3D21-4F00-8AC7-F7DAED77DB18}|HR\\HR.csproj|solutionrelative:hr\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67280886-C3DE-4653-B565-55FC4DB05D78}|ConsoleApp1\\ConsoleApp1.csproj|i:\\fullstack\\learningdotnet\\solution 1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67280886-C3DE-4653-B565-55FC4DB05D78}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57FF201A-2286-4F9A-B9B5-2F65649E7A3B}|Mathlib\\Mathlib.csproj|i:\\fullstack\\learningdotnet\\solution 1\\mathlib\\complex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57FF201A-2286-4F9A-B9B5-2F65649E7A3B}|Mathlib\\Mathlib.csproj|solutionrelative:mathlib\\complex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57FF201A-2286-4F9A-B9B5-2F65649E7A3B}|Mathlib\\Mathlib.csproj|i:\\fullstack\\learningdotnet\\solution 1\\mathlib\\mathengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57FF201A-2286-4F9A-B9B5-2F65649E7A3B}|Mathlib\\Mathlib.csproj|solutionrelative:mathlib\\mathengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67280886-C3DE-4653-B565-55FC4DB05D78}|ConsoleApp1\\ConsoleApp1.csproj|i:\\fullstack\\learningdotnet\\solution 1\\consoleapp1\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67280886-C3DE-4653-B565-55FC4DB05D78}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|i:\\fullstack\\learningdotnet\\solution 1\\orderprocessing\\workorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\workorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,162 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PurchaseOrder.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseOrder.cs",
-              "RelativeDocumentMoniker": "OrderProcessing\\PurchaseOrder.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseOrder.cs",
-              "RelativeToolTip": "OrderProcessing\\PurchaseOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Title": "WorkOrderTest.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\WorkOrderTest.cs",
+              "RelativeDocumentMoniker": "TesterApp\\WorkOrderTest.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\WorkOrderTest.cs",
+              "RelativeToolTip": "TesterApp\\WorkOrderTest.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwD4AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:38:35.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PurchaseManager.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseManager.cs",
-              "RelativeDocumentMoniker": "OrderProcessing\\PurchaseManager.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseManager.cs",
-              "RelativeToolTip": "OrderProcessing\\PurchaseManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:36:19.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Account.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\Banking\\Account.cs",
-              "RelativeDocumentMoniker": "Banking\\Account.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Banking\\Account.cs",
-              "RelativeToolTip": "Banking\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:32:18.663Z",
+              "WhenOpened": "2024-11-18T11:03:43.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Order.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\Order.cs",
-              "RelativeDocumentMoniker": "OrderProcessing\\Order.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\Order.cs",
-              "RelativeToolTip": "OrderProcessing\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Title": "PurchaseOrderService.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseOrderService.cs",
+              "RelativeDocumentMoniker": "OrderProcessing\\PurchaseOrderService.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseOrderService.cs",
+              "RelativeToolTip": "OrderProcessing\\PurchaseOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:16:09.44Z",
+              "WhenOpened": "2024-11-18T10:57:37.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\CRM\\Customer.cs",
-              "RelativeDocumentMoniker": "CRM\\Customer.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\CRM\\Customer.cs",
-              "RelativeToolTip": "CRM\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PurchaseOrder.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseOrder.cs",
+              "RelativeDocumentMoniker": "OrderProcessing\\PurchaseOrder.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseOrder.cs",
+              "RelativeToolTip": "OrderProcessing\\PurchaseOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:31:18.53Z",
+              "WhenOpened": "2024-11-18T10:57:01.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SalesEmployee.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\HR\\SalesEmployee.cs",
-              "RelativeDocumentMoniker": "HR\\SalesEmployee.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\HR\\SalesEmployee.cs",
-              "RelativeToolTip": "HR\\SalesEmployee.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "WorkOrderService.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\WorkOrderService.cs",
+              "RelativeDocumentMoniker": "OrderProcessing\\WorkOrderService.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\WorkOrderService.cs",
+              "RelativeToolTip": "OrderProcessing\\WorkOrderService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:25:42.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\HR\\Employee.cs",
-              "RelativeDocumentMoniker": "HR\\Employee.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\HR\\Employee.cs",
-              "RelativeToolTip": "HR\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:24:41.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Person.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\HR\\Person.cs",
-              "RelativeDocumentMoniker": "HR\\Person.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\HR\\Person.cs",
-              "RelativeToolTip": "HR\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T07:23:01.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Complex.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\Mathlib\\Complex.cs",
-              "RelativeDocumentMoniker": "Mathlib\\Complex.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Mathlib\\Complex.cs",
-              "RelativeToolTip": "Mathlib\\Complex.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T19:48:25.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MathEngine.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\Mathlib\\MathEngine.cs",
-              "RelativeDocumentMoniker": "Mathlib\\MathEngine.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Mathlib\\MathEngine.cs",
-              "RelativeToolTip": "Mathlib\\MathEngine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T19:43:39.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Calculator.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\ConsoleApp1\\Calculator.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Calculator.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\ConsoleApp1\\Calculator.cs",
-              "RelativeToolTip": "ConsoleApp1\\Calculator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T19:22:21.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\ConsoleApp1\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\ConsoleApp1\\Program.cs",
-              "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T19:18:41.287Z",
+              "WhenOpened": "2024-11-18T11:00:38.079Z",
               "EditorCaption": ""
             }
           ]

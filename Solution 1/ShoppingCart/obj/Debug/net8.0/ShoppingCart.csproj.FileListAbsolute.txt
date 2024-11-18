@@ -1,0 +1,16 @@
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\bin\Debug\net8.0\ShoppingCart.deps.json
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\bin\Debug\net8.0\ShoppingCart.dll
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\bin\Debug\net8.0\ShoppingCart.pdb
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\bin\Debug\net8.0\Catalog.dll
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\bin\Debug\net8.0\Catalog.pdb
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\obj\Debug\net8.0\ShoppingCart.csproj.AssemblyReference.cache
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\obj\Debug\net8.0\ShoppingCart.GeneratedMSBuildEditorConfig.editorconfig
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\obj\Debug\net8.0\ShoppingCart.AssemblyInfoInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\obj\Debug\net8.0\ShoppingCart.AssemblyInfo.cs
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\obj\Debug\net8.0\ShoppingCart.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\obj\Debug\net8.0\ShoppingCart.sourcelink.json
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\obj\Debug\net8.0\Shopping.CB5956BC.Up2Date
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\obj\Debug\net8.0\ShoppingCart.dll
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\obj\Debug\net8.0\refint\ShoppingCart.dll
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\obj\Debug\net8.0\ShoppingCart.pdb
+I:\FullStack\LearningDotNet\Solution 1\ShoppingCart\obj\Debug\net8.0\ref\ShoppingCart.dll

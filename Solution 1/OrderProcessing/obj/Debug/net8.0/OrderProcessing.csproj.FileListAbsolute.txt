@@ -1,0 +1,6 @@
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\obj\Debug\net8.0\OrderProcessing.csproj.AssemblyReference.cache
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\obj\Debug\net8.0\OrderProcessing.GeneratedMSBuildEditorConfig.editorconfig
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\obj\Debug\net8.0\OrderProcessing.AssemblyInfoInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\obj\Debug\net8.0\OrderProcessing.AssemblyInfo.cs
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\obj\Debug\net8.0\OrderProcessing.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\obj\Debug\net8.0\OrderProcessing.sourcelink.json

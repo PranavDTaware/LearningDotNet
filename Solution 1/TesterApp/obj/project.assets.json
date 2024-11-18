@@ -1,11 +1,152 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Banking/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Banking.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Banking.dll": {}
+        }
+      },
+      "Catalog/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Catalog.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalog.dll": {}
+        }
+      },
+      "CRM/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CRM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRM.dll": {}
+        }
+      },
+      "HR/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/HR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HR.dll": {}
+        }
+      },
+      "Mathlib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Mathlib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mathlib.dll": {}
+        }
+      },
+      "Membership/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CRM": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Membership.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Membership.dll": {}
+        }
+      },
+      "OrderProcessing/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CRM": "1.0.0",
+          "ShoppingCart": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderProcessing.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessing.dll": {}
+        }
+      },
+      "ShoppingCart/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Catalog": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShoppingCart.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingCart.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Banking/1.0.0": {
+      "type": "project",
+      "path": "../Banking/Banking.csproj",
+      "msbuildProject": "../Banking/Banking.csproj"
+    },
+    "Catalog/1.0.0": {
+      "type": "project",
+      "path": "../Catalog/Catalog.csproj",
+      "msbuildProject": "../Catalog/Catalog.csproj"
+    },
+    "CRM/1.0.0": {
+      "type": "project",
+      "path": "../CRM/CRM.csproj",
+      "msbuildProject": "../CRM/CRM.csproj"
+    },
+    "HR/1.0.0": {
+      "type": "project",
+      "path": "../HR/HR.csproj",
+      "msbuildProject": "../HR/HR.csproj"
+    },
+    "Mathlib/1.0.0": {
+      "type": "project",
+      "path": "../Mathlib/Mathlib.csproj",
+      "msbuildProject": "../Mathlib/Mathlib.csproj"
+    },
+    "Membership/1.0.0": {
+      "type": "project",
+      "path": "../Membership/Membership.csproj",
+      "msbuildProject": "../Membership/Membership.csproj"
+    },
+    "OrderProcessing/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessing/OrderProcessing.csproj",
+      "msbuildProject": "../OrderProcessing/OrderProcessing.csproj"
+    },
+    "ShoppingCart/1.0.0": {
+      "type": "project",
+      "path": "../ShoppingCart/ShoppingCart.csproj",
+      "msbuildProject": "../ShoppingCart/ShoppingCart.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Banking >= 1.0.0",
+      "CRM >= 1.0.0",
+      "Catalog >= 1.0.0",
+      "HR >= 1.0.0",
+      "Mathlib >= 1.0.0",
+      "Membership >= 1.0.0",
+      "OrderProcessing >= 1.0.0",
+      "ShoppingCart >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Pranav\\.nuget\\packages\\": {}
@@ -34,7 +175,32 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "I:\\FullStack\\LearningDotNet\\Solution 1\\Banking\\Banking.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\Banking\\Banking.csproj"
+            },
+            "I:\\FullStack\\LearningDotNet\\Solution 1\\Catalog\\Catalog.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\Catalog\\Catalog.csproj"
+            },
+            "I:\\FullStack\\LearningDotNet\\Solution 1\\CRM\\CRM.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\CRM\\CRM.csproj"
+            },
+            "I:\\FullStack\\LearningDotNet\\Solution 1\\HR\\HR.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\HR\\HR.csproj"
+            },
+            "I:\\FullStack\\LearningDotNet\\Solution 1\\Mathlib\\Mathlib.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\Mathlib\\Mathlib.csproj"
+            },
+            "I:\\FullStack\\LearningDotNet\\Solution 1\\Membership\\Membership.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\Membership\\Membership.csproj"
+            },
+            "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\OrderProcessing.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\OrderProcessing.csproj"
+            },
+            "I:\\FullStack\\LearningDotNet\\Solution 1\\ShoppingCart\\ShoppingCart.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\ShoppingCart\\ShoppingCart.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

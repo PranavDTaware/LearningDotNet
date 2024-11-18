@@ -21,9 +21,9 @@ namespace OrderProcessing
                 Duration = 3,
                 Status = "Not started"
             };
-            Job job2 = new Job { ID = 2, Title = "Deliver parcel to customers", Description = "All parcels collected to be delivered to " };
-            Job job3 = new Job { ID = 3, Title = "Report the status of delivery", Description = "Collect all todays parcel to be delivered" };
-            Job job4 = new Job { ID = 4, Title = "Update Workorder Status", Description = "Access online amazon system to update status of " };
+            Job job2 = new Job { ID = 2, Title = "Deliver parcel to customers", Description = "All parcels collected to be delivered to ", Duration = 4, Status = "Not Started"};
+            Job job3 = new Job { ID = 3, Title = "Report the status of delivery", Description = "Collect all todays parcel to be delivered", Duration = 3, Status = "Started" };
+            Job job4 = new Job { ID = 4, Title = "Update Workorder Status", Description = "Access online amazon system to update status of ", Duration = 2, Status = "Not Started" };
         
             
             List<Job> jobs = new List<Job>();
@@ -49,10 +49,19 @@ namespace OrderProcessing
             IOrderService service = new WorkOrderService();
             service.Create(theOrder);
 
-            List<Order> allOrders = service.GetHashCode();
+            List<Order> allOrders = service.GetOrders();
 
             Console.WriteLine("WorkOrder Details");
             Console.WriteLine("--------------------");
+
+            foreach (WorkOrder order in allOrders)
+            {
+                Console.WriteLine("Vendor : {0}", order.Vendor);
+                Console.WriteLine("Order Date : {0}", order.OrderDate);
+                Console.WriteLine("Start Date : {0}", order.StartDate);
+                Console.WriteLine("End Date : {0}", order.EndDate);
+                Console.WriteLine("Status : {0}", order.Status);
+            }
         }
     }
 }

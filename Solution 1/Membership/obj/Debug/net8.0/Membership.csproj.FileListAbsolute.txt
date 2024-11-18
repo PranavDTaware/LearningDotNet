@@ -1,0 +1,16 @@
+I:\FullStack\LearningDotNet\Solution 1\Membership\bin\Debug\net8.0\Membership.deps.json
+I:\FullStack\LearningDotNet\Solution 1\Membership\bin\Debug\net8.0\Membership.dll
+I:\FullStack\LearningDotNet\Solution 1\Membership\bin\Debug\net8.0\Membership.pdb
+I:\FullStack\LearningDotNet\Solution 1\Membership\bin\Debug\net8.0\CRM.dll
+I:\FullStack\LearningDotNet\Solution 1\Membership\bin\Debug\net8.0\CRM.pdb
+I:\FullStack\LearningDotNet\Solution 1\Membership\obj\Debug\net8.0\Membership.csproj.AssemblyReference.cache
+I:\FullStack\LearningDotNet\Solution 1\Membership\obj\Debug\net8.0\Membership.GeneratedMSBuildEditorConfig.editorconfig
+I:\FullStack\LearningDotNet\Solution 1\Membership\obj\Debug\net8.0\Membership.AssemblyInfoInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\Membership\obj\Debug\net8.0\Membership.AssemblyInfo.cs
+I:\FullStack\LearningDotNet\Solution 1\Membership\obj\Debug\net8.0\Membership.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\Membership\obj\Debug\net8.0\Membership.sourcelink.json
+I:\FullStack\LearningDotNet\Solution 1\Membership\obj\Debug\net8.0\Membership.csproj.Up2Date
+I:\FullStack\LearningDotNet\Solution 1\Membership\obj\Debug\net8.0\Membership.dll
+I:\FullStack\LearningDotNet\Solution 1\Membership\obj\Debug\net8.0\refint\Membership.dll
+I:\FullStack\LearningDotNet\Solution 1\Membership\obj\Debug\net8.0\Membership.pdb
+I:\FullStack\LearningDotNet\Solution 1\Membership\obj\Debug\net8.0\ref\Membership.dll

@@ -13,3 +13,4 @@ I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\refint\TesterA
 I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.pdb
 I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.genruntimeconfig.cache
 I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\ref\TesterApp.dll
+I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.csproj.AssemblyReference.cache

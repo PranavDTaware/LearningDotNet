@@ -8,4 +8,15 @@
     <StartupObject>TesterApp.ConstreadonlyTest</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Banking\Banking.csproj" />
+    <ProjectReference Include="..\Catalog\Catalog.csproj" />
+    <ProjectReference Include="..\CRM\CRM.csproj" />
+    <ProjectReference Include="..\HR\HR.csproj" />
+    <ProjectReference Include="..\Mathlib\Mathlib.csproj" />
+    <ProjectReference Include="..\Membership\Membership.csproj" />
+    <ProjectReference Include="..\OrderProcessing\OrderProcessing.csproj" />
+    <ProjectReference Include="..\ShoppingCart\ShoppingCart.csproj" />
+  </ItemGroup>
+
 </Project>

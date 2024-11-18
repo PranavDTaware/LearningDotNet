@@ -1,0 +1,12 @@
+I:\FullStack\LearningDotNet\Solution 1\Banking\bin\Debug\net8.0\Banking.deps.json
+I:\FullStack\LearningDotNet\Solution 1\Banking\bin\Debug\net8.0\Banking.dll
+I:\FullStack\LearningDotNet\Solution 1\Banking\bin\Debug\net8.0\Banking.pdb
+I:\FullStack\LearningDotNet\Solution 1\Banking\obj\Debug\net8.0\Banking.GeneratedMSBuildEditorConfig.editorconfig
+I:\FullStack\LearningDotNet\Solution 1\Banking\obj\Debug\net8.0\Banking.AssemblyInfoInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\Banking\obj\Debug\net8.0\Banking.AssemblyInfo.cs
+I:\FullStack\LearningDotNet\Solution 1\Banking\obj\Debug\net8.0\Banking.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\Banking\obj\Debug\net8.0\Banking.sourcelink.json
+I:\FullStack\LearningDotNet\Solution 1\Banking\obj\Debug\net8.0\Banking.dll
+I:\FullStack\LearningDotNet\Solution 1\Banking\obj\Debug\net8.0\refint\Banking.dll
+I:\FullStack\LearningDotNet\Solution 1\Banking\obj\Debug\net8.0\Banking.pdb
+I:\FullStack\LearningDotNet\Solution 1\Banking\obj\Debug\net8.0\ref\Banking.dll

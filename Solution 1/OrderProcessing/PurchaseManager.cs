@@ -20,8 +20,14 @@ namespace OrderProcessing
         {
             orders.Add(order);
         }
-        public void Update(Order order) 
+        public void Update(Order order)
         {
-            foreach(Order ord in this.orders) {
+            foreach (Order ord in this.orders)
+            {
+                if (ord.OrderId == order.OrderId)
+                {
+                }
+            }
+        }
     }
 }

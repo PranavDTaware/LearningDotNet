@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OrderProcessing
 {
-    public class DeliveryManager:Manager
+    public class DeliveryManager : Manager
     {
         List<Order> orders = new List<Order>();
         public List<Order> Orders;

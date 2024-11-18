@@ -1,0 +1,12 @@
+I:\FullStack\LearningDotNet\Solution 1\HR\bin\Debug\net8.0\HR.deps.json
+I:\FullStack\LearningDotNet\Solution 1\HR\bin\Debug\net8.0\HR.dll
+I:\FullStack\LearningDotNet\Solution 1\HR\bin\Debug\net8.0\HR.pdb
+I:\FullStack\LearningDotNet\Solution 1\HR\obj\Debug\net8.0\HR.GeneratedMSBuildEditorConfig.editorconfig
+I:\FullStack\LearningDotNet\Solution 1\HR\obj\Debug\net8.0\HR.AssemblyInfoInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\HR\obj\Debug\net8.0\HR.AssemblyInfo.cs
+I:\FullStack\LearningDotNet\Solution 1\HR\obj\Debug\net8.0\HR.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\HR\obj\Debug\net8.0\HR.sourcelink.json
+I:\FullStack\LearningDotNet\Solution 1\HR\obj\Debug\net8.0\HR.dll
+I:\FullStack\LearningDotNet\Solution 1\HR\obj\Debug\net8.0\refint\HR.dll
+I:\FullStack\LearningDotNet\Solution 1\HR\obj\Debug\net8.0\HR.pdb
+I:\FullStack\LearningDotNet\Solution 1\HR\obj\Debug\net8.0\ref\HR.dll
