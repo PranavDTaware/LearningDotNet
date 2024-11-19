@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|i:\\fullstack\\learningdotnet\\solution 1\\orderprocessing\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|i:\\fullstack\\learningdotnet\\solution 1\\orderprocessing\\workorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\workorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|i:\\fullstack\\learningdotnet\\solution 1\\orderprocessing\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\workordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\workordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|i:\\fullstack\\learningdotnet\\solution 1\\orderprocessing\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|i:\\fullstack\\learningdotnet\\solution 1\\orderprocessing\\workorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\workorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\workordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\workordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WorkOrderTest.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\WorkOrderTest.cs",
               "RelativeDocumentMoniker": "TesterApp\\WorkOrderTest.cs",
@@ -38,8 +38,7 @@
               "RelativeToolTip": "TesterApp\\WorkOrderTest.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAgwD4AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T11:03:43.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T11:03:43.599Z"
             },
             {
               "$type": "Document",
@@ -51,31 +50,29 @@
               "RelativeToolTip": "OrderProcessing\\PurchaseOrderService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T10:57:37.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T10:57:37.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PurchaseOrder.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseOrder.cs",
               "RelativeDocumentMoniker": "OrderProcessing\\PurchaseOrder.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseOrder.cs",
               "RelativeToolTip": "OrderProcessing\\PurchaseOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T10:57:01.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T10:57:01.08Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "WorkOrderService.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\WorkOrderService.cs",
               "RelativeDocumentMoniker": "OrderProcessing\\WorkOrderService.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\WorkOrderService.cs",
               "RelativeToolTip": "OrderProcessing\\WorkOrderService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T11:00:38.079Z",
               "EditorCaption": ""
