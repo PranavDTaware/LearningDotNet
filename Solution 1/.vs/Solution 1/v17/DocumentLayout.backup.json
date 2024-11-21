@@ -42,9 +42,9 @@
               "Title": "DelegationTest.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\DelegationTest.cs",
               "RelativeDocumentMoniker": "TesterApp\\DelegationTest.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\DelegationTest.cs*",
-              "RelativeToolTip": "TesterApp\\DelegationTest.cs*",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwC0AAAAlAAAAAAAAAA==",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\DelegationTest.cs",
+              "RelativeToolTip": "TesterApp\\DelegationTest.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwDAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T11:39:00.239Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "TesterApp\\SingletonTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T10:12:05.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T10:12:05.579Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "OrderProcessing\\PurchaseManager.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T09:53:51.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T09:53:51.809Z"
             },
             {
               "$type": "Document",

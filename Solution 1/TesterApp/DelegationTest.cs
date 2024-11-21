@@ -35,15 +35,19 @@ namespace TesterApp
             
 
             Handler operation3 = null;
-            operation3 = new Handler(PayServiceTax);
+            operation3 = new Handler(PayServiceTax); // unicast delegate
 
 
             Handler masterOperationManager = null;
 
-            masterOperationManager += operation1;
+            masterOperationManager += operation1;  // multicast 
             masterOperationManager += operation2;
             masterOperationManager += operation3;
-            masterOperationManager(); //only one invocation
+            masterOperationManager(); //only one invocation  // multicast deligate
+
+            Console.WriteLine("after unregistration");
+            masterOperationManager -= operation3;
+            masterOperationManager();
 
             Console.ReadLine();
         }
