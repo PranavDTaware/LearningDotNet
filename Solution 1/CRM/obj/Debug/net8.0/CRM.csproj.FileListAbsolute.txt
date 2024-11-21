@@ -10,3 +10,5 @@ I:\FullStack\LearningDotNet\Solution 1\CRM\obj\Debug\net8.0\CRM.dll
 I:\FullStack\LearningDotNet\Solution 1\CRM\obj\Debug\net8.0\refint\CRM.dll
 I:\FullStack\LearningDotNet\Solution 1\CRM\obj\Debug\net8.0\CRM.pdb
 I:\FullStack\LearningDotNet\Solution 1\CRM\obj\Debug\net8.0\ref\CRM.dll
+I:\FullStack\LearningDotNet\Solution 1\CRM\obj\Debug\net8.0\CRM.Properties.Resources.resources
+I:\FullStack\LearningDotNet\Solution 1\CRM\obj\Debug\net8.0\CRM.csproj.GenerateResource.cache

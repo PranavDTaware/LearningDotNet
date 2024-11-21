@@ -4,3 +4,17 @@ I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\obj\Debug\net8.0\OrderPro
 I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\obj\Debug\net8.0\OrderProcessing.AssemblyInfo.cs
 I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\obj\Debug\net8.0\OrderProcessing.csproj.CoreCompileInputs.cache
 I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\obj\Debug\net8.0\OrderProcessing.sourcelink.json
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\bin\Debug\net8.0\OrderProcessing.deps.json
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\bin\Debug\net8.0\OrderProcessing.dll
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\bin\Debug\net8.0\OrderProcessing.pdb
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\bin\Debug\net8.0\Catalog.dll
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\bin\Debug\net8.0\CRM.dll
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\bin\Debug\net8.0\ShoppingCart.dll
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\bin\Debug\net8.0\CRM.pdb
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\bin\Debug\net8.0\ShoppingCart.pdb
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\bin\Debug\net8.0\Catalog.pdb
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\obj\Debug\net8.0\OrderPro.3C1BC4D2.Up2Date
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\obj\Debug\net8.0\OrderProcessing.dll
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\obj\Debug\net8.0\refint\OrderProcessing.dll
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\obj\Debug\net8.0\OrderProcessing.pdb
+I:\FullStack\LearningDotNet\Solution 1\OrderProcessing\obj\Debug\net8.0\ref\OrderProcessing.dll

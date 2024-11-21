@@ -46,7 +46,9 @@ namespace OrderProcessing
 
         public bool Process(Order theorder)
         {
-
+            bool status = true;
+            Console.WriteLine("Processing the order...");
+            return status;
         }
 
         public bool Update(Order order)

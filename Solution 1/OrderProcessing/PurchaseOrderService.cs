@@ -9,7 +9,9 @@ namespace OrderProcessing
 {
     public class PurchaseOrderService : IOrderService
     {
-        PurchaseManager mgr = new PurchaseManager();
+        private List<Order> Orders = new List<Order>();
+        
+        PurchaseManager mgr = PurchaseManager.GetManager();
 
         public PurchaseOrderService()
         {
@@ -24,12 +26,18 @@ namespace OrderProcessing
 
         public void Create(Order order)
         {
-            throw new NotImplementedException();
+            Orders.Add(order);
         }
 
         public bool Update(Order order)
         {
-            throw new NotImplementedException();
+            bool status = false;
+            return status;
+        }
+
+        public List<Order> GetOrders()
+        {
+            return Orders;
         }
     }
 }

@@ -38,13 +38,25 @@ namespace OrderProcessing
 
 
             List<Item> cartItems = cart1.Items;
-            Order theOrder = new PurchaseOrder(1001, ordDate, customer1);
+            Order theOrder = new PurchaseOrder(1001, ordDate, customer1, cartItems);
 
 
             IOrderService service = new PurchaseOrderService();
             service.Create(theOrder);
 
             List<Order> allOrders = service.GetOrders();
+            foreach(PurchaseOrder order in allOrders)
+            {
+                Console.WriteLine(order.theCustomer.FullName);
+                Console.WriteLine(order.OrderDate);
+                Console.WriteLine(order.OrderId);
+                Console.WriteLine("Item Details...");
+
+                foreach(Item item in order.Items)
+                {
+                    Console.WriteLine(item.theProduct + "Quantity" + item.Quantity);
+                }
+            }
         }
     }
 }

@@ -10,5 +10,6 @@ namespace OrderProcessing
     {
         void Create(Order order);
         bool Update(Order order);
+        List<Order> GetOrders();
     }
 }

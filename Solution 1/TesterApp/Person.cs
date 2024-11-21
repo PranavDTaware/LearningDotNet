@@ -36,5 +36,10 @@ namespace HR
         {
             return FirstName + " " + LastName + " " + BirthDate;
         }
+
+        public static implicit operator Person(Employee v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

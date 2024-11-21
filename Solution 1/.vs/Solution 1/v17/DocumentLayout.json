@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|i:\\fullstack\\learningdotnet\\solution 1\\orderprocessing\\workorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\workorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|i:\\fullstack\\learningdotnet\\solution 1\\orderprocessing\\purchasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\purchasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|i:\\fullstack\\learningdotnet\\solution 1\\orderprocessing\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\workordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\workordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|i:\\fullstack\\learningdotnet\\solution 1\\orderprocessing\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\workordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\workordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\singletontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\singletontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|i:\\fullstack\\learningdotnet\\solution 1\\orderprocessing\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4314A21-7A29-4903-91FF-6A605810D492}|OrderProcessing\\OrderProcessing.csproj|solutionrelative:orderprocessing\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,31 +30,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "WorkOrderTest.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\WorkOrderTest.cs",
-              "RelativeDocumentMoniker": "TesterApp\\WorkOrderTest.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\WorkOrderTest.cs",
-              "RelativeToolTip": "TesterApp\\WorkOrderTest.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwD4AAABAAAAAAAAAAA==",
+              "Title": "SingletonTest.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\SingletonTest.cs",
+              "RelativeDocumentMoniker": "TesterApp\\SingletonTest.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\SingletonTest.cs",
+              "RelativeToolTip": "TesterApp\\SingletonTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T11:03:43.599Z"
+              "WhenOpened": "2024-11-21T10:12:05.579Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PurchaseOrderService.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseOrderService.cs",
-              "RelativeDocumentMoniker": "OrderProcessing\\PurchaseOrderService.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseOrderService.cs",
-              "RelativeToolTip": "OrderProcessing\\PurchaseOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PurchaseManager.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseManager.cs",
+              "RelativeDocumentMoniker": "OrderProcessing\\PurchaseManager.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseManager.cs",
+              "RelativeToolTip": "OrderProcessing\\PurchaseManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T10:57:37.419Z"
+              "WhenOpened": "2024-11-21T09:53:51.809Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,21 +66,35 @@
               "RelativeDocumentMoniker": "OrderProcessing\\PurchaseOrder.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseOrder.cs",
               "RelativeToolTip": "OrderProcessing\\PurchaseOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T10:57:01.08Z"
+              "WhenOpened": "2024-11-18T10:57:01.08Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WorkOrderService.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\WorkOrderService.cs",
-              "RelativeDocumentMoniker": "OrderProcessing\\WorkOrderService.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\WorkOrderService.cs",
-              "RelativeToolTip": "OrderProcessing\\WorkOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "WorkOrderTest.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\WorkOrderTest.cs",
+              "RelativeDocumentMoniker": "TesterApp\\WorkOrderTest.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\WorkOrderTest.cs",
+              "RelativeToolTip": "TesterApp\\WorkOrderTest.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T11:00:38.079Z",
+              "WhenOpened": "2024-11-18T11:03:43.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PurchaseOrderService.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseOrderService.cs",
+              "RelativeDocumentMoniker": "OrderProcessing\\PurchaseOrderService.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseOrderService.cs",
+              "RelativeToolTip": "OrderProcessing\\PurchaseOrderService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T10:57:37.419Z",
               "EditorCaption": ""
             }
           ]

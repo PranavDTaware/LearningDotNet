@@ -1,4 +1,7 @@
-﻿namespace CRM
+﻿
+
+
+namespace CRM
 {
     public class Customer
     {

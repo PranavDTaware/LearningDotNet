@@ -14,12 +14,12 @@ namespace OrderProcessing
         public List<Item> Items = new List<Item>();
 
         public PurchaseOrder() { }
-        public PurchaseOrder(int orderId, DateTime orderDate )
+        public PurchaseOrder(int orderId, DateTime orderDate, Customer customer, List<Item> items)
         {
             this.OrderId = orderId;
             this.OrderDate = orderDate;
             this.theCustomer = theCustomer;
-            Items = items;
+            this.Items = items;
         }
     }
 }
