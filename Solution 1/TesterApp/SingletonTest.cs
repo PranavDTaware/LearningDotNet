@@ -12,7 +12,7 @@ namespace TesterApp
             PurchaseManager mgr1, mgr2;
             mgr1 = PurchaseManager.GetManager();
             mgr2 = PurchaseManager.GetManager();
-            mgr1.Orders = new List<Order>();
+            
 
 
             Product product1 = new Product(1, "Rose", "Valentine flower", 500, 10);
@@ -23,13 +23,11 @@ namespace TesterApp
 
             Cart cart1 = new Cart();
 
-
             cart1.AddToCart(item1);
             cart1.AddToCart(item2);
 
 
             List<Item> cartItems = cart1.Items;
-
             DateTime ordDate = DateTime.Now;
             Customer customer1 = new Customer
             {
@@ -42,6 +40,9 @@ namespace TesterApp
             };
 
             Order theOrder = new PurchaseOrder(1001, ordDate, customer1, cartItems);
+
+            mgr1.Orders = new List<Order>();
+            mgr1.Orders.Add(theOrder);
         }
     }
 }

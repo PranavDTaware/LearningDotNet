@@ -16,6 +16,7 @@ namespace OrderProcessing
     public class PurchaseManager
     {
         List<Order> orders = new List<Order>();
+
         private static PurchaseManager _ref = null;
 
         private PurchaseManager() { }
