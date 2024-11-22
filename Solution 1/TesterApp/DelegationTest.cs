@@ -1,9 +1,10 @@
-﻿
+﻿using Banking;
 
 namespace TesterApp
 {
     // define delegate
-    public delegate void Handler();
+
+    //delegate is a wrapper for function pointers
     class DelegationTest
     {
         public static void PayIncomeTax()
@@ -26,19 +27,19 @@ namespace TesterApp
            //PayIncomeTax();
 
             //late Binding
-            Handler operation1 = null;
-            operation1 = new Handler(PayIncomeTax);
-         
-
-            Handler operation2 = null;
-            operation2 = new Handler(PayProfessionalTax);
-            
-
-            Handler operation3 = null;
-            operation3 = new Handler(PayServiceTax); // unicast delegate
+            AccountHandler operation1 = null;
+            operation1 = new AccountHandler(PayIncomeTax); //registering name of fuction to be invoked
 
 
-            Handler masterOperationManager = null;
+            AccountHandler operation2 = null;
+            operation2 = new AccountHandler(PayProfessionalTax);
+
+
+            AccountHandler operation3 = null;
+            operation3 = new AccountHandler(PayServiceTax); // unicast delegate
+
+
+            AccountHandler masterOperationManager = null;
 
             masterOperationManager += operation1;  // multicast 
             masterOperationManager += operation2;

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\eventdemotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\eventdemotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AADAFD3-C939-4BAD-A64F-2FFF1AB862CB}|Banking\\Banking.csproj|i:\\fullstack\\learningdotnet\\solution 1\\banking\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AADAFD3-C939-4BAD-A64F-2FFF1AB862CB}|Banking\\Banking.csproj|solutionrelative:banking\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\delegationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\delegationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,19 +47,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EventDemoTest.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\EventDemoTest.cs",
+              "RelativeDocumentMoniker": "TesterApp\\EventDemoTest.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\EventDemoTest.cs*",
+              "RelativeToolTip": "TesterApp\\EventDemoTest.cs*",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwDMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T10:37:07.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\Banking\\Account.cs",
+              "RelativeDocumentMoniker": "Banking\\Account.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Banking\\Account.cs",
+              "RelativeToolTip": "Banking\\Account.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA7wBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T10:12:58.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DelegationTest.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\DelegationTest.cs",
               "RelativeDocumentMoniker": "TesterApp\\DelegationTest.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\DelegationTest.cs",
               "RelativeToolTip": "TesterApp\\DelegationTest.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwDAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T11:39:00.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SingletonTest.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\SingletonTest.cs",
               "RelativeDocumentMoniker": "TesterApp\\SingletonTest.cs",
@@ -63,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PurchaseManager.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseManager.cs",
               "RelativeDocumentMoniker": "OrderProcessing\\PurchaseManager.cs",
@@ -75,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PurchaseOrder.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseOrder.cs",
               "RelativeDocumentMoniker": "OrderProcessing\\PurchaseOrder.cs",
@@ -87,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "WorkOrderTest.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\WorkOrderTest.cs",
               "RelativeDocumentMoniker": "TesterApp\\WorkOrderTest.cs",
@@ -99,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PurchaseOrderService.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\OrderProcessing\\PurchaseOrderService.cs",
               "RelativeDocumentMoniker": "OrderProcessing\\PurchaseOrderService.cs",
