@@ -50,9 +50,9 @@
               "Title": "EventDemoTest.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\EventDemoTest.cs",
               "RelativeDocumentMoniker": "TesterApp\\EventDemoTest.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\EventDemoTest.cs*",
-              "RelativeToolTip": "TesterApp\\EventDemoTest.cs*",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwDMAAAAYAAAAAAAAAA==",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\EventDemoTest.cs",
+              "RelativeToolTip": "TesterApp\\EventDemoTest.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAlwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T10:37:07.579Z",
               "EditorCaption": ""
@@ -65,7 +65,7 @@
               "RelativeDocumentMoniker": "Banking\\Account.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Banking\\Account.cs",
               "RelativeToolTip": "Banking\\Account.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA7wBwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T10:12:58.492Z",
               "EditorCaption": ""
@@ -80,8 +80,7 @@
               "RelativeToolTip": "TesterApp\\DelegationTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T11:39:00.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T11:39:00.239Z"
             },
             {
               "$type": "Document",
