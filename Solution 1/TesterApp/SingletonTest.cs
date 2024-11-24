@@ -13,8 +13,7 @@ namespace TesterApp
             mgr1 = PurchaseManager.GetManager();
             mgr2 = PurchaseManager.GetManager();
             
-
-
+            
             Product product1 = new Product(1, "Rose", "Valentine flower", 500, 10);
             Product product2 = new Product(2, "Marigold", "Festival flower", 2000, 12);
 
