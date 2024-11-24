@@ -1,0 +1,9 @@
+I:\FullStack\LearningDotNet\Solution 1\WarehouseApp\bin\Debug\WarehouseApp.exe.config
+I:\FullStack\LearningDotNet\Solution 1\WarehouseApp\bin\Debug\WarehouseApp.exe
+I:\FullStack\LearningDotNet\Solution 1\WarehouseApp\bin\Debug\WarehouseApp.pdb
+I:\FullStack\LearningDotNet\Solution 1\WarehouseApp\obj\Debug\WarehouseApp.csproj.AssemblyReference.cache
+I:\FullStack\LearningDotNet\Solution 1\WarehouseApp\obj\Debug\WarehouseApp.Properties.Resources.resources
+I:\FullStack\LearningDotNet\Solution 1\WarehouseApp\obj\Debug\WarehouseApp.csproj.GenerateResource.cache
+I:\FullStack\LearningDotNet\Solution 1\WarehouseApp\obj\Debug\WarehouseApp.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\WarehouseApp\obj\Debug\WarehouseApp.exe
+I:\FullStack\LearningDotNet\Solution 1\WarehouseApp\obj\Debug\WarehouseApp.pdb
