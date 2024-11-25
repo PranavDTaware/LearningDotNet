@@ -7,3 +7,4 @@ I:\FullStack\LearningDotNet\Solution 1\WarehouseApp\obj\Debug\WarehouseApp.cspro
 I:\FullStack\LearningDotNet\Solution 1\WarehouseApp\obj\Debug\WarehouseApp.csproj.CoreCompileInputs.cache
 I:\FullStack\LearningDotNet\Solution 1\WarehouseApp\obj\Debug\WarehouseApp.exe
 I:\FullStack\LearningDotNet\Solution 1\WarehouseApp\obj\Debug\WarehouseApp.pdb
+I:\FullStack\LearningDotNet\Solution 1\WarehouseApp\obj\Debug\WarehouseApp.MainForm.resources
