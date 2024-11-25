@@ -7,8 +7,24 @@
       "RelativeMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|solutionrelative:warehouse1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|i:\\fullstack\\learningdotnet\\solution 1\\warehouse1\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|solutionrelative:warehouse1\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|i:\\fullstack\\learningdotnet\\solution 1\\warehouse1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|solutionrelative:warehouse1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|i:\\fullstack\\learningdotnet\\solution 1\\warehouse1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|solutionrelative:warehouse1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|i:\\fullstack\\learningdotnet\\solution 1\\warehouse1\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|solutionrelative:warehouse1\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|i:\\fullstack\\learningdotnet\\solution 1\\warehouse1\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|solutionrelative:warehouse1\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +34,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "Warehouse1\\LoginForm.Designer.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\LoginForm.Designer.cs",
+              "RelativeToolTip": "Warehouse1\\LoginForm.Designer.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowF4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:30:44.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Warehouse1\\LoginForm.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\LoginForm.cs",
+              "RelativeToolTip": "Warehouse1\\LoginForm.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwCYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:07:43.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\MainForm.cs",
+              "RelativeDocumentMoniker": "Warehouse1\\MainForm.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\MainForm.cs [Design]",
+              "RelativeToolTip": "Warehouse1\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:25:33.873Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,22 +82,35 @@
               "RelativeDocumentMoniker": "Warehouse1\\MainForm.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\MainForm.cs",
               "RelativeToolTip": "Warehouse1\\MainForm.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T11:16:22.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\MainForm.cs",
-              "RelativeDocumentMoniker": "Warehouse1\\MainForm.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\MainForm.cs [Design]",
-              "RelativeToolTip": "Warehouse1\\MainForm.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Warehouse1\\LoginForm.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Warehouse1\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T11:07:25.797Z",
+              "WhenOpened": "2024-11-25T20:32:09.466Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "Warehouse1\\MainForm.Designer.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\MainForm.Designer.cs",
+              "RelativeToolTip": "Warehouse1\\MainForm.Designer.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAowDICAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:17:04.143Z",
+              "EditorCaption": ""
             }
           ]
         }

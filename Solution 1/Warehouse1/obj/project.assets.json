@@ -51,9 +51,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\Warehouse1.csproj",
-      "projectName": "Warehouse1",
-      "projectPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\Warehouse1.csproj",
+      "projectUniqueName": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\Warehouse.csproj",
+      "projectName": "Warehouse",
+      "projectPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\Warehouse.csproj",
       "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
       "outputPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\obj\\",
       "projectStyle": "PackageReference",

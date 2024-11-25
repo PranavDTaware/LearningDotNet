@@ -8,6 +8,10 @@ I:\FullStack\LearningDotNet\Solution 1\Warehouse1\bin\Debug\net8.0-windows\Membe
 I:\FullStack\LearningDotNet\Solution 1\Warehouse1\bin\Debug\net8.0-windows\Membership.pdb
 I:\FullStack\LearningDotNet\Solution 1\Warehouse1\bin\Debug\net8.0-windows\CRM.pdb
 I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\Warehouse.csproj.AssemblyReference.cache
+I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\Warehouse.InventoryFrom.resources
+I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\Warehouse.LoginForm.resources
+I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\Warehouse1.MainForm1.resources
+I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\Warehouse.OrderForm.resources
 I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\Warehouse.Properties.Resources.resources
 I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\Warehouse.csproj.GenerateResource.cache
 I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\Warehouse.GeneratedMSBuildEditorConfig.editorconfig
@@ -21,4 +25,3 @@ I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\refin
 I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\Warehouse.pdb
 I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\Warehouse.genruntimeconfig.cache
 I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\ref\Warehouse.dll
-I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\Warehouse1.MainForm1.resources

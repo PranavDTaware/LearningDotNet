@@ -1,4 +1,5 @@
 using Membership;
+using Warehouse;
 
 namespace Warehouse1
 {
@@ -7,27 +8,9 @@ namespace Warehouse1
         public MainForm1()
         {
             InitializeComponent(); // code is written in seperate designer.cs file
-        }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void OnSignIn(object sender, EventArgs e)
-        {
-            string userName = this.textBox1.Text;
-            string password = this.textBox2.Text;
-            bool status = false;
-            status = AccountManager.Login(userName, password);
-            if (status)
-            {
-                MessageBox.Show("Welcome to WareHouse App");
-            }
-            else
-            {
-                MessageBox.Show("Invalid User, please try again");
-            }
+            LoginForm frm = new LoginForm();
+            frm.ShowDialog();
         }
 
         private void OnFileExit(object sender, EventArgs e)
@@ -45,6 +28,12 @@ namespace Warehouse1
         {
             SaveFileDialog dlg = new SaveFileDialog();
             dlg.ShowDialog();
+        }
+
+        private void OnToolsSignIn(object sender, EventArgs e)
+        {
+            LoginForm frm = new LoginForm();
+            frm.ShowDialog();
         }
     }
 }

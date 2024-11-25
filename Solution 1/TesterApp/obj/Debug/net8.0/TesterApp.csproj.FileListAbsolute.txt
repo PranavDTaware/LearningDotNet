@@ -1,9 +1,3 @@
-I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.csproj.AssemblyReference.cache
-I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.GeneratedMSBuildEditorConfig.editorconfig
-I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.AssemblyInfoInputs.cache
-I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.AssemblyInfo.cs
-I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.csproj.CoreCompileInputs.cache
-I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.sourcelink.json
 I:\FullStack\LearningDotNet\Solution 1\TesterApp\bin\Debug\net8.0\TesterApp.exe
 I:\FullStack\LearningDotNet\Solution 1\TesterApp\bin\Debug\net8.0\TesterApp.deps.json
 I:\FullStack\LearningDotNet\Solution 1\TesterApp\bin\Debug\net8.0\TesterApp.runtimeconfig.json
@@ -25,6 +19,12 @@ I:\FullStack\LearningDotNet\Solution 1\TesterApp\bin\Debug\net8.0\Mathlib.pdb
 I:\FullStack\LearningDotNet\Solution 1\TesterApp\bin\Debug\net8.0\Membership.pdb
 I:\FullStack\LearningDotNet\Solution 1\TesterApp\bin\Debug\net8.0\OrderProcessing.pdb
 I:\FullStack\LearningDotNet\Solution 1\TesterApp\bin\Debug\net8.0\ShoppingCart.pdb
+I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.csproj.AssemblyReference.cache
+I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.GeneratedMSBuildEditorConfig.editorconfig
+I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.AssemblyInfoInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.AssemblyInfo.cs
+I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.sourcelink.json
 I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.csproj.Up2Date
 I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\TesterApp.dll
 I:\FullStack\LearningDotNet\Solution 1\TesterApp\obj\Debug\net8.0\refint\TesterApp.dll
