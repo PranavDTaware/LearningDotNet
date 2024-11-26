@@ -25,3 +25,5 @@ I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\refin
 I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\Warehouse.pdb
 I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\Warehouse.genruntimeconfig.cache
 I:\FullStack\LearningDotNet\Solution 1\Warehouse1\obj\Debug\net8.0-windows\ref\Warehouse.dll
+I:\FullStack\LearningDotNet\Solution 1\Warehouse1\bin\Debug\net8.0-windows\Catalog.dll
+I:\FullStack\LearningDotNet\Solution 1\Warehouse1\bin\Debug\net8.0-windows\Catalog.pdb

@@ -14,6 +14,12 @@ namespace Catalog
         private float unitPrice;
         private int id;
 
+        public int Id  //Readonly property(only get block)
+        {
+            set {this.id = value;}
+            get { return this.id; }
+        }
+
         public string Title //T is property and t is private variable(data member)
         {
             get { return this.title; }
@@ -38,10 +44,7 @@ namespace Catalog
             set { this.unitPrice = value; }
         }
 
-        public int Id  //Readonly property(only get block)
-        {
-            get { return this.id; }
-        }
+        
 
         public Product() { }
 

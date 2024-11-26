@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
+      "Catalog/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Catalog.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalog.dll": {}
+        }
+      },
       "CRM/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -28,6 +38,11 @@
     }
   },
   "libraries": {
+    "Catalog/1.0.0": {
+      "type": "project",
+      "path": "../Catalog/Catalog.csproj",
+      "msbuildProject": "../Catalog/Catalog.csproj"
+    },
     "CRM/1.0.0": {
       "type": "project",
       "path": "../CRM/CRM.csproj",
@@ -41,6 +56,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "Catalog >= 1.0.0",
       "Membership >= 1.0.0"
     ]
   },
@@ -76,6 +92,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
+            "I:\\FullStack\\LearningDotNet\\Solution 1\\Catalog\\Catalog.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\Catalog\\Catalog.csproj"
+            },
             "I:\\FullStack\\LearningDotNet\\Solution 1\\Membership\\Membership.csproj": {
               "projectPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\Membership\\Membership.csproj"
             }

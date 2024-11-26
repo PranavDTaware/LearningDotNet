@@ -1,4 +1,5 @@
-﻿namespace Warehouse1
+﻿
+namespace Warehouse1
 {
     partial class MainForm1
     {
@@ -29,6 +30,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm1));
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            menuStrip1 = new MenuStrip();
             fileToolStripMenuItem = new ToolStripMenuItem();
             newToolStripMenuItem = new ToolStripMenuItem();
             openToolStripMenuItem = new ToolStripMenuItem();
@@ -52,53 +59,91 @@
             toolsToolStripMenuItem = new ToolStripMenuItem();
             customizeToolStripMenuItem = new ToolStripMenuItem();
             optionsToolStripMenuItem = new ToolStripMenuItem();
-            inventoryToolStripMenuItem = new ToolStripMenuItem();
             orderProcessingToolStripMenuItem = new ToolStripMenuItem();
             paymentProcessingToolStripMenuItem = new ToolStripMenuItem();
+            signInToolStripMenuItem = new ToolStripMenuItem();
             helpToolStripMenuItem = new ToolStripMenuItem();
             contentsToolStripMenuItem = new ToolStripMenuItem();
             indexToolStripMenuItem = new ToolStripMenuItem();
             searchToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator5 = new ToolStripSeparator();
             aboutToolStripMenuItem = new ToolStripMenuItem();
-            menuStrip1 = new MenuStrip();
-            menuStrip2 = new MenuStrip();
-            fileToolStripMenuItem1 = new ToolStripMenuItem();
-            newToolStripMenuItem1 = new ToolStripMenuItem();
-            openToolStripMenuItem1 = new ToolStripMenuItem();
-            toolStripSeparator6 = new ToolStripSeparator();
-            saveToolStripMenuItem1 = new ToolStripMenuItem();
-            saveAsToolStripMenuItem1 = new ToolStripMenuItem();
-            toolStripSeparator7 = new ToolStripSeparator();
-            printToolStripMenuItem1 = new ToolStripMenuItem();
-            printPreviewToolStripMenuItem1 = new ToolStripMenuItem();
-            toolStripSeparator8 = new ToolStripSeparator();
-            exitToolStripMenuItem1 = new ToolStripMenuItem();
-            editToolStripMenuItem1 = new ToolStripMenuItem();
-            undoToolStripMenuItem1 = new ToolStripMenuItem();
-            redoToolStripMenuItem1 = new ToolStripMenuItem();
-            toolStripSeparator9 = new ToolStripSeparator();
-            cutToolStripMenuItem1 = new ToolStripMenuItem();
-            copyToolStripMenuItem1 = new ToolStripMenuItem();
-            pasteToolStripMenuItem1 = new ToolStripMenuItem();
-            toolStripSeparator10 = new ToolStripSeparator();
-            selectAllToolStripMenuItem1 = new ToolStripMenuItem();
-            toolsToolStripMenuItem1 = new ToolStripMenuItem();
-            customizeToolStripMenuItem1 = new ToolStripMenuItem();
-            optionsToolStripMenuItem1 = new ToolStripMenuItem();
-            inventoryToolStripMenuItem1 = new ToolStripMenuItem();
-            orderProcessingToolStripMenuItem1 = new ToolStripMenuItem();
-            paymentProcessingToolStripMenuItem1 = new ToolStripMenuItem();
-            helpToolStripMenuItem1 = new ToolStripMenuItem();
-            contentsToolStripMenuItem1 = new ToolStripMenuItem();
-            indexToolStripMenuItem1 = new ToolStripMenuItem();
-            searchToolStripMenuItem1 = new ToolStripMenuItem();
-            toolStripSeparator11 = new ToolStripSeparator();
-            aboutToolStripMenuItem1 = new ToolStripMenuItem();
-            signInToolStripMenuItem = new ToolStripMenuItem();
+            label6 = new Label();
+            txtProductID = new TextBox();
+            txtProductTitle = new TextBox();
+            txtProductDescription = new TextBox();
+            txtProductUnitPrice = new TextBox();
+            txtProductQuantity = new TextBox();
+            btnInsert = new Button();
+            btnUpdate = new Button();
+            btnRemove = new Button();
+            btnFirst = new Button();
+            btnPrevious = new Button();
+            btnNext = new Button();
+            btnLast = new Button();
+            dataProductGridView = new DataGridView();
             menuStrip1.SuspendLayout();
-            menuStrip2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataProductGridView).BeginInit();
             SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Verdana", 15F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Green;
+            label1.Location = new Point(94, 35);
+            label1.Name = "label1";
+            label1.Size = new Size(191, 25);
+            label1.TabIndex = 1;
+            label1.Text = "Product Catalog";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(94, 87);
+            label2.Name = "label2";
+            label2.Size = new Size(18, 15);
+            label2.TabIndex = 2;
+            label2.Text = "ID";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(94, 129);
+            label3.Name = "label3";
+            label3.Size = new Size(29, 15);
+            label3.TabIndex = 3;
+            label3.Text = "Title";
+            label3.Click += label3_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(94, 171);
+            label4.Name = "label4";
+            label4.Size = new Size(67, 15);
+            label4.TabIndex = 4;
+            label4.Text = "Description";
+            label4.Click += label4_Click;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(94, 247);
+            label5.Name = "label5";
+            label5.Size = new Size(58, 15);
+            label5.TabIndex = 5;
+            label5.Text = "Unit Price";
+            label5.Click += label5_Click;
+            // 
+            // menuStrip1
+            // 
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, editToolStripMenuItem, toolsToolStripMenuItem, helpToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(1185, 24);
+            menuStrip1.TabIndex = 6;
+            menuStrip1.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
             // 
@@ -247,7 +292,7 @@
             // 
             // toolsToolStripMenuItem
             // 
-            toolsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { customizeToolStripMenuItem, optionsToolStripMenuItem, inventoryToolStripMenuItem, orderProcessingToolStripMenuItem, paymentProcessingToolStripMenuItem });
+            toolsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { customizeToolStripMenuItem, optionsToolStripMenuItem, orderProcessingToolStripMenuItem, paymentProcessingToolStripMenuItem, signInToolStripMenuItem });
             toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
             toolsToolStripMenuItem.Size = new Size(46, 20);
             toolsToolStripMenuItem.Text = "&Tools";
@@ -264,12 +309,6 @@
             optionsToolStripMenuItem.Size = new Size(181, 22);
             optionsToolStripMenuItem.Text = "&Options";
             // 
-            // inventoryToolStripMenuItem
-            // 
-            inventoryToolStripMenuItem.Name = "inventoryToolStripMenuItem";
-            inventoryToolStripMenuItem.Size = new Size(181, 22);
-            inventoryToolStripMenuItem.Text = "Inventory";
-            // 
             // orderProcessingToolStripMenuItem
             // 
             orderProcessingToolStripMenuItem.Name = "orderProcessingToolStripMenuItem";
@@ -281,6 +320,13 @@
             paymentProcessingToolStripMenuItem.Name = "paymentProcessingToolStripMenuItem";
             paymentProcessingToolStripMenuItem.Size = new Size(181, 22);
             paymentProcessingToolStripMenuItem.Text = "Payment Processing";
+            // 
+            // signInToolStripMenuItem
+            // 
+            signInToolStripMenuItem.Name = "signInToolStripMenuItem";
+            signInToolStripMenuItem.Size = new Size(181, 22);
+            signInToolStripMenuItem.Text = "Sign In";
+            signInToolStripMenuItem.Click += OnToolsSignIn;
             // 
             // helpToolStripMenuItem
             // 
@@ -318,259 +364,171 @@
             aboutToolStripMenuItem.Size = new Size(122, 22);
             aboutToolStripMenuItem.Text = "&About...";
             // 
-            // menuStrip1
-            // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, editToolStripMenuItem, toolsToolStripMenuItem, helpToolStripMenuItem });
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 24);
-            menuStrip1.TabIndex = 6;
-            menuStrip1.Text = "menuStrip1";
-            // 
-            // menuStrip2
-            // 
-            menuStrip2.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem1, editToolStripMenuItem1, toolsToolStripMenuItem1, helpToolStripMenuItem1 });
-            menuStrip2.Location = new Point(0, 0);
-            menuStrip2.Name = "menuStrip2";
-            menuStrip2.Size = new Size(800, 24);
-            menuStrip2.TabIndex = 0;
-            menuStrip2.Text = "menuStrip2";
-            // 
-            // fileToolStripMenuItem1
-            // 
-            fileToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { newToolStripMenuItem1, openToolStripMenuItem1, toolStripSeparator6, saveToolStripMenuItem1, saveAsToolStripMenuItem1, toolStripSeparator7, printToolStripMenuItem1, printPreviewToolStripMenuItem1, toolStripSeparator8, exitToolStripMenuItem1 });
-            fileToolStripMenuItem1.Name = "fileToolStripMenuItem1";
-            fileToolStripMenuItem1.Size = new Size(37, 20);
-            fileToolStripMenuItem1.Text = "&File";
-            // 
-            // newToolStripMenuItem1
-            // 
-            newToolStripMenuItem1.Image = (Image)resources.GetObject("newToolStripMenuItem1.Image");
-            newToolStripMenuItem1.ImageTransparentColor = Color.Magenta;
-            newToolStripMenuItem1.Name = "newToolStripMenuItem1";
-            newToolStripMenuItem1.Size = new Size(143, 22);
-            newToolStripMenuItem1.Text = "&New";
-            // 
-            // openToolStripMenuItem1
-            // 
-            openToolStripMenuItem1.Image = (Image)resources.GetObject("openToolStripMenuItem1.Image");
-            openToolStripMenuItem1.ImageTransparentColor = Color.Magenta;
-            openToolStripMenuItem1.Name = "openToolStripMenuItem1";
-            openToolStripMenuItem1.Size = new Size(143, 22);
-            openToolStripMenuItem1.Text = "&Open";
-            openToolStripMenuItem1.Click += OnFileOpen;
-            // 
-            // toolStripSeparator6
-            // 
-            toolStripSeparator6.Name = "toolStripSeparator6";
-            toolStripSeparator6.Size = new Size(140, 6);
-            // 
-            // saveToolStripMenuItem1
-            // 
-            saveToolStripMenuItem1.Image = (Image)resources.GetObject("saveToolStripMenuItem1.Image");
-            saveToolStripMenuItem1.ImageTransparentColor = Color.Magenta;
-            saveToolStripMenuItem1.Name = "saveToolStripMenuItem1";
-            saveToolStripMenuItem1.Size = new Size(143, 22);
-            saveToolStripMenuItem1.Text = "&Save";
-            // 
-            // saveAsToolStripMenuItem1
-            // 
-            saveAsToolStripMenuItem1.Name = "saveAsToolStripMenuItem1";
-            saveAsToolStripMenuItem1.Size = new Size(143, 22);
-            saveAsToolStripMenuItem1.Text = "Save &As";
-            saveAsToolStripMenuItem1.Click += OnFileSaveAs;
-            // 
-            // toolStripSeparator7
-            // 
-            toolStripSeparator7.Name = "toolStripSeparator7";
-            toolStripSeparator7.Size = new Size(140, 6);
-            // 
-            // printToolStripMenuItem1
-            // 
-            printToolStripMenuItem1.Image = (Image)resources.GetObject("printToolStripMenuItem1.Image");
-            printToolStripMenuItem1.ImageTransparentColor = Color.Magenta;
-            printToolStripMenuItem1.Name = "printToolStripMenuItem1";
-            printToolStripMenuItem1.Size = new Size(143, 22);
-            printToolStripMenuItem1.Text = "&Print";
-            // 
-            // printPreviewToolStripMenuItem1
-            // 
-            printPreviewToolStripMenuItem1.Image = (Image)resources.GetObject("printPreviewToolStripMenuItem1.Image");
-            printPreviewToolStripMenuItem1.ImageTransparentColor = Color.Magenta;
-            printPreviewToolStripMenuItem1.Name = "printPreviewToolStripMenuItem1";
-            printPreviewToolStripMenuItem1.Size = new Size(143, 22);
-            printPreviewToolStripMenuItem1.Text = "Print Pre&view";
-            // 
-            // toolStripSeparator8
-            // 
-            toolStripSeparator8.Name = "toolStripSeparator8";
-            toolStripSeparator8.Size = new Size(140, 6);
-            // 
-            // exitToolStripMenuItem1
-            // 
-            exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
-            exitToolStripMenuItem1.Size = new Size(143, 22);
-            exitToolStripMenuItem1.Text = "E&xit";
-            exitToolStripMenuItem1.Click += OnFileExit;
-            // 
-            // editToolStripMenuItem1
-            // 
-            editToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { undoToolStripMenuItem1, redoToolStripMenuItem1, toolStripSeparator9, cutToolStripMenuItem1, copyToolStripMenuItem1, pasteToolStripMenuItem1, toolStripSeparator10, selectAllToolStripMenuItem1 });
-            editToolStripMenuItem1.Name = "editToolStripMenuItem1";
-            editToolStripMenuItem1.Size = new Size(39, 20);
-            editToolStripMenuItem1.Text = "&Edit";
-            // 
-            // undoToolStripMenuItem1
-            // 
-            undoToolStripMenuItem1.Name = "undoToolStripMenuItem1";
-            undoToolStripMenuItem1.Size = new Size(122, 22);
-            undoToolStripMenuItem1.Text = "&Undo";
-            // 
-            // redoToolStripMenuItem1
-            // 
-            redoToolStripMenuItem1.Name = "redoToolStripMenuItem1";
-            redoToolStripMenuItem1.Size = new Size(122, 22);
-            redoToolStripMenuItem1.Text = "&Redo";
-            // 
-            // toolStripSeparator9
-            // 
-            toolStripSeparator9.Name = "toolStripSeparator9";
-            toolStripSeparator9.Size = new Size(119, 6);
-            // 
-            // cutToolStripMenuItem1
-            // 
-            cutToolStripMenuItem1.Image = (Image)resources.GetObject("cutToolStripMenuItem1.Image");
-            cutToolStripMenuItem1.ImageTransparentColor = Color.Magenta;
-            cutToolStripMenuItem1.Name = "cutToolStripMenuItem1";
-            cutToolStripMenuItem1.Size = new Size(122, 22);
-            cutToolStripMenuItem1.Text = "Cu&t";
-            // 
-            // copyToolStripMenuItem1
-            // 
-            copyToolStripMenuItem1.Image = (Image)resources.GetObject("copyToolStripMenuItem1.Image");
-            copyToolStripMenuItem1.ImageTransparentColor = Color.Magenta;
-            copyToolStripMenuItem1.Name = "copyToolStripMenuItem1";
-            copyToolStripMenuItem1.Size = new Size(122, 22);
-            copyToolStripMenuItem1.Text = "&Copy";
-            // 
-            // pasteToolStripMenuItem1
-            // 
-            pasteToolStripMenuItem1.Image = (Image)resources.GetObject("pasteToolStripMenuItem1.Image");
-            pasteToolStripMenuItem1.ImageTransparentColor = Color.Magenta;
-            pasteToolStripMenuItem1.Name = "pasteToolStripMenuItem1";
-            pasteToolStripMenuItem1.Size = new Size(122, 22);
-            pasteToolStripMenuItem1.Text = "&Paste";
-            // 
-            // toolStripSeparator10
-            // 
-            toolStripSeparator10.Name = "toolStripSeparator10";
-            toolStripSeparator10.Size = new Size(119, 6);
-            // 
-            // selectAllToolStripMenuItem1
-            // 
-            selectAllToolStripMenuItem1.Name = "selectAllToolStripMenuItem1";
-            selectAllToolStripMenuItem1.Size = new Size(122, 22);
-            selectAllToolStripMenuItem1.Text = "Select &All";
-            // 
-            // toolsToolStripMenuItem1
-            // 
-            toolsToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { customizeToolStripMenuItem1, optionsToolStripMenuItem1, inventoryToolStripMenuItem1, orderProcessingToolStripMenuItem1, paymentProcessingToolStripMenuItem1, signInToolStripMenuItem });
-            toolsToolStripMenuItem1.Name = "toolsToolStripMenuItem1";
-            toolsToolStripMenuItem1.Size = new Size(46, 20);
-            toolsToolStripMenuItem1.Text = "&Tools";
-            // 
-            // customizeToolStripMenuItem1
-            // 
-            customizeToolStripMenuItem1.Name = "customizeToolStripMenuItem1";
-            customizeToolStripMenuItem1.Size = new Size(181, 22);
-            customizeToolStripMenuItem1.Text = "&Customize";
-            // 
-            // optionsToolStripMenuItem1
-            // 
-            optionsToolStripMenuItem1.Name = "optionsToolStripMenuItem1";
-            optionsToolStripMenuItem1.Size = new Size(181, 22);
-            optionsToolStripMenuItem1.Text = "&Options";
-            // 
-            // inventoryToolStripMenuItem1
-            // 
-            inventoryToolStripMenuItem1.Name = "inventoryToolStripMenuItem1";
-            inventoryToolStripMenuItem1.Size = new Size(181, 22);
-            inventoryToolStripMenuItem1.Text = "Inventory";
-            // 
-            // orderProcessingToolStripMenuItem1
-            // 
-            orderProcessingToolStripMenuItem1.Name = "orderProcessingToolStripMenuItem1";
-            orderProcessingToolStripMenuItem1.Size = new Size(181, 22);
-            orderProcessingToolStripMenuItem1.Text = "Order Processing";
-            // 
-            // paymentProcessingToolStripMenuItem1
-            // 
-            paymentProcessingToolStripMenuItem1.Name = "paymentProcessingToolStripMenuItem1";
-            paymentProcessingToolStripMenuItem1.Size = new Size(181, 22);
-            paymentProcessingToolStripMenuItem1.Text = "Payment Processing";
-            // 
-            // helpToolStripMenuItem1
-            // 
-            helpToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { contentsToolStripMenuItem1, indexToolStripMenuItem1, searchToolStripMenuItem1, toolStripSeparator11, aboutToolStripMenuItem1 });
-            helpToolStripMenuItem1.Name = "helpToolStripMenuItem1";
-            helpToolStripMenuItem1.Size = new Size(44, 20);
-            helpToolStripMenuItem1.Text = "&Help";
-            // 
-            // contentsToolStripMenuItem1
-            // 
-            contentsToolStripMenuItem1.Name = "contentsToolStripMenuItem1";
-            contentsToolStripMenuItem1.Size = new Size(122, 22);
-            contentsToolStripMenuItem1.Text = "&Contents";
-            // 
-            // indexToolStripMenuItem1
-            // 
-            indexToolStripMenuItem1.Name = "indexToolStripMenuItem1";
-            indexToolStripMenuItem1.Size = new Size(122, 22);
-            indexToolStripMenuItem1.Text = "&Index";
-            // 
-            // searchToolStripMenuItem1
-            // 
-            searchToolStripMenuItem1.Name = "searchToolStripMenuItem1";
-            searchToolStripMenuItem1.Size = new Size(122, 22);
-            searchToolStripMenuItem1.Text = "&Search";
-            // 
-            // toolStripSeparator11
-            // 
-            toolStripSeparator11.Name = "toolStripSeparator11";
-            toolStripSeparator11.Size = new Size(119, 6);
-            // 
-            // aboutToolStripMenuItem1
-            // 
-            aboutToolStripMenuItem1.Name = "aboutToolStripMenuItem1";
-            aboutToolStripMenuItem1.Size = new Size(122, 22);
-            aboutToolStripMenuItem1.Text = "&About...";
-            // 
-            // signInToolStripMenuItem
-            // 
-            signInToolStripMenuItem.Name = "signInToolStripMenuItem";
-            signInToolStripMenuItem.Size = new Size(181, 22);
-            signInToolStripMenuItem.Text = "SignIn";
-            signInToolStripMenuItem.Click += OnToolsSignIn;
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(94, 289);
+            label6.Name = "label6";
+            label6.Size = new Size(53, 15);
+            label6.TabIndex = 7;
+            label6.Text = "Quantity";
+            // 
+            // txtProductID
+            // 
+            txtProductID.Location = new Point(224, 87);
+            txtProductID.Name = "txtProductID";
+            txtProductID.Size = new Size(100, 23);
+            txtProductID.TabIndex = 8;
+            txtProductID.TextChanged += txtProductID_TextChanged;
+            // 
+            // txtProductTitle
+            // 
+            txtProductTitle.Location = new Point(224, 129);
+            txtProductTitle.Name = "txtProductTitle";
+            txtProductTitle.Size = new Size(159, 23);
+            txtProductTitle.TabIndex = 9;
+            // 
+            // txtProductDescription
+            // 
+            txtProductDescription.Location = new Point(224, 171);
+            txtProductDescription.Multiline = true;
+            txtProductDescription.Name = "txtProductDescription";
+            txtProductDescription.Size = new Size(195, 57);
+            txtProductDescription.TabIndex = 10;
+            // 
+            // txtProductUnitPrice
+            // 
+            txtProductUnitPrice.Location = new Point(224, 247);
+            txtProductUnitPrice.Name = "txtProductUnitPrice";
+            txtProductUnitPrice.Size = new Size(100, 23);
+            txtProductUnitPrice.TabIndex = 11;
+            // 
+            // txtProductQuantity
+            // 
+            txtProductQuantity.Location = new Point(224, 289);
+            txtProductQuantity.Name = "txtProductQuantity";
+            txtProductQuantity.Size = new Size(100, 23);
+            txtProductQuantity.TabIndex = 12;
+            // 
+            // btnInsert
+            // 
+            btnInsert.Location = new Point(691, 101);
+            btnInsert.Name = "btnInsert";
+            btnInsert.Size = new Size(75, 23);
+            btnInsert.TabIndex = 13;
+            btnInsert.Text = "Insert";
+            btnInsert.UseVisualStyleBackColor = true;
+            btnInsert.Click += OnInsertProduct;
+            // 
+            // btnUpdate
+            // 
+            btnUpdate.Location = new Point(691, 142);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(75, 23);
+            btnUpdate.TabIndex = 14;
+            btnUpdate.Text = "Update";
+            btnUpdate.UseVisualStyleBackColor = true;
+            // 
+            // btnRemove
+            // 
+            btnRemove.Location = new Point(691, 183);
+            btnRemove.Name = "btnRemove";
+            btnRemove.Size = new Size(75, 23);
+            btnRemove.TabIndex = 16;
+            btnRemove.Text = "Remove";
+            btnRemove.UseVisualStyleBackColor = true;
+            // 
+            // btnFirst
+            // 
+            btnFirst.Location = new Point(224, 327);
+            btnFirst.Name = "btnFirst";
+            btnFirst.Size = new Size(60, 20);
+            btnFirst.TabIndex = 17;
+            btnFirst.Text = "|<<";
+            btnFirst.UseVisualStyleBackColor = true;
+            btnFirst.Click += btnFirst_Click;
+            // 
+            // btnPrevious
+            // 
+            btnPrevious.Location = new Point(289, 327);
+            btnPrevious.Name = "btnPrevious";
+            btnPrevious.Size = new Size(60, 20);
+            btnPrevious.TabIndex = 18;
+            btnPrevious.Text = "<<";
+            btnPrevious.UseVisualStyleBackColor = true;
+            btnPrevious.Click += button2_Click;
+            // 
+            // btnNext
+            // 
+            btnNext.Location = new Point(354, 327);
+            btnNext.Name = "btnNext";
+            btnNext.Size = new Size(60, 20);
+            btnNext.TabIndex = 19;
+            btnNext.Text = ">>";
+            btnNext.UseVisualStyleBackColor = true;
+            btnNext.Click += btnNext_Click;
+            // 
+            // btnLast
+            // 
+            btnLast.Location = new Point(419, 327);
+            btnLast.Name = "btnLast";
+            btnLast.Size = new Size(60, 20);
+            btnLast.TabIndex = 20;
+            btnLast.Text = ">>|";
+            btnLast.UseVisualStyleBackColor = true;
+            btnLast.Click += this.btnLast_Click;
+            // 
+            // dataProductGridView
+            // 
+            dataProductGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataProductGridView.Location = new Point(224, 378);
+            dataProductGridView.Name = "dataProductGridView";
+            dataProductGridView.Size = new Size(542, 116);
+            dataProductGridView.TabIndex = 21;
+            dataProductGridView.CellContentClick += dataGridView1_CellContentClick;
             // 
             // MainForm1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(menuStrip2);
-            MainMenuStrip = menuStrip1;
+            ClientSize = new Size(1185, 506);
+            Controls.Add(dataProductGridView);
+            Controls.Add(btnLast);
+            Controls.Add(btnNext);
+            Controls.Add(btnPrevious);
+            Controls.Add(btnFirst);
+            Controls.Add(btnRemove);
+            Controls.Add(btnUpdate);
+            Controls.Add(btnInsert);
+            Controls.Add(txtProductQuantity);
+            Controls.Add(txtProductUnitPrice);
+            Controls.Add(txtProductDescription);
+            Controls.Add(txtProductTitle);
+            Controls.Add(txtProductID);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(menuStrip1);
             Name = "MainForm1";
             Text = "Form1";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
-            menuStrip2.ResumeLayout(false);
-            menuStrip2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataProductGridView).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
+        
         #endregion
-
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Label label5;
+        private MenuStrip menuStrip1;
         private ToolStripMenuItem fileToolStripMenuItem;
         private ToolStripMenuItem newToolStripMenuItem;
         private ToolStripMenuItem openToolStripMenuItem;
@@ -594,49 +552,30 @@
         private ToolStripMenuItem toolsToolStripMenuItem;
         private ToolStripMenuItem customizeToolStripMenuItem;
         private ToolStripMenuItem optionsToolStripMenuItem;
-        private ToolStripMenuItem inventoryToolStripMenuItem;
-        private ToolStripMenuItem orderProcessingToolStripMenuItem;
-        private ToolStripMenuItem paymentProcessingToolStripMenuItem;
         private ToolStripMenuItem helpToolStripMenuItem;
         private ToolStripMenuItem contentsToolStripMenuItem;
         private ToolStripMenuItem indexToolStripMenuItem;
         private ToolStripMenuItem searchToolStripMenuItem;
         private ToolStripSeparator toolStripSeparator5;
         private ToolStripMenuItem aboutToolStripMenuItem;
-        private MenuStrip menuStrip1;
-        private MenuStrip menuStrip2;
-        private ToolStripMenuItem fileToolStripMenuItem1;
-        private ToolStripMenuItem newToolStripMenuItem1;
-        private ToolStripMenuItem openToolStripMenuItem1;
-        private ToolStripSeparator toolStripSeparator6;
-        private ToolStripMenuItem saveToolStripMenuItem1;
-        private ToolStripMenuItem saveAsToolStripMenuItem1;
-        private ToolStripSeparator toolStripSeparator7;
-        private ToolStripMenuItem printToolStripMenuItem1;
-        private ToolStripMenuItem printPreviewToolStripMenuItem1;
-        private ToolStripSeparator toolStripSeparator8;
-        private ToolStripMenuItem exitToolStripMenuItem1;
-        private ToolStripMenuItem editToolStripMenuItem1;
-        private ToolStripMenuItem undoToolStripMenuItem1;
-        private ToolStripMenuItem redoToolStripMenuItem1;
-        private ToolStripSeparator toolStripSeparator9;
-        private ToolStripMenuItem cutToolStripMenuItem1;
-        private ToolStripMenuItem copyToolStripMenuItem1;
-        private ToolStripMenuItem pasteToolStripMenuItem1;
-        private ToolStripSeparator toolStripSeparator10;
-        private ToolStripMenuItem selectAllToolStripMenuItem1;
-        private ToolStripMenuItem toolsToolStripMenuItem1;
-        private ToolStripMenuItem customizeToolStripMenuItem1;
-        private ToolStripMenuItem optionsToolStripMenuItem1;
-        private ToolStripMenuItem helpToolStripMenuItem1;
-        private ToolStripMenuItem contentsToolStripMenuItem1;
-        private ToolStripMenuItem indexToolStripMenuItem1;
-        private ToolStripMenuItem searchToolStripMenuItem1;
-        private ToolStripSeparator toolStripSeparator11;
-        private ToolStripMenuItem aboutToolStripMenuItem1;
-        private ToolStripMenuItem inventoryToolStripMenuItem1;
-        private ToolStripMenuItem orderProcessingToolStripMenuItem1;
-        private ToolStripMenuItem paymentProcessingToolStripMenuItem1;
+        private ToolStripMenuItem orderProcessingToolStripMenuItem;
+        private ToolStripMenuItem paymentProcessingToolStripMenuItem;
         private ToolStripMenuItem signInToolStripMenuItem;
+        private Label label6;
+        private TextBox txtProductID;
+        private TextBox txtProductTitle;
+        private TextBox txtProductDescription;
+        private TextBox txtProductUnitPrice;
+        private TextBox txtProductQuantity;
+        private Button btnInsert;
+        private Button btnUpdate;
+        private Button btnRemove;
+        private Button btnFirst;
+        private Button btnPrevious;
+        private Button btnNext;
+        private Button btnLast;
+        private DataGridView dataProductGridView;
+
+        public EventHandler btnLast_Click { get; private set; }
     }
 }
