@@ -141,7 +141,7 @@ namespace Warehouse1
             menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, editToolStripMenuItem, toolsToolStripMenuItem, helpToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1185, 24);
+            menuStrip1.Size = new Size(826, 24);
             menuStrip1.TabIndex = 6;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -446,7 +446,7 @@ namespace Warehouse1
             btnFirst.TabIndex = 17;
             btnFirst.Text = "|<<";
             btnFirst.UseVisualStyleBackColor = true;
-            btnFirst.Click += btnFirst_Click;
+            btnFirst.Click += OnFirst;
             // 
             // btnPrevious
             // 
@@ -456,7 +456,7 @@ namespace Warehouse1
             btnPrevious.TabIndex = 18;
             btnPrevious.Text = "<<";
             btnPrevious.UseVisualStyleBackColor = true;
-            btnPrevious.Click += button2_Click;
+            btnPrevious.Click += OnPrevious;
             // 
             // btnNext
             // 
@@ -466,7 +466,7 @@ namespace Warehouse1
             btnNext.TabIndex = 19;
             btnNext.Text = ">>";
             btnNext.UseVisualStyleBackColor = true;
-            btnNext.Click += btnNext_Click;
+            btnNext.Click += OnNext;
             // 
             // btnLast
             // 
@@ -476,7 +476,7 @@ namespace Warehouse1
             btnLast.TabIndex = 20;
             btnLast.Text = ">>|";
             btnLast.UseVisualStyleBackColor = true;
-            btnLast.Click += this.btnLast_Click;
+            btnLast.Click += OnLast;
             // 
             // dataProductGridView
             // 
@@ -485,13 +485,12 @@ namespace Warehouse1
             dataProductGridView.Name = "dataProductGridView";
             dataProductGridView.Size = new Size(542, 116);
             dataProductGridView.TabIndex = 21;
-            dataProductGridView.CellContentClick += dataGridView1_CellContentClick;
             // 
             // MainForm1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1185, 506);
+            ClientSize = new Size(826, 506);
             Controls.Add(dataProductGridView);
             Controls.Add(btnLast);
             Controls.Add(btnNext);
@@ -521,7 +520,7 @@ namespace Warehouse1
             PerformLayout();
         }
 
-        
+
         #endregion
         private Label label1;
         private Label label2;

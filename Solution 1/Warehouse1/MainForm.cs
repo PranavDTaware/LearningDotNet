@@ -1,6 +1,7 @@
 using Membership;
 using Warehouse;
 using Catalog;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Warehouse1
 {
@@ -30,7 +31,13 @@ namespace Warehouse1
         private void OnFileSaveAs(object sender, EventArgs e)
         {
             SaveFileDialog dlg = new SaveFileDialog();
-            dlg.ShowDialog();
+            if(dlg.ShowDialog() == DialogResult.OK)
+            {
+                string fileName = dlg.FileName;
+                FileStream stream = new FileStream(fileName, FileMode.OpenOrCreate);
+                BinaryFormatter bf = new BinaryFormatter();
+                bf.Serialize(stream, allproducts);
+            }
         }
 
         private void OnToolsSignIn(object sender, EventArgs e)
@@ -59,11 +66,6 @@ namespace Warehouse1
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void txtProductID_TextChanged(object sender, EventArgs e)
         {
 
@@ -71,13 +73,15 @@ namespace Warehouse1
 
         private void OnInsertProduct(object sender, EventArgs e)
         {
+
+            //get data from controls and store to variable
             int id = int.Parse(this.txtProductID.Text);
             string title = this.txtProductTitle.Text;
             string description = this.txtProductDescription.Text;
             float unitPrice = float.Parse(this.txtProductUnitPrice.Text);
             int quantity = int.Parse(this.txtProductQuantity.Text);
 
-
+            //Create instance of Product based on data recieved
             Product theProduct = new Product
             {
                 Id = id,
@@ -88,25 +92,54 @@ namespace Warehouse1
             };
 
 
-            //populating data into gridview
+            //add product into list
+
             this.allproducts.Add(theProduct);
+
+            //bind list to datagridview
             this.dataProductGridView.DataSource = null;
             this.dataProductGridView.DataSource = this.allproducts;
         }
 
-        private void btnNext_Click(object sender, EventArgs e)
-        {
 
+        private int current = 0;
+
+
+        private void OnFirst(object sender, EventArgs e)
+        {
+            this.current = 0;
+            Display();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void OnPrevious(object sender, EventArgs e)
         {
-
+            if(this.current != 0)
+            this.current = current - 1;
+            Display();
         }
 
-        private void btnFirst_Click(object sender, EventArgs e)
+        private void OnNext(object sender, EventArgs e)
         {
+            if(this.current != allproducts.Count)
+            this.current = current + 1;
+            Display();
+        }
 
+        private void OnLast(object sender, EventArgs e)
+        {
+            this.current = allproducts.Count - 1;
+            Display();
+        }
+
+        private void Display()
+        {
+            Product theProduct = allproducts [current];
+
+            this.txtProductID.Text = theProduct.Id.ToString();
+            this.txtProductTitle.Text = theProduct.Title.ToString();
+            this.txtProductDescription.Text = theProduct.Description.ToString();
+            this.txtProductUnitPrice.Text = theProduct.UnitPrice.ToString();
+            this.txtProductQuantity.Text = theProduct.Quantity.ToString();
         }
     }
 }
