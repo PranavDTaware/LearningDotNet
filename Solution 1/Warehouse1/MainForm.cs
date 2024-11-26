@@ -25,7 +25,15 @@ namespace Warehouse1
         private void OnFileOpen(object sender, EventArgs e)
         {
             OpenFileDialog dlg = new OpenFileDialog();
-            dlg.ShowDialog();
+            if(dlg.ShowDialog()==DialogResult.OK)
+            {
+                string FileName = dlg.FileName;
+                FileStream stream = new FileStream(FileName, FileMode.Open);
+                BinaryFormatter bf = new BinaryFormatter();
+                this.allproducts = (List<Product>)bf.Deserialize(stream);
+                stream.Close();
+            }
+            Display();
         }
 
         private void OnFileSaveAs(object sender, EventArgs e)
@@ -37,6 +45,7 @@ namespace Warehouse1
                 FileStream stream = new FileStream(fileName, FileMode.OpenOrCreate);
                 BinaryFormatter bf = new BinaryFormatter();
                 bf.Serialize(stream, allproducts);
+                stream.Close();
             }
         }
 

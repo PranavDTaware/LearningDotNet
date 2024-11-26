@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|solutionrelative:warehouse1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|i:\\fullstack\\learningdotnet\\solution 1\\warehouse1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|I:\\FullStack\\LearningDotNet\\Solution 1\\warehouse1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|solutionrelative:warehouse1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Warehouse1\\MainForm.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\MainForm.cs",
               "RelativeToolTip": "Warehouse1\\MainForm.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAMAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T08:31:16.475Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Catalog\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T08:09:17.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T08:09:17.336Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Warehouse1\\MainForm.Designer.cs",
               "ViewState": "AgIAAMIBAAAAAAAAAAAowNQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T07:59:34.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T07:59:34.357Z"
             }
           ]
         }
