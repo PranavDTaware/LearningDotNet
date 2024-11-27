@@ -1,0 +1,16 @@
+I:\FullStack\LearningDotNet\Solution 1\BLL\bin\Debug\net8.0\BLL.deps.json
+I:\FullStack\LearningDotNet\Solution 1\BLL\bin\Debug\net8.0\BLL.dll
+I:\FullStack\LearningDotNet\Solution 1\BLL\bin\Debug\net8.0\BLL.pdb
+I:\FullStack\LearningDotNet\Solution 1\BLL\bin\Debug\net8.0\Catalog.dll
+I:\FullStack\LearningDotNet\Solution 1\BLL\bin\Debug\net8.0\Catalog.pdb
+I:\FullStack\LearningDotNet\Solution 1\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+I:\FullStack\LearningDotNet\Solution 1\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+I:\FullStack\LearningDotNet\Solution 1\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+I:\FullStack\LearningDotNet\Solution 1\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\BLL\obj\Debug\net8.0\BLL.sourcelink.json
+I:\FullStack\LearningDotNet\Solution 1\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+I:\FullStack\LearningDotNet\Solution 1\BLL\obj\Debug\net8.0\BLL.dll
+I:\FullStack\LearningDotNet\Solution 1\BLL\obj\Debug\net8.0\refint\BLL.dll
+I:\FullStack\LearningDotNet\Solution 1\BLL\obj\Debug\net8.0\BLL.pdb
+I:\FullStack\LearningDotNet\Solution 1\BLL\obj\Debug\net8.0\ref\BLL.dll

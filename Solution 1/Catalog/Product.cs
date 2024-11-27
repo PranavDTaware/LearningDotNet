@@ -11,12 +11,12 @@ namespace Catalog
     [Serializable]
     public class Product
     {
+        private int id;
         private string title;
         private string description;
-        private int quantity;
         private float unitPrice;
-        private int id;
-
+        private int quantity;
+        
         public int Id  //Readonly property(only get block)
         {
             set {this.id = value;}

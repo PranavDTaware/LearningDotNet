@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "TesterApp/1.0.0": {
         "dependencies": {
+          "BLL": "1.0.0",
           "Banking": "1.0.0",
           "CRM": "1.0.0",
           "Catalog": "1.0.0",
@@ -24,6 +25,17 @@
       "Banking/1.0.0": {
         "runtime": {
           "Banking.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "BLL/1.0.0": {
+        "dependencies": {
+          "Catalog": "1.0.0"
+        },
+        "runtime": {
+          "BLL.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -104,6 +116,11 @@
       "sha512": ""
     },
     "Banking/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BLL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
