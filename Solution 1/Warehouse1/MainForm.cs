@@ -1,14 +1,17 @@
-using Membership;
 using Warehouse;
 using Catalog;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Text.Json;
 
 namespace Warehouse1
 {
+
     public partial class MainForm1 : Form
     {
 
+        //List to hold all Product collections as Inventory
         private List<Product> allproducts = new List<Product>();
+
         public MainForm1()
         {
             InitializeComponent(); // code is written in seperate designer.cs file
@@ -22,62 +25,63 @@ namespace Warehouse1
             this.Close();
         }
 
+
+
         private void OnFileOpen(object sender, EventArgs e)
         {
             OpenFileDialog dlg = new OpenFileDialog();
-            if(dlg.ShowDialog()==DialogResult.OK)
+            if (dlg.ShowDialog() == DialogResult.OK)
             {
                 string FileName = dlg.FileName;
-                FileStream stream = new FileStream(FileName, FileMode.Open);
-                BinaryFormatter bf = new BinaryFormatter();
-                this.allproducts = (List<Product>)bf.Deserialize(stream);
-                stream.Close();
+                using (FileStream stream = new FileStream(FileName, FileMode.Open))
+                {
+                    allproducts = JsonSerializer.Deserialize<List<Product>>(stream);
+                    stream.Close();
+                }
             }
+
+            //if(dlg.ShowDialog() == DialogResult.OK)
+            //{
+            //    string filname = dlg.FileName;
+            //    FileStream stream = new FileStream(FileName, FileMode.Open);
+            //    BinaryFormatter bf = new BinaryFormatter();
+            //    this.allProducts = (List<Product>)bf.Deerialize(stream);
+            //    stream.Close();
+            //}
+
             Display();
+            //bind list to datagridview
+            this.dataProductGridView.DataSource = null;
+            this.dataProductGridView.DataSource = this.allproducts;
         }
+
+
 
         private void OnFileSaveAs(object sender, EventArgs e)
         {
             SaveFileDialog dlg = new SaveFileDialog();
-            if(dlg.ShowDialog() == DialogResult.OK)
+            if (dlg.ShowDialog() == DialogResult.OK)
             {
-                string fileName = dlg.FileName;
-                FileStream stream = new FileStream(fileName, FileMode.OpenOrCreate);
-                BinaryFormatter bf = new BinaryFormatter();
-                bf.Serialize(stream, allproducts);
-                stream.Close();
+                string fileName = dlg.FileName;  //get the name of file selected
+                using (FileStream stream = new FileStream(fileName, FileMode.OpenOrCreate))
+                {
+                    JsonSerializer.Serialize(stream, allproducts);
+                    stream.Close();
+                }
             }
+        }
+
+
+
+        private void OnFileSave(object sender, EventArgs e)
+        {
+
         }
 
         private void OnToolsSignIn(object sender, EventArgs e)
         {
             LoginForm frm = new LoginForm();
             frm.ShowDialog();
-        }
-
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtProductID_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void OnInsertProduct(object sender, EventArgs e)
@@ -110,9 +114,7 @@ namespace Warehouse1
             this.dataProductGridView.DataSource = this.allproducts;
         }
 
-
         private int current = 0;
-
 
         private void OnFirst(object sender, EventArgs e)
         {
@@ -122,15 +124,15 @@ namespace Warehouse1
 
         private void OnPrevious(object sender, EventArgs e)
         {
-            if(this.current != 0)
-            this.current = current - 1;
+            if (this.current != 0)
+                this.current = current - 1;
             Display();
         }
 
         private void OnNext(object sender, EventArgs e)
         {
-            if(this.current != allproducts.Count)
-            this.current = current + 1;
+            if (this.current != allproducts.Count)
+                this.current = current + 1;
             Display();
         }
 
@@ -142,7 +144,7 @@ namespace Warehouse1
 
         private void Display()
         {
-            Product theProduct = allproducts [current];
+            Product theProduct = allproducts[current];
 
             this.txtProductID.Text = theProduct.Id.ToString();
             this.txtProductTitle.Text = theProduct.Title.ToString();
@@ -150,5 +152,43 @@ namespace Warehouse1
             this.txtProductUnitPrice.Text = theProduct.UnitPrice.ToString();
             this.txtProductQuantity.Text = theProduct.Quantity.ToString();
         }
+
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtProductID_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+       
+
+
+        
+
+
+       
+
+        
+
+        
     }
 }
