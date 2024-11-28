@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{200A578A-9AE6-41D0-8A47-C77607EACCA8}|BLL\\BLL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\bll\\businessmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{200A578A-9AE6-41D0-8A47-C77607EACCA8}|BLL\\BLL.csproj|solutionrelative:bll\\businessmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\linqtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\linqtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200A578A-9AE6-41D0-8A47-C77607EACCA8}|BLL\\BLL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\bll\\businessmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{200A578A-9AE6-41D0-8A47-C77607EACCA8}|BLL\\BLL.csproj|solutionrelative:bll\\businessmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E736BBD1-8471-46EF-8FAB-B9D3CD09E38B}|Catalog\\Catalog.csproj|i:\\fullstack\\learningdotnet\\solution 1\\catalog\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,30 +38,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LINQTest.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\LINQTest.cs",
               "RelativeDocumentMoniker": "TesterApp\\LINQTest.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\LINQTest.cs",
               "RelativeToolTip": "TesterApp\\LINQTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwEgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T11:33:35.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BusinessManager.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\BLL\\BusinessManager.cs",
               "RelativeDocumentMoniker": "BLL\\BusinessManager.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\BLL\\BusinessManager.cs",
               "RelativeToolTip": "BLL\\BusinessManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T10:57:32.403Z",
               "EditorCaption": ""
@@ -74,7 +74,7 @@
               "RelativeDocumentMoniker": "Catalog\\Product.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Catalog\\Product.cs",
               "RelativeToolTip": "Catalog\\Product.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAADgvzMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T08:09:17.336Z"
             },
@@ -109,7 +109,7 @@
               "RelativeDocumentMoniker": "Warehouse1\\MainForm.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\MainForm.cs",
               "RelativeToolTip": "Warehouse1\\MainForm.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwC8AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAA1wC8AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T08:31:16.475Z"
             },
