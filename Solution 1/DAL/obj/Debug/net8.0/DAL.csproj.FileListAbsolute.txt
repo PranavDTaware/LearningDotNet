@@ -1,0 +1,16 @@
+I:\FullStack\LearningDotNet\Solution 1\DAL\bin\Debug\net8.0\DAL.deps.json
+I:\FullStack\LearningDotNet\Solution 1\DAL\bin\Debug\net8.0\DAL.dll
+I:\FullStack\LearningDotNet\Solution 1\DAL\bin\Debug\net8.0\DAL.pdb
+I:\FullStack\LearningDotNet\Solution 1\DAL\bin\Debug\net8.0\Catalog.dll
+I:\FullStack\LearningDotNet\Solution 1\DAL\bin\Debug\net8.0\Catalog.pdb
+I:\FullStack\LearningDotNet\Solution 1\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+I:\FullStack\LearningDotNet\Solution 1\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+I:\FullStack\LearningDotNet\Solution 1\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+I:\FullStack\LearningDotNet\Solution 1\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\Solution 1\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+I:\FullStack\LearningDotNet\Solution 1\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
+I:\FullStack\LearningDotNet\Solution 1\DAL\obj\Debug\net8.0\DAL.dll
+I:\FullStack\LearningDotNet\Solution 1\DAL\obj\Debug\net8.0\refint\DAL.dll
+I:\FullStack\LearningDotNet\Solution 1\DAL\obj\Debug\net8.0\DAL.pdb
+I:\FullStack\LearningDotNet\Solution 1\DAL\obj\Debug\net8.0\ref\DAL.dll

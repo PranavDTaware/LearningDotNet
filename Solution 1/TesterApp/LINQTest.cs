@@ -13,11 +13,11 @@ namespace TesterApp
         //will act like console UI
         static void Main(string[] args)
         {
-            List<Product> allProducts = BusinessManager.GetAllProducts();
+            IEnumerable<Product> allProducts = BusinessManager.GetAllProducts();
             //List<Product> allSoldOutProducts  =BusinessManager.GetSoldOutProducts();
             foreach (Product theProduct in allProducts)
             {
-                Console.WriteLine(theProduct.Title);
+                Console.WriteLine(theProduct.Title + " " + theProduct.Quantity);
             }
 
 
@@ -75,8 +75,6 @@ namespace TesterApp
             {
                 Console.WriteLine(theProduct.Title + " " + theProduct.Quantity);
             }
-
-
 
             Console.ReadLine();
         }
