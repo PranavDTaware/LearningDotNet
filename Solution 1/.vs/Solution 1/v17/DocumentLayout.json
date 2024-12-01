@@ -38,8 +38,7 @@
               "RelativeToolTip": "TesterApp\\LINQTest.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAgwEYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T11:42:02.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T11:42:02.505Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "DAL\\CatalogDBManager.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBManager.cs",
               "RelativeToolTip": "DAL\\CatalogDBManager.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAqwHkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAgwHkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T10:09:51.302Z",
               "EditorCaption": ""
@@ -64,8 +63,7 @@
               "RelativeToolTip": "BLL\\BusinessManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T10:05:15.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T10:05:15.102Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "TesterApp\\SqlDBTest.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T10:01:08.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T10:01:08.389Z"
             }
           ]
         }
