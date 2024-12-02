@@ -129,8 +129,26 @@ namespace DAL
         public static bool Insert(Product theProduct)
         {
             bool status = false;
+            // using connected data access mod
 
-            //logic for insertion
+            try
+            {
+                IDbConnection con = new SqlConnection();
+                con.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""I:\FullStack\LearningDotNet\Solution 1\TesterApp\ECommerce.mdf"";Integrated Security=True";
+                IDbCommand cmd = new SqlCommand();
+                string query = "INSERT INTO flowers (productID, title, description, price, quantity)" +
+                                "VALUES (@Id, @Title, @Description, @Price, @Quantity)";
+                cmd.CommandText = query;
+            }
+            catch(SqlException exp) 
+            {
+                string msg = exp.Message;
+            }
+            finally
+            {
+
+            }
+
             return status;
         }
 
