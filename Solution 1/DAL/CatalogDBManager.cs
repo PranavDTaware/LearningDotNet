@@ -139,6 +139,15 @@ namespace DAL
                 string query = "INSERT INTO flowers (productID, title, description, price, quantity)" +
                                 "VALUES (@Id, @Title, @Description, @Price, @Quantity)";
                 cmd.CommandText = query;
+                cmd.Parameters.Add(new SqlParameter("@Id", theProduct.Id));
+                cmd.Parameters.Add(new SqlParameter("@Title",theProduct.Title));
+                cmd.Parameters.Add(new SqlParameter("@Description",theProduct.Description));
+                cmd.Parameters.Add(new SqlParameter("@Price", theProduct.UnitPrice));
+                cmd.Parameters.Add(new SqlParameter("@Quantity", theProduct.Quantity));
+
+                cmd.ExecuteNonQuery();
+                if(con.State == ConnectionState.Open)
+                    con.Close();
             }
             catch(SqlException exp) 
             {
