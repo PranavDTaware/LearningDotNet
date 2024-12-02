@@ -137,7 +137,7 @@ namespace DAL
                 con.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""I:\FullStack\LearningDotNet\Solution 1\TesterApp\ECommerce.mdf"";Integrated Security=True";
                 IDbCommand cmd = new SqlCommand();
                 string query = "INSERT INTO flowers (productID, title, description, price, quantity)" +
-                                "VALUES (@Id, @Title, @Description, @Price, @Quantity)";
+                               "VALUES (@Id, @Title, @Description, @Price, @Quantity)";
                 cmd.CommandText = query;
                 cmd.Parameters.Add(new SqlParameter("@Id", theProduct.Id));
                 cmd.Parameters.Add(new SqlParameter("@Title",theProduct.Title));
@@ -146,16 +146,15 @@ namespace DAL
                 cmd.Parameters.Add(new SqlParameter("@Quantity", theProduct.Quantity));
 
                 cmd.ExecuteNonQuery();
+                
+                status = true;
+
                 if(con.State == ConnectionState.Open)
                     con.Close();
             }
             catch(SqlException exp) 
             {
                 string msg = exp.Message;
-            }
-            finally
-            {
-
             }
 
             return status;
