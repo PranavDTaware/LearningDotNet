@@ -121,10 +121,8 @@ namespace DAL
             {
                 string message = exp.Message;
             }
-            finally
-            {
 
-            }
+            return allProducts;
         }
 
         //create

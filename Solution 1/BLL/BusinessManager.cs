@@ -9,8 +9,10 @@ namespace BLL
         public static IEnumerable<Product> GetAllProducts()
         {
             
-            IEnumerable<Product> allProducts = CatalogDBManager.GetAllProducts();
+            //IEnumerable<Product> allProducts = CatalogDBManager.GetAllProducts();
 
+
+            IEnumerable<Product> allProducts = CatalogDBManager.GetAllProductsUsingDisconected();
             #region hardcoded way
             /* List<Product> allProducts = new List<Product>();
                allProducts.Add(new Product{ Id = 1, Title = "Rose", Description = "A beautiful red rose with a sweet fragrance.", UnitPrice = 12, Quantity = 5000 });
