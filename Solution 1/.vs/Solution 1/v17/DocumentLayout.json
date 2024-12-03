@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|solutionrelative:dal\\catalogdbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E736BBD1-8471-46EF-8FAB-B9D3CD09E38B}|Catalog\\Catalog.csproj|i:\\fullstack\\learningdotnet\\solution 1\\catalog\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E736BBD1-8471-46EF-8FAB-B9D3CD09E38B}|Catalog\\Catalog.csproj|solutionrelative:catalog\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|I:\\FullStack\\LearningDotNet\\Solution 1\\warehouse1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|solutionrelative:warehouse1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|I:\\FullStack\\LearningDotNet\\Solution 1\\warehouse1\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{52BA53DA-6383-4654-8858-1FE49B874C4D}|Warehouse1\\Warehouse.csproj|solutionrelative:warehouse1\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{200A578A-9AE6-41D0-8A47-C77607EACCA8}|BLL\\BLL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\bll\\businessmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{200A578A-9AE6-41D0-8A47-C77607EACCA8}|BLL\\BLL.csproj|solutionrelative:bll\\businessmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,8 +41,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\Catalog\\Product.cs",
+              "RelativeDocumentMoniker": "Catalog\\Product.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Catalog\\Product.cs",
+              "RelativeToolTip": "Catalog\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:13:52.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\MainForm.cs",
+              "RelativeDocumentMoniker": "Warehouse1\\MainForm.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\MainForm.cs [Design]",
+              "RelativeToolTip": "Warehouse1\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T04:20:38.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Warehouse1\\LoginForm.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Warehouse1\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Warehouse1\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T04:20:26.08Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -39,14 +85,14 @@
               "RelativeDocumentMoniker": "DAL\\CatalogDBManager.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBManager.cs",
               "RelativeToolTip": "DAL\\CatalogDBManager.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAAAIsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwMUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T10:09:51.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "LINQTest.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\LINQTest.cs",
               "RelativeDocumentMoniker": "TesterApp\\LINQTest.cs",
@@ -58,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "BusinessManager.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\BLL\\BusinessManager.cs",
               "RelativeDocumentMoniker": "BLL\\BusinessManager.cs",
@@ -70,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "SqlDBTest.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\SqlDBTest.cs",
               "RelativeDocumentMoniker": "TesterApp\\SqlDBTest.cs",
@@ -82,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "dbo.flowers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/I__FULLSTACK_LEARNINGDOTNET_SOLUTION_1_TESTERAPP_ECOMMERCE.MDF/True/SqlTable/dbo.flowers.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/I__FULLSTACK_LEARNINGDOTNET_SOLUTION_1_TESTERAPP_ECOMMERCE.MDF/True/SqlTable/dbo.flowers.sql",
