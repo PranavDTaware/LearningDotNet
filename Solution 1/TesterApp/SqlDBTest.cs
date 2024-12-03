@@ -1,10 +1,5 @@
 ﻿using BLL;
 using Catalog;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TesterApp
 {
@@ -14,6 +9,15 @@ namespace TesterApp
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to database connectivity");
+
+            bool status = false;
+
+            Product theProduct = BusinessManager.GetProduct(1);
+            theProduct.UnitPrice = 99;
+            theProduct.Quantity = 99999;
+            status = BusinessManager.UpdateProduct(theProduct);
+
+            //status = BusinessManager.DeleteProduct(9);
 
             IEnumerable<Product> allProducts = BusinessManager.GetAllProducts();
             foreach(Product product in allProducts)
