@@ -50,6 +50,12 @@ namespace BLL
             //return soldOutProducts;
         }
 
+
+        public static bool InsertProduct(Product newProduct)
+        {
+            return CatalogDBManager.Insert(newProduct);
+        }
+
         public static bool UpdateProduct(Product theproduct)
         {
             return CatalogDBManager.Update(theproduct);
@@ -59,5 +65,6 @@ namespace BLL
         {
             return CatalogDBManager.Delete(id);
         }
+
     }
 }

@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\sqldbtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\sqldbtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\dal\\catalogdbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|solutionrelative:dal\\catalogdbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/I__FULLSTACK_LEARNINGDOTNET_SOLUTION_1_TESTERAPP_ECOMMERCE.MDF/True/SqlTable/dbo.flowers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\sqldbtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\sqldbtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{200A578A-9AE6-41D0-8A47-C77607EACCA8}|BLL\\BLL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\bll\\businessmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,55 +29,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dbo.flowers [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/I__FULLSTACK_LEARNINGDOTNET_SOLUTION_1_TESTERAPP_ECOMMERCE.MDF/True/SqlTable/dbo.flowers.sql",
-              "ToolTip": "dbo.flowers [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-03T19:50:10.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\Catalog\\Product.cs",
-              "RelativeDocumentMoniker": "Catalog\\Product.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Catalog\\Product.cs",
-              "RelativeToolTip": "Catalog\\Product.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAnwDMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T19:28:18.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SqlDBTest.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\SqlDBTest.cs",
               "RelativeDocumentMoniker": "TesterApp\\SqlDBTest.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\SqlDBTest.cs",
               "RelativeToolTip": "TesterApp\\SqlDBTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T10:01:08.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CatalogDBManager.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBManager.cs",
-              "RelativeDocumentMoniker": "DAL\\CatalogDBManager.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBManager.cs",
-              "RelativeToolTip": "DAL\\CatalogDBManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAASwA4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T10:09:51.302Z",
               "EditorCaption": ""
             },
             {
@@ -88,9 +52,45 @@
               "RelativeDocumentMoniker": "BLL\\BusinessManager.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\BLL\\BusinessManager.cs",
               "RelativeToolTip": "BLL\\BusinessManager.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAcwDYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAIAwwEIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T10:05:15.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CatalogDBManager.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBManager.cs",
+              "RelativeDocumentMoniker": "DAL\\CatalogDBManager.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBManager.cs",
+              "RelativeToolTip": "DAL\\CatalogDBManager.cs",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAnwBgBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T10:09:51.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.flowers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/I__FULLSTACK_LEARNINGDOTNET_SOLUTION_1_TESTERAPP_ECOMMERCE.MDF/True/SqlTable/dbo.flowers.sql",
+              "ToolTip": "dbo.flowers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-04T09:57:16.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\Catalog\\Product.cs",
+              "RelativeDocumentMoniker": "Catalog\\Product.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\Catalog\\Product.cs",
+              "RelativeToolTip": "Catalog\\Product.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T19:28:18.536Z",
               "EditorCaption": ""
             }
           ]
