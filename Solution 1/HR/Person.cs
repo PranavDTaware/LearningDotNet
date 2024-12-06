@@ -22,5 +22,10 @@
         {
             return FirstName + " " + LastName + " " + BirthDate;
         }
+
+        ~Person()
+        {
+
+        }
     }
 }
