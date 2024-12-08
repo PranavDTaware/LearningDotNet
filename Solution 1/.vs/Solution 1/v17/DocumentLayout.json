@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\gctest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\gctest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4082A791-3D21-4F00-8AC7-F7DAED77DB18}|HR\\HR.csproj|i:\\fullstack\\learningdotnet\\solution 1\\hr\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4082A791-3D21-4F00-8AC7-F7DAED77DB18}|HR\\HR.csproj|solutionrelative:hr\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\gctest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\gctest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Person.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\HR\\Person.cs",
               "RelativeDocumentMoniker": "HR\\Person.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\HR\\Person.cs",
               "RelativeToolTip": "HR\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwDEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T19:27:21.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GCTest.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\GCTest.cs",
               "RelativeDocumentMoniker": "TesterApp\\GCTest.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\GCTest.cs",
               "RelativeToolTip": "TesterApp\\GCTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T19:26:26.381Z",
               "EditorCaption": ""
