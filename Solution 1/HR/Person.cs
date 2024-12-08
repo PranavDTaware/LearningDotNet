@@ -23,6 +23,11 @@
             return FirstName + " " + LastName + " " + BirthDate;
         }
 
+        public void show()
+        {
+
+        }
+
         ~Person()
         {
 
