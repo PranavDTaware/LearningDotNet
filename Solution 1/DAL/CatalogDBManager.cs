@@ -21,38 +21,41 @@ namespace DAL
 
             try
             {
-                IDbConnection con = new SqlConnection();
-                con.ConnectionString = connectionString;
-                IDbCommand cmd = new SqlCommand();
-                cmd.Connection = con;
-                string query = "SELECT * FROM flowers WHERE productID = @Id";
-
-                cmd.CommandText = query;
-                cmd.Parameters.Add(new SqlParameter("@Id", productID));
-
-                con.Open();
-                IDataReader reader = cmd.ExecuteReader();
-                if(reader.Read())
+                using(IDbConnection con = new SqlConnection())
                 {
-                    int id = int.Parse(reader["productID"].ToString());
-                    string title = reader["title"].ToString();
-                    string description = reader["description"].ToString();
-                    int unitPrice = int.Parse(reader["price"].ToString());
-                    int quantity = int.Parse(reader["quantity"].ToString());
+                    con.ConnectionString = connectionString;
+                    IDbCommand cmd = new SqlCommand();
+                    cmd.Connection = con;
+                    string query = "SELECT * FROM flowers WHERE productID = @Id";
 
-                    theProduct = new Product
+                    cmd.CommandText = query;
+                    cmd.Parameters.Add(new SqlParameter("@Id", productID));
+
+                    con.Open();
+                    IDataReader reader = cmd.ExecuteReader();
+                    if (reader.Read())
                     {
-                        Id = id,
-                        Title = title,
-                        Description = description,
-                        UnitPrice = unitPrice,
-                        Quantity = quantity,
-                    };
+                        int id = int.Parse(reader["productID"].ToString());
+                        string title = reader["title"].ToString();
+                        string description = reader["description"].ToString();
+                        int unitPrice = int.Parse(reader["price"].ToString());
+                        int quantity = int.Parse(reader["quantity"].ToString());
+
+                        theProduct = new Product
+                        {
+                            Id = id,
+                            Title = title,
+                            Description = description,
+                            UnitPrice = unitPrice,
+                            Quantity = quantity,
+                        };
+                    }
+
+
+                    if (con.State == ConnectionState.Open)
+                        con.Close();
                 }
-
-
-                if (con.State == ConnectionState.Open)
-                    con.Close();
+                
             }
             catch (SqlException exp)
             {

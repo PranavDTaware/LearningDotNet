@@ -6,8 +6,8 @@ namespace TesterApp
     {
         static void Main(string[] args)
         {
-            //Deterministic Finalization
-            //InDeterministic Finalization
+            //Deterministic Finalization........explicitly disposing resources by main thread
+            //InDeterministic Finalization.......calling destructor for releasing resources by GC
 
             Person thePerson = new Person("Pranav", "Taware", new DateTime(2001, 10, 20)); ;
             for (int i = 0; i < 5000; i++)

@@ -55,7 +55,6 @@
             // Deinitializing system resources before object get destroyed
 
             // Releasing system resources which were used
-            // 
             // database connections,
             // multiple threads,
             // files
