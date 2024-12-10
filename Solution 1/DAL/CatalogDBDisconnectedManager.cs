@@ -32,35 +32,20 @@ namespace DAL
                 //Dataset is collection of Datatable objects retrived
                 //from database after fill method 
 
-
                 DataTable dt = ds.Tables[0];
                 //DataTable is a collection of datarow objects 
+                DataRow datarow = dt.Rows.Find(productID);
+                datarow.Delete();
+                da.Update(ds);
 
-                foreach (DataRow datarow in dt.Rows)
-                {
 
-                    int id = int.Parse(datarow["productID"].ToString());
-                    string title = datarow["title"].ToString();
-                    string description = datarow["description"].ToString();
-                    int unitPrice = int.Parse(datarow["price"].ToString());
-                    int quantity = int.Parse(datarow["quantity"].ToString());
-
-                    allProducts.Add(new Product()
-                    {
-                        Id = id,
-                        Title = title,
-                        Description = description,
-                        UnitPrice = unitPrice,
-                        Quantity = quantity,
-                    });
-                }
             }
             catch (SqlException exp)
             {
                 string message = exp.Message;
             }
 
-            return allProducts;
+            return theProduct;
         }
 
         IEnumerable<Product> ICatalogBDManager.GetAllProducts()
