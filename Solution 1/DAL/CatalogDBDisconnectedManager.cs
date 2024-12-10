@@ -26,13 +26,19 @@ namespace DAL
             {
                 DataSet ds = new DataSet();
                 SqlDataAdapter da = new SqlDataAdapter(cmd as SqlCommand);
-
+                SqlCommandBuilder cmdbldr = new SqlCommandBuilder();
                 da.Fill(ds);
 
                 //Dataset is collection of Datatable objects retrived
                 //from database after fill method 
 
                 DataTable dt = ds.Tables[0];
+                DataColumn[] keyColumns = new DataColumn[1];
+                keyColumns[0] = ds.Tables [0].Columns["productID"];
+                ds.Tables[0].PrimaryKey = keyColumns;
+                // associate relation of columns as an primarykey at offline data in dataset
+
+
                 //DataTable is a collection of datarow objects 
                 DataRow datarow = dt.Rows.Find(productID);
                 datarow.Delete();
