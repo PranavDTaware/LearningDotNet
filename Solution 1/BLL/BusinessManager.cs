@@ -8,7 +8,7 @@ namespace BLL
     {
         public static Product GetProduct(int id)
         {
-            return CatalogDBManager.GetProductByID(id);
+            return CatalogDBConnectedManager.GetProductByID(id);
         }
 
         public static IEnumerable<Product> GetAllProducts()
@@ -17,7 +17,7 @@ namespace BLL
             //IEnumerable<Product> allProducts = CatalogDBManager.GetAllProducts();
 
 
-            IEnumerable<Product> allProducts = CatalogDBManager.GetAllProductsUsingDisconected();
+            IEnumerable<Product> allProducts = CatalogDBConnectedManager.GetAllProductsUsingDisconected();
             #region hardcoded way
             /* List<Product> allProducts = new List<Product>();
                allProducts.Add(new Product{ Id = 1, Title = "Rose", Description = "A beautiful red rose with a sweet fragrance.", UnitPrice = 12, Quantity = 5000 });
@@ -53,17 +53,17 @@ namespace BLL
 
         public static bool InsertProduct(Product newProduct)
         {
-            return CatalogDBManager.Insert(newProduct);
+            return CatalogDBConnectedManager.Insert(newProduct);
         }
 
         public static bool UpdateProduct(Product theproduct)
         {
-            return CatalogDBManager.Update(theproduct);
+            return CatalogDBConnectedManager.Update(theproduct);
         }
 
         public static bool DeleteProduct(int id)
         {
-            return CatalogDBManager.Delete(id);
+            return CatalogDBConnectedManager.Delete(id);
         }
 
     }

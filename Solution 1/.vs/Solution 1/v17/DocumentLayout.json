@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\dal\\catalogdbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|solutionrelative:dal\\catalogdbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\dal\\catalogdbdisconnectedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|solutionrelative:dal\\catalogdbdisconnectedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\gctest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\gctest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\dal\\catalogdbconnectedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|solutionrelative:dal\\catalogdbconnectedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4082A791-3D21-4F00-8AC7-F7DAED77DB18}|HR\\HR.csproj|i:\\fullstack\\learningdotnet\\solution 1\\hr\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4082A791-3D21-4F00-8AC7-F7DAED77DB18}|HR\\HR.csproj|solutionrelative:hr\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\dal\\icatalogbdmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|solutionrelative:dal\\icatalogbdmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CatalogDBManager.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBManager.cs",
-              "RelativeDocumentMoniker": "DAL\\CatalogDBManager.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBManager.cs",
-              "RelativeToolTip": "DAL\\CatalogDBManager.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwBUAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CatalogDBConnectedManager.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBConnectedManager.cs",
+              "RelativeDocumentMoniker": "DAL\\CatalogDBConnectedManager.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBConnectedManager.cs",
+              "RelativeToolTip": "DAL\\CatalogDBConnectedManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAIEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T12:14:14.811Z",
+              "WhenOpened": "2024-12-10T10:53:14.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Person.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\HR\\Person.cs",
-              "RelativeDocumentMoniker": "HR\\Person.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\HR\\Person.cs",
-              "RelativeToolTip": "HR\\Person.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAIwDkAAAAAAAAAAAAAAA==",
+              "Title": "ICatalogBDManager.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\ICatalogBDManager.cs",
+              "RelativeDocumentMoniker": "DAL\\ICatalogBDManager.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\ICatalogBDManager.cs",
+              "RelativeToolTip": "DAL\\ICatalogBDManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T19:27:21.845Z",
+              "WhenOpened": "2024-12-10T10:57:43.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GCTest.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\GCTest.cs",
-              "RelativeDocumentMoniker": "TesterApp\\GCTest.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\GCTest.cs",
-              "RelativeToolTip": "TesterApp\\GCTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABhAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CatalogDBDisconnectedManager.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBDisconnectedManager.cs",
+              "RelativeDocumentMoniker": "DAL\\CatalogDBDisconnectedManager.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBDisconnectedManager.cs",
+              "RelativeToolTip": "DAL\\CatalogDBDisconnectedManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T19:26:26.381Z",
+              "WhenOpened": "2024-12-10T10:53:28.949Z",
               "EditorCaption": ""
             }
           ]

@@ -4,17 +4,17 @@ using Microsoft.Data.SqlClient;
 
 namespace DAL
 {
-    public static class CatalogDBManager
+    public class CatalogDBConnectedManager : ICatalogBDManager
     {
 
-        public static string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""I:\FullStack\LearningDotNet\Solution 1\TesterApp\ECommerce.mdf"";Integrated Security=True";
+        public string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""I:\FullStack\LearningDotNet\Solution 1\TesterApp\ECommerce.mdf"";Integrated Security=True";
 
 
         //CRUD operations against database
 
         //read
 
-        public static Product GetProductByID(int productID)
+        Product ICatalogBDManager.GetProductByID(int productID)
         {
             Product theProduct = null;
             // using connected data access mod
@@ -65,7 +65,7 @@ namespace DAL
             return theProduct;
         }
 
-        public static IEnumerable<Product> GetAllProducts()
+        IEnumerable<Product> ICatalogBDManager.GetAllProducts()
         {
             //Invoke backend data into .NET application
             // needed database connectivity 
@@ -129,59 +129,7 @@ namespace DAL
             return allProducts;
         }
 
-        public static IEnumerable<Product> GetAllProductsUsingDisconected()
-        {
-            List<Product> allProducts = new List<Product>();
-
-            IDbConnection con = new SqlConnection();
-            con.ConnectionString = connectionString;
-
-            IDbCommand cmd = new SqlCommand();
-            string query = "SELECT * FROM flowers";
-            cmd.Connection = con;
-            cmd.CommandText = query;
-            try
-            {
-                DataSet ds = new DataSet();
-                SqlDataAdapter da = new SqlDataAdapter(cmd as SqlCommand);   
-
-                da.Fill(ds);
-
-                //Dataset is collection of Datatable objects retrived
-                //from database after fill method 
-
-
-                DataTable dt = ds.Tables[0];
-                //DataTable is a collection of datarow objects 
-
-                foreach (DataRow datarow in dt.Rows)
-                {
-
-                    int id = int.Parse(datarow["productID"].ToString());
-                    string title = datarow["title"].ToString();
-                    string description = datarow["description"].ToString();
-                    int unitPrice = int.Parse(datarow["price"].ToString());
-                    int quantity = int.Parse(datarow["quantity"].ToString());
-
-                    allProducts.Add(new Product()
-                    {
-                        Id = id,
-                        Title = title,
-                        Description = description,
-                        UnitPrice = unitPrice,
-                        Quantity = quantity,
-                    });
-                }
-            }
-            catch (SqlException exp)
-            {
-                string message = exp.Message;
-            }
-
-            return allProducts;
-        }
-
-        public static bool Insert(Product theProduct)
+        bool ICatalogBDManager.Insert(Product theProduct)
         {
             bool status = false;
             // using connected data access mod
@@ -216,7 +164,7 @@ namespace DAL
             return status;
         }
         
-        public static bool Update(Product theProduct)
+        bool ICatalogBDManager.Update(Product theProduct)
         {
             bool status = false;
             // using connected data access mod
@@ -251,7 +199,7 @@ namespace DAL
             return status;
         }   
         
-        public static bool Delete(int productID)
+        bool ICatalogBDManager. Delete(int productID)
         {
             bool status = false;
             // using connected data access mod
