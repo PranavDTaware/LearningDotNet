@@ -1855,6 +1855,7 @@
       "Banking >= 1.0.0",
       "CRM >= 1.0.0",
       "Catalog >= 1.0.0",
+      "DAL >= 1.0.0",
       "HR >= 1.0.0",
       "Mathlib >= 1.0.0",
       "Membership >= 1.0.0",
@@ -1905,6 +1906,9 @@
             },
             "I:\\FullStack\\LearningDotNet\\Solution 1\\CRM\\CRM.csproj": {
               "projectPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\CRM\\CRM.csproj"
+            },
+            "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\DAL.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\DAL.csproj"
             },
             "I:\\FullStack\\LearningDotNet\\Solution 1\\HR\\HR.csproj": {
               "projectPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\HR\\HR.csproj"

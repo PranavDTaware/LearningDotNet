@@ -8,16 +8,17 @@ namespace BLL
     {
         public static Product GetProduct(int id)
         {
-            return CatalogDBConnectedManager.GetProductByID(id);
+            ICatalogDBManager mgr = new CatalogDBConnectedManager();
+            return mgr.GetProductByID(id);
         }
 
         public static IEnumerable<Product> GetAllProducts()
         {
-            
+
             //IEnumerable<Product> allProducts = CatalogDBManager.GetAllProducts();
 
-
-            IEnumerable<Product> allProducts = CatalogDBConnectedManager.GetAllProductsUsingDisconected();
+            ICatalogDBManager mgr = new CatalogDBConnectedManager();
+            IEnumerable<Product> allProducts = mgr.GetAllProducts();
             #region hardcoded way
             /* List<Product> allProducts = new List<Product>();
                allProducts.Add(new Product{ Id = 1, Title = "Rose", Description = "A beautiful red rose with a sweet fragrance.", UnitPrice = 12, Quantity = 5000 });
@@ -53,17 +54,62 @@ namespace BLL
 
         public static bool InsertProduct(Product newProduct)
         {
-            return CatalogDBConnectedManager.Insert(newProduct);
+            ICatalogDBManager mgr = new CatalogDBConnectedManager();
+
+            return mgr.Insert(newProduct);
         }
 
-        public static bool UpdateProduct(Product theproduct)
+        public static bool UpdateProduct(Product theproduct)<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 Namespace=DAL Type=CatalogDBConnectedManager Member=(Name=DAL.ICatalogDBManager.Delete OverloadingParameters=[(@2 Namespace=System Type=Int32)]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" CommonLabel="DAL.ICatalogDBManager.Delete" Icon="Microsoft.VisualStudio.Method.Private" IsDragSource="True" Label="ICatalogDBManager.Delete(int) : bool" SourceLocation="(Assembly=&quot;file:///I:/FullStack/LearningDotNet/Solution 1/DAL/CatalogDBConnectedManager.cs&quot; StartLineNumber=201 StartCharacterOffset=32 EndLineNumber=201 EndCharacterOffset=38)" />
+    <Node Id="(@1 Namespace=DAL Type=CatalogDBConnectedManager)" Visibility="Hidden" />
+  </Nodes>
+  <Links>
+    <Link Source="(@1 Namespace=DAL Type=CatalogDBConnectedManager)" Target="(@1 Namespace=DAL Type=CatalogDBConnectedManager Member=(Name=DAL.ICatalogDBManager.Delete OverloadingParameters=[(@2 Namespace=System Type=Int32)]))" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Member" Label="Member" Icon="CodeSchema_Field" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" Icon="CodeSchema_Method" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" IsContainment="True" />
+  </Categories>
+  <Properties>
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsDragSource" Label="IsDragSource" Description="IsDragSource" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(70c85903-ead0-4bdc-88e4-2c99fd533dbc.OutputPathUri)" />
+    <Alias n="2" Uri="Assembly=$(ProgramFilesUri)/dotnet/packs/Microsoft.NETCore.App.Ref/8.0.11/ref/net8.0/System.Runtime.dll" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="70c85903-ead0-4bdc-88e4-2c99fd533dbc.OutputPathUri" Value="file:///I:/FullStack/LearningDotNet/Solution 1/DAL/bin/Debug/net8.0/DAL.dll" />
+    <Path Id="ProgramFilesUri" Value="file:///C:/Program Files" />
+  </Paths>
+</DirectedGraph>
         {
-            return CatalogDBConnectedManager.Update(theproduct);
+            ICatalogDBManager mgr = new CatalogDBConnectedManager();
+
+            return mgr.Update(theproduct);
         }
 
         public static bool DeleteProduct(int id)
         {
-            return CatalogDBConnectedManager.Delete(id);
+            ICatalogDBManager mgr = new CatalogDBConnectedManager();
+
+            return mgr.Delete(id);
         }
 
     }

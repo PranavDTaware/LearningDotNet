@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public interface ICatalogBDManager
+    public interface ICatalogDBManager
     {
         Product GetProductByID(int productID);
         IEnumerable<Product> GetAllProducts();

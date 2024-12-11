@@ -4,7 +4,7 @@ using Microsoft.Data.SqlClient;
 
 namespace DAL
 {
-    public class CatalogDBConnectedManager : ICatalogBDManager
+    public class CatalogDBConnectedManager : ICatalogDBManager
     {
 
         public string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""I:\FullStack\LearningDotNet\Solution 1\TesterApp\ECommerce.mdf"";Integrated Security=True";
@@ -14,7 +14,7 @@ namespace DAL
 
         //read
 
-        Product ICatalogBDManager.GetProductByID(int productID)
+        Product ICatalogDBManager.GetProductByID(int productID)
         {
             Product theProduct = null;
             // using connected data access mod
@@ -65,7 +65,7 @@ namespace DAL
             return theProduct;
         }
 
-        IEnumerable<Product> ICatalogBDManager.GetAllProducts()
+        IEnumerable<Product> ICatalogDBManager.GetAllProducts()
         {
             //Invoke backend data into .NET application
             // needed database connectivity 
@@ -129,7 +129,7 @@ namespace DAL
             return allProducts;
         }
 
-        bool ICatalogBDManager.Insert(Product theProduct)
+        bool ICatalogDBManager.Insert(Product theProduct)
         {
             bool status = false;
             // using connected data access mod
@@ -164,7 +164,7 @@ namespace DAL
             return status;
         }
         
-        bool ICatalogBDManager.Update(Product theProduct)
+        bool ICatalogDBManager.Update(Product theProduct)
         {
             bool status = false;
             // using connected data access mod
@@ -199,7 +199,7 @@ namespace DAL
             return status;
         }   
         
-        bool ICatalogBDManager. Delete(int productID)
+        bool ICatalogDBManager. Delete(int productID)
         {
             bool status = false;
             // using connected data access mod

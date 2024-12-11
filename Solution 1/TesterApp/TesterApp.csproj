@@ -13,6 +13,7 @@
     <ProjectReference Include="..\BLL\BLL.csproj" />
     <ProjectReference Include="..\Catalog\Catalog.csproj" />
     <ProjectReference Include="..\CRM\CRM.csproj" />
+    <ProjectReference Include="..\DAL\DAL.csproj" />
     <ProjectReference Include="..\HR\HR.csproj" />
     <ProjectReference Include="..\Mathlib\Mathlib.csproj" />
     <ProjectReference Include="..\Membership\Membership.csproj" />
