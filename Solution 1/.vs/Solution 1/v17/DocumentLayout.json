@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\dal\\catalogdbdisconnectedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|solutionrelative:dal\\catalogdbdisconnectedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\dal\\catalogdbconnectedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|solutionrelative:dal\\catalogdbconnectedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\disconnectedcrudtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\disconnectedcrudtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{200A578A-9AE6-41D0-8A47-C77607EACCA8}|BLL\\BLL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\bll\\businessmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\dal\\icatalogdbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|solutionrelative:dal\\icatalogdbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\dal\\catalogdbdisconnectedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|solutionrelative:dal\\catalogdbdisconnectedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\disconnectedcrudtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\disconnectedcrudtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,46 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BusinessManager.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\BLL\\BusinessManager.cs",
-              "RelativeDocumentMoniker": "BLL\\BusinessManager.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\BLL\\BusinessManager.cs",
-              "RelativeToolTip": "BLL\\BusinessManager.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAIwFUAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T20:11:26.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CatalogDBConnectedManager.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBConnectedManager.cs",
-              "RelativeDocumentMoniker": "DAL\\CatalogDBConnectedManager.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBConnectedManager.cs",
-              "RelativeToolTip": "DAL\\CatalogDBConnectedManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T10:53:14.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ICatalogDBManager.cs",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\ICatalogDBManager.cs",
-              "RelativeDocumentMoniker": "DAL\\ICatalogDBManager.cs",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\ICatalogDBManager.cs",
-              "RelativeToolTip": "DAL\\ICatalogDBManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T10:57:43.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "DisconnectedCRUDTest.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\DisconnectedCRUDTest.cs",
               "RelativeDocumentMoniker": "TesterApp\\DisconnectedCRUDTest.cs",
@@ -86,15 +47,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CatalogDBDisconnectedManager.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBDisconnectedManager.cs",
               "RelativeDocumentMoniker": "DAL\\CatalogDBDisconnectedManager.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBDisconnectedManager.cs",
               "RelativeToolTip": "DAL\\CatalogDBDisconnectedManager.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAgwAMBAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T10:53:28.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BusinessManager.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\BLL\\BusinessManager.cs",
+              "RelativeDocumentMoniker": "BLL\\BusinessManager.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\BLL\\BusinessManager.cs",
+              "RelativeToolTip": "BLL\\BusinessManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T20:11:26.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICatalogDBManager.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\ICatalogDBManager.cs",
+              "RelativeDocumentMoniker": "DAL\\ICatalogDBManager.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\ICatalogDBManager.cs",
+              "RelativeToolTip": "DAL\\ICatalogDBManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T10:57:43.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CatalogDBConnectedManager.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBConnectedManager.cs",
+              "RelativeDocumentMoniker": "DAL\\CatalogDBConnectedManager.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBConnectedManager.cs",
+              "RelativeToolTip": "DAL\\CatalogDBConnectedManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwIMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T10:53:14.591Z",
               "EditorCaption": ""
             }
           ]
