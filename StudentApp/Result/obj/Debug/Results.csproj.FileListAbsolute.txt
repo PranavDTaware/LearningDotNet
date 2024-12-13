@@ -1,0 +1,6 @@
+I:\FullStack\LearningDotNet\StudentApp\Results\bin\Debug\Results.dll
+I:\FullStack\LearningDotNet\StudentApp\Results\bin\Debug\Results.pdb
+I:\FullStack\LearningDotNet\StudentApp\Results\obj\Debug\Results.csproj.AssemblyReference.cache
+I:\FullStack\LearningDotNet\StudentApp\Results\obj\Debug\Results.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\StudentApp\Results\obj\Debug\Results.dll
+I:\FullStack\LearningDotNet\StudentApp\Results\obj\Debug\Results.pdb

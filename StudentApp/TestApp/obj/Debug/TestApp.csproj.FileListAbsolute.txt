@@ -1,0 +1,10 @@
+I:\FullStack\LearningDotNet\StudentApp\TestApp\bin\Debug\TestApp.exe.config
+I:\FullStack\LearningDotNet\StudentApp\TestApp\bin\Debug\TestApp.exe
+I:\FullStack\LearningDotNet\StudentApp\TestApp\bin\Debug\TestApp.pdb
+I:\FullStack\LearningDotNet\StudentApp\TestApp\bin\Debug\Results.dll
+I:\FullStack\LearningDotNet\StudentApp\TestApp\bin\Debug\Results.pdb
+I:\FullStack\LearningDotNet\StudentApp\TestApp\obj\Debug\TestApp.csproj.AssemblyReference.cache
+I:\FullStack\LearningDotNet\StudentApp\TestApp\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\StudentApp\TestApp\obj\Debug\TestApp.csproj.Up2Date
+I:\FullStack\LearningDotNet\StudentApp\TestApp\obj\Debug\TestApp.exe
+I:\FullStack\LearningDotNet\StudentApp\TestApp\obj\Debug\TestApp.pdb
