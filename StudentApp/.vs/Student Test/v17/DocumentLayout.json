@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "I:\\FullStack\\LearningDotNet\\StudentApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83B0C627-FDE8-49B4-BE7D-C5FF672FB31C}|StudentAppASPX\\StudentAppASPX.csproj|i:\\fullstack\\learningdotnet\\studentapp\\studentappaspx\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{83B0C627-FDE8-49B4-BE7D-C5FF672FB31C}|StudentAppASPX\\StudentAppASPX.csproj|I:\\FullStack\\LearningDotNet\\StudentApp\\studentappaspx\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{83B0C627-FDE8-49B4-BE7D-C5FF672FB31C}|StudentAppASPX\\StudentAppASPX.csproj|solutionrelative:studentappaspx\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83B0C627-FDE8-49B4-BE7D-C5FF672FB31C}|StudentAppASPX\\StudentAppASPX.csproj|I:\\FullStack\\LearningDotNet\\StudentApp\\studentappaspx\\studentresult.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{83B0C627-FDE8-49B4-BE7D-C5FF672FB31C}|StudentAppASPX\\StudentAppASPX.csproj|i:\\fullstack\\learningdotnet\\studentapp\\studentappaspx\\studentresult.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{83B0C627-FDE8-49B4-BE7D-C5FF672FB31C}|StudentAppASPX\\StudentAppASPX.csproj|solutionrelative:studentappaspx\\studentresult.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -30,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentResult.aspx",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\StudentApp\\StudentAppASPX\\StudentResult.aspx",
+              "RelativeDocumentMoniker": "StudentAppASPX\\StudentResult.aspx",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\StudentApp\\StudentAppASPX\\StudentResult.aspx",
+              "RelativeToolTip": "StudentAppASPX\\StudentResult.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-13T10:37:26.568Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -52,22 +65,10 @@
               "RelativeDocumentMoniker": "StudentAppASPX\\home.html",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\StudentApp\\StudentAppASPX\\home.html",
               "RelativeToolTip": "StudentAppASPX\\home.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-12-13T10:38:46.986Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentResult.aspx",
-              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\StudentApp\\StudentAppASPX\\StudentResult.aspx",
-              "RelativeDocumentMoniker": "StudentAppASPX\\StudentResult.aspx",
-              "ToolTip": "I:\\FullStack\\LearningDotNet\\StudentApp\\StudentAppASPX\\StudentResult.aspx",
-              "RelativeToolTip": "StudentAppASPX\\StudentResult.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-13T10:37:26.568Z"
             },
             {
               "$type": "Document",
