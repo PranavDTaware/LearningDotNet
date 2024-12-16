@@ -1,0 +1,15 @@
+I:\FullStack\LearningDotNet\RecruitmentApp\bin\Debug\net9.0\RecruitmentApp.exe
+I:\FullStack\LearningDotNet\RecruitmentApp\bin\Debug\net9.0\RecruitmentApp.deps.json
+I:\FullStack\LearningDotNet\RecruitmentApp\bin\Debug\net9.0\RecruitmentApp.runtimeconfig.json
+I:\FullStack\LearningDotNet\RecruitmentApp\bin\Debug\net9.0\RecruitmentApp.dll
+I:\FullStack\LearningDotNet\RecruitmentApp\bin\Debug\net9.0\RecruitmentApp.pdb
+I:\FullStack\LearningDotNet\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.GeneratedMSBuildEditorConfig.editorconfig
+I:\FullStack\LearningDotNet\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.AssemblyInfoInputs.cache
+I:\FullStack\LearningDotNet\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.AssemblyInfo.cs
+I:\FullStack\LearningDotNet\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.sourcelink.json
+I:\FullStack\LearningDotNet\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.dll
+I:\FullStack\LearningDotNet\RecruitmentApp\obj\Debug\net9.0\refint\RecruitmentApp.dll
+I:\FullStack\LearningDotNet\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.pdb
+I:\FullStack\LearningDotNet\RecruitmentApp\obj\Debug\net9.0\RecruitmentApp.genruntimeconfig.cache
+I:\FullStack\LearningDotNet\RecruitmentApp\obj\Debug\net9.0\ref\RecruitmentApp.dll
