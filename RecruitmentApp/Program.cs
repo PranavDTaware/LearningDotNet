@@ -21,19 +21,28 @@ namespace RecruitmentApp
     public class JobPortal{
         
         //static variable
+        //hollywood princicple 
+        //SOLID principle
+
+        //Application architecture
+        //singleton design pattern
+        //only instanace of a class will be created
+
+        //Rules
+        //1.define portal as static variable for class and initialize
+        //2.Private constructor
+        //3. always invoke instance through static method
         private static JobPortal portal = new JobPortal();
         private List<Resume> resumeList=new List<Resume>();
 
-        //Private constructor
-        private JobPortal(){
-            
+        public JobPortal(){
+            Console.WriteLine("new job portal instance created..");
         }
-        public static JobPortal GetJob(){
+        //3. always invoke instance through static method
+        public static JobPortal Get(){
             //reference of instance
             return portal;
         }
-
-
 
         public void uploadContent(string mail, string name, string content)
         {
@@ -60,17 +69,21 @@ namespace RecruitmentApp
         {
             //Testing
             //Dont call us , we will call you
+            //Access Jobportal 
+            //Upload resumes
+            
+            //notify indirectly to all candidates
 
-            //JobPortal thePortal = new JobPortal();
-            //thePortal.get();
+            JobPortal portal = JobPortal.Get();
+            
+            portal.uploadContent("pranav.taware@gmail.com", "Pranav Taware", "A dotnet developer");
+            portal.uploadContent("amit.kumar@gmail.com", "Amit Kumar", "A Java Developer");
+            portal.uploadContent("sneha.rai@gmail.com", "Sneha Rai", "A Frontend Developer");
+            portal.uploadContent("vikas.sharma@gmail.com", "Vikas Sharma", "A Python Developer");
 
-
-            JobPortal.GetJob().uploadContent("pranav.taware@gmail.com", "Pranav Taware", "A dotnet developer");
-            JobPortal.GetJob().uploadContent("amit.kumar@gmail.com", "Amit Kumar", "A Java Developer");
-            JobPortal.GetJob().uploadContent("sneha.rai@gmail.com", "Sneha Rai", "A Frontend Developer");
-            JobPortal.GetJob().uploadContent("vikas.sharma@gmail.com", "Vikas Sharma", "A Python Developer");
-
-            JobPortal.GetJob().triggerCampusing(); 
+            //initiating bussiness process by one broadcast behaviour
+            // static function or member function
+            portal.triggerCampusing();
         }
     }
 }
