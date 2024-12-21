@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "I:\\FullStack\\LearningDotNet\\Solution 1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\disconnectedcrudtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\disconnectedcrudtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\dal\\icatalogdbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|solutionrelative:dal\\icatalogdbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|i:\\fullstack\\learningdotnet\\solution 1\\dal\\catalogdbdisconnectedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C85903-EAD0-4BDC-88E4-2C99FD533DBC}|DAL\\DAL.csproj|solutionrelative:dal\\catalogdbdisconnectedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|i:\\fullstack\\learningdotnet\\solution 1\\testerapp\\sqldbtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{323F87EB-AA0E-459C-98F5-6D9121C999D9}|TesterApp\\TesterApp.csproj|solutionrelative:testerapp\\sqldbtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DisconnectedCRUDTest.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\DisconnectedCRUDTest.cs",
+              "RelativeDocumentMoniker": "TesterApp\\DisconnectedCRUDTest.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\DisconnectedCRUDTest.cs",
+              "RelativeToolTip": "TesterApp\\DisconnectedCRUDTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T10:40:19.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CatalogDBDisconnectedManager.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBDisconnectedManager.cs",
+              "RelativeDocumentMoniker": "DAL\\CatalogDBDisconnectedManager.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\CatalogDBDisconnectedManager.cs",
+              "RelativeToolTip": "DAL\\CatalogDBDisconnectedManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T10:40:14.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICatalogDBManager.cs",
+              "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\ICatalogDBManager.cs",
+              "RelativeDocumentMoniker": "DAL\\ICatalogDBManager.cs",
+              "ToolTip": "I:\\FullStack\\LearningDotNet\\Solution 1\\DAL\\ICatalogDBManager.cs",
+              "RelativeToolTip": "DAL\\ICatalogDBManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T10:40:07.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SqlDBTest.cs",
               "DocumentMoniker": "I:\\FullStack\\LearningDotNet\\Solution 1\\TesterApp\\SqlDBTest.cs",
               "RelativeDocumentMoniker": "TesterApp\\SqlDBTest.cs",
