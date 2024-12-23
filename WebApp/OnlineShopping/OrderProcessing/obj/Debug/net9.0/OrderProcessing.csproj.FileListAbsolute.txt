@@ -1,0 +1,5 @@
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\OrderProcessing\obj\Debug\net9.0\OrderProcessing.GeneratedMSBuildEditorConfig.editorconfig
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\OrderProcessing\obj\Debug\net9.0\OrderProcessing.AssemblyInfoInputs.cache
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\OrderProcessing\obj\Debug\net9.0\OrderProcessing.AssemblyInfo.cs
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\OrderProcessing\obj\Debug\net9.0\OrderProcessing.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\OrderProcessing\obj\Debug\net9.0\OrderProcessing.sourcelink.json

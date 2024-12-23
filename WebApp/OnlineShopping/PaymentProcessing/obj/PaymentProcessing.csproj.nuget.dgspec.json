@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\.Net\\14_4_21\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj": {}
+    "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj": {}
   },
   "projects": {
-    "I:\\.Net\\14_4_21\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj": {
+    "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\.Net\\14_4_21\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj",
+        "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj",
         "projectName": "PaymentProcessing",
-        "projectPath": "I:\\.Net\\14_4_21\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj",
+        "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj",
         "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-        "outputPath": "I:\\.Net\\14_4_21\\OnlineShopping\\PaymentProcessing\\obj\\",
+        "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\PaymentProcessing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -47,8 +47,8 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -60,26 +60,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

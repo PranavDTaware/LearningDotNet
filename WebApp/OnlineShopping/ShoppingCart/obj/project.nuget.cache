@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tEiwX+N/tzD0OvkOvDIkCT3tFmJcQnE3Ywk3z14jTLKNPdU1EXgwVNd6lk8PUCrhYlceB3VcTyKobZ2AOq/+Rg==",
+  "dgSpecHash": "/4CmLatWEtU=",
   "success": true,
-  "projectFilePath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj",
+  "projectFilePath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

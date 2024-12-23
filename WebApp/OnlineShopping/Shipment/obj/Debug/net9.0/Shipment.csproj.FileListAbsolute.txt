@@ -1,0 +1,12 @@
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Shipment\obj\Debug\net9.0\Shipment.GeneratedMSBuildEditorConfig.editorconfig
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Shipment\obj\Debug\net9.0\Shipment.AssemblyInfoInputs.cache
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Shipment\obj\Debug\net9.0\Shipment.AssemblyInfo.cs
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Shipment\obj\Debug\net9.0\Shipment.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Shipment\obj\Debug\net9.0\Shipment.sourcelink.json
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Shipment\bin\Debug\net9.0\Shipment.deps.json
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Shipment\bin\Debug\net9.0\Shipment.dll
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Shipment\bin\Debug\net9.0\Shipment.pdb
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Shipment\obj\Debug\net9.0\Shipment.dll
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Shipment\obj\Debug\net9.0\refint\Shipment.dll
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Shipment\obj\Debug\net9.0\Shipment.pdb
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Shipment\obj\Debug\net9.0\ref\Shipment.dll

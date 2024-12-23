@@ -3,8 +3,6 @@
 namespace Shipment{
 
 
-
-
 public class OrderDetails
 {
     public DetailedOrder Order { get; set; }

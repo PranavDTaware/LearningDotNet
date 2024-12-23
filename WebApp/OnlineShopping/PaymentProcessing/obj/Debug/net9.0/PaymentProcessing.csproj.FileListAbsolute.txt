@@ -1,0 +1,12 @@
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\bin\Debug\net9.0\PaymentProcessing.deps.json
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\bin\Debug\net9.0\PaymentProcessing.dll
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\bin\Debug\net9.0\PaymentProcessing.pdb
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.GeneratedMSBuildEditorConfig.editorconfig
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.AssemblyInfoInputs.cache
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.AssemblyInfo.cs
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.sourcelink.json
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.dll
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\obj\Debug\net9.0\refint\PaymentProcessing.dll
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.pdb
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\obj\Debug\net9.0\ref\PaymentProcessing.dll

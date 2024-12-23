@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cbS3vwd1lrI=",
+  "dgSpecHash": "76QRTp7HoI8=",
   "success": true,
-  "projectFilePath": "I:\\.Net\\14_4_21\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Pranav\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Pranav\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Pranav\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
