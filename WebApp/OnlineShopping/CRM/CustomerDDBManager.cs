@@ -13,7 +13,7 @@ namespace CRM
     public  static class CustomerDBManager
     {
        
-    public static string conString = @"server=localhost;user=root;database=actsdb;password=''";
+    public static string conString = @"server=localhost;user=root;database=onlineShopping;password='Senetor@2001'";
     public static List<Customer> GetAll() 
         {
             List<Customer> customers = new List<Customer>();
@@ -35,7 +35,7 @@ namespace CRM
                     {
                         Id = id,
                         Name = name,
-                        Email = Email,
+                        Email = email,
                         ContactNumber = contactNumber
                     });
                 }

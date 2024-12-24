@@ -12,7 +12,7 @@ namespace CRM
 
         static CustomerDisDBManager()
         {
-           connectionString = @"server=localhost;user=root;database=actsdb;password=''";
+           connectionString = @"server=localhost;user=root;database=onlineShopping;password='Senetor@2001'";
         }
 
         public static List<Customer> GetAll()

@@ -25,18 +25,37 @@ namespace LearningApp.Controllers
             return View();  
         }
  
-         public ActionResult Details(int id)
+         public IActionResult Details(int id)
         {
             Product Product = ProductManager.Get(id);
             this.ViewData["product"]=Product;
             return View();
         }
 
-        public ActionResult Delete(int id)
+        public IActionResult Delete(int id)
         {  
            // ProductManager.Delete(id);
             return RedirectToAction("Index");
         }
+
+        public IActionResult Insert()
+    {
+        return View();
+    }
+ 
+    [HttpPost]
+    public IActionResult Insert(string title,string description,int quantity,double unitprice)
+    {
+        Product product = new Product(){
+            Id=78,
+            Title=title,
+            Description=description,
+            Quantity=quantity,
+            UnitPrice=unitprice
+        };
+        ProductManager.Insert(product);
+        return View();
+    }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

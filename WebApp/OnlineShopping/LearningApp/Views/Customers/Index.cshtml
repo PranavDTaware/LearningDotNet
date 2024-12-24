@@ -1,0 +1,24 @@
+
+@using CRM;
+@{
+    ViewData["Title"] = "Customers Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Customer Details</h1>
+</div>
+
+<h1>Customer List</h1>
+<hr/>
+<div>
+    @foreach (Customer theCustomer in ViewData["customers"] as List<Customer>)
+    {
+    <div>  
+
+       <p>@theCustomer.Name</p>
+        <a href="/Customers/details/@theCustomer.Id">Customer Details</a>
+
+    </div>
+    }
+</div>
+

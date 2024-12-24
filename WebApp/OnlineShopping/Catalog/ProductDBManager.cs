@@ -1,6 +1,5 @@
 using System;
 using System.Data;
-using MySql.Data;
 using MySql.Data.MySqlClient;
 using System.Collections.Generic;
 
@@ -8,12 +7,12 @@ namespace Catalog
 {
     public  static class ProductDBManager
     {
-        public static string conString = @"server=localhost;user=root;database=actsdb;password=''";
+        public static string conString = @"server=localhost;user=root;database=onlineShopping;password='Senetor@2001'";
       public static List<Product> GetAll() 
         {
             List<Product> products = new List<Product>();
             IDbConnection con = new MySqlConnection(conString);
-            string query = "SELECT * FROM flowers";
+            string query = "SELECT * FROM products";
             IDbCommand cmd = new MySqlCommand(query, con as MySqlConnection);
             try
             {

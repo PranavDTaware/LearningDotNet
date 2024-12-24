@@ -475,9 +475,25 @@
           "lib/net8.0/ZstdSharp.dll": {}
         }
       },
+      "Banking/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MySql.Data": "9.1.0"
+        },
+        "compile": {
+          "bin/placeholder/Banking.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Banking.dll": {}
+        }
+      },
       "Catalog/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Mysql.Data": "9.1.0"
+        },
         "compile": {
           "bin/placeholder/Catalog.dll": {}
         },
@@ -488,6 +504,9 @@
       "CRM/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Mysql.Data": "9.1.0"
+        },
         "compile": {
           "bin/placeholder/CRM.dll": {}
         },
@@ -495,9 +514,25 @@
           "bin/placeholder/CRM.dll": {}
         }
       },
+      "Membership/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MySql.Data": "9.1.0"
+        },
+        "compile": {
+          "bin/placeholder/Membership.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Membership.dll": {}
+        }
+      },
       "OrderProcessing/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Mysql.Data": "9.1.0"
+        },
         "compile": {
           "bin/placeholder/OrderProcessing.dll": {}
         },
@@ -1662,6 +1697,11 @@
         "zstdsharp.port.nuspec"
       ]
     },
+    "Banking/1.0.0": {
+      "type": "project",
+      "path": "../Banking/Banking.csproj",
+      "msbuildProject": "../Banking/Banking.csproj"
+    },
     "Catalog/1.0.0": {
       "type": "project",
       "path": "../Catalog/Catalog.csproj",
@@ -1671,6 +1711,11 @@
       "type": "project",
       "path": "../CRM/CRM.csproj",
       "msbuildProject": "../CRM/CRM.csproj"
+    },
+    "Membership/1.0.0": {
+      "type": "project",
+      "path": "../Membership/Membership.csproj",
+      "msbuildProject": "../Membership/Membership.csproj"
     },
     "OrderProcessing/1.0.0": {
       "type": "project",
@@ -1695,8 +1740,10 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Banking >= 1.0.0",
       "CRM >= 1.0.0",
       "Catalog >= 1.0.0",
+      "Membership >= 1.0.0",
       "MySql.Data >= 9.1.0",
       "OrderProcessing >= 1.0.0",
       "PaymentProcessing >= 1.0.0",
@@ -1736,11 +1783,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Banking\\Banking.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Banking\\Banking.csproj"
+            },
             "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Catalog\\Catalog.csproj": {
               "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Catalog\\Catalog.csproj"
             },
             "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\CRM\\CRM.csproj": {
               "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\CRM\\CRM.csproj"
+            },
+            "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\Membership.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\Membership.csproj"
             },
             "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj": {
               "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj"

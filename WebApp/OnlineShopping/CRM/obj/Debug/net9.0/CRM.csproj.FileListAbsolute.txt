@@ -1,5 +1,13 @@
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\CRM\bin\Debug\net9.0\CRM.deps.json
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\CRM\bin\Debug\net9.0\CRM.dll
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\CRM\bin\Debug\net9.0\CRM.pdb
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\CRM\obj\Debug\net9.0\CRM.csproj.AssemblyReference.cache
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\CRM\obj\Debug\net9.0\CRM.GeneratedMSBuildEditorConfig.editorconfig
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\CRM\obj\Debug\net9.0\CRM.AssemblyInfoInputs.cache
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\CRM\obj\Debug\net9.0\CRM.AssemblyInfo.cs
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\CRM\obj\Debug\net9.0\CRM.csproj.CoreCompileInputs.cache
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\CRM\obj\Debug\net9.0\CRM.sourcelink.json
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\CRM\obj\Debug\net9.0\CRM.dll
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\CRM\obj\Debug\net9.0\refint\CRM.dll
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\CRM\obj\Debug\net9.0\CRM.pdb
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\CRM\obj\Debug\net9.0\ref\CRM.dll

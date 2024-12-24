@@ -1,5 +1,13 @@
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Catalog\bin\Debug\net9.0\Catalog.deps.json
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Catalog\bin\Debug\net9.0\Catalog.dll
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Catalog\bin\Debug\net9.0\Catalog.pdb
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Catalog\obj\Debug\net9.0\Catalog.csproj.AssemblyReference.cache
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Catalog\obj\Debug\net9.0\Catalog.GeneratedMSBuildEditorConfig.editorconfig
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Catalog\obj\Debug\net9.0\Catalog.AssemblyInfoInputs.cache
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Catalog\obj\Debug\net9.0\Catalog.AssemblyInfo.cs
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Catalog\obj\Debug\net9.0\Catalog.csproj.CoreCompileInputs.cache
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Catalog\obj\Debug\net9.0\Catalog.sourcelink.json
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Catalog\obj\Debug\net9.0\Catalog.dll
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Catalog\obj\Debug\net9.0\refint\Catalog.dll
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Catalog\obj\Debug\net9.0\Catalog.pdb
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Catalog\obj\Debug\net9.0\ref\Catalog.dll

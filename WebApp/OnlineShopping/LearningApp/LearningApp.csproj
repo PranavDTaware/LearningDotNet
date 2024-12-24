@@ -7,6 +7,8 @@
     <ProjectReference Include="..\PaymentProcessing\PaymentProcessing.csproj" />
     <ProjectReference Include="..\Shipment\Shipment.csproj" />
     <ProjectReference Include="..\ShoppingCart\ShoppingCart.csproj" />
+    <ProjectReference Include="..\Banking\Banking.csproj" />
+    <ProjectReference Include="..\Membership\Membership.csproj" />
   </ItemGroup>
 
   <ItemGroup>

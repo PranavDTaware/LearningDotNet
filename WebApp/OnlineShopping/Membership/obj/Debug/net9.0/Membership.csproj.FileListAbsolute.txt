@@ -1,0 +1,13 @@
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Membership\bin\Debug\net9.0\Membership.deps.json
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Membership\bin\Debug\net9.0\Membership.dll
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Membership\bin\Debug\net9.0\Membership.pdb
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Membership\obj\Debug\net9.0\Membership.csproj.AssemblyReference.cache
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Membership\obj\Debug\net9.0\Membership.GeneratedMSBuildEditorConfig.editorconfig
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Membership\obj\Debug\net9.0\Membership.AssemblyInfoInputs.cache
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Membership\obj\Debug\net9.0\Membership.AssemblyInfo.cs
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Membership\obj\Debug\net9.0\Membership.csproj.CoreCompileInputs.cache
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Membership\obj\Debug\net9.0\Membership.sourcelink.json
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Membership\obj\Debug\net9.0\Membership.dll
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Membership\obj\Debug\net9.0\refint\Membership.dll
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Membership\obj\Debug\net9.0\Membership.pdb
+I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Membership\obj\Debug\net9.0\ref\Membership.dll
