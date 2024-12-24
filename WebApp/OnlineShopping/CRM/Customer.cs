@@ -10,5 +10,4 @@ namespace CRM
         public string Location{get;set;}
         public int Age{get;set;}
     }
-         
-    }
+}
