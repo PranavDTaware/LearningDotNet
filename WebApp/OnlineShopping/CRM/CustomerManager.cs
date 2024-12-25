@@ -9,8 +9,8 @@ namespace CRM
     {
          public static List<Customer> GetAll() 
         {
-            List<Customer> customers = new List<Customer>();
-             
+            List<Customer> customers = CustomerDBManager.GetAll();
+            
             return customers;
         }
 

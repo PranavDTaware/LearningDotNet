@@ -22,14 +22,14 @@ namespace LearningApp.Controllers
            this.ViewData["customers"]=allCustomers;
             return View();  
         }
-         public ActionResult Details(int id)
+         public IActionResult Details(int id)
         {
-            Customer theCustomer =CustomerManager.GetById(id);
-            this.ViewData["customer"]=theCustomer;
+            Customer customer =CustomerManager.GetById(id);
+            this.ViewData["customer"]=customer;
             return View();
         }
 
-        public ActionResult Delete(int id)
+        public IActionResult Delete(int id)
         { 
             CustomerManager.Delete(id);
             return RedirectToAction("Index");

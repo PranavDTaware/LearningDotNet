@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj": {}
+    "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\ShoppingCart.csproj": {}
   },
   "projects": {
-    "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj": {
+    "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\ShoppingCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj",
+        "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\ShoppingCart.csproj",
         "projectName": "ShoppingCart",
-        "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj",
+        "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\ShoppingCart.csproj",
         "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-        "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\obj\\",
+        "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -13,7 +13,7 @@ namespace CRM
     public  static class CustomerDBManager
     {
        
-    public static string conString = @"server=localhost;user=root;database=onlineShopping;password='Senetor@2001'";
+        public static string conString = @"server=localhost;user=root;database=onlineShopping;password='Senetor@2001'";
     public static List<Customer> GetAll() 
         {
             List<Customer> customers = new List<Customer>();
@@ -28,15 +28,19 @@ namespace CRM
                 {
                     int id = int.Parse(reader["Id"].ToString());
                     string name = reader["Name"].ToString();
-                    string Email = reader["Email"].ToString();
+                    string email = reader["Email"].ToString();
                     string contactNumber = reader["ContactNumber"].ToString();
+                    string location = reader["Location"].ToString();
+                    int age = int.Parse(reader["Age"].ToString());
      
                     customers.Add(new Customer()
                     {
                         Id = id,
                         Name = name,
                         Email = email,
-                        ContactNumber = contactNumber
+                        ContactNumber = contactNumber,
+                        Location = location,
+                        Age = age
                     });
                 }
                 reader.Close();
@@ -44,6 +48,7 @@ namespace CRM
             catch (MySqlException exp)
             {
                 string message = exp.Message;
+                Console.WriteLine("Hello");
             }
             finally
             {
@@ -76,15 +81,19 @@ namespace CRM
                 {
                     int id = int.Parse(reader["Id"].ToString());
                     string name = reader["Name"].ToString();
-                    string Email = reader["Email"].ToString();
+                    string email = reader["Email"].ToString();
                     string contactNumber = reader["ContactNumber"].ToString();
+                     string location = reader["Location"].ToString();
+                    int age = int.Parse(reader["Age"].ToString());
      
                     theCustomer=new Customer()
                     {
                         Id = id,
                         Name = name,
-                        Email = Email,
-                        ContactNumber = contactNumber
+                        Email = email,
+                        ContactNumber = contactNumber,
+                        Location = location,
+                        Age = age
                     };
 
                 }
@@ -132,9 +141,9 @@ namespace CRM
                                     "ContactNumber=@ContactNumber " +      "WHERE Id=@Id";
                     MySqlCommand cmd = new MySqlCommand(query, con);
                     cmd.Parameters.Add(new MySqlParameter("@Id", customer.Id));
-                    cmd.Parameters.Add(new MySqlParameter("@Title", customer.Name));
-                    cmd.Parameters.Add(new MySqlParameter("@Description", customer.ContactNumber));
-                    cmd.Parameters.Add(new MySqlParameter("@Image", customer.Email));
+                    cmd.Parameters.Add(new MySqlParameter("@Name", customer.Name));
+                    cmd.Parameters.Add(new MySqlParameter("@ContactNumber", customer.ContactNumber));
+                    cmd.Parameters.Add(new MySqlParameter("@Email", customer.Email));
                     
                     cmd.ExecuteNonQuery();  // DML Operation
                     if (con.State == ConnectionState.Open)

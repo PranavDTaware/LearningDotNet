@@ -1758,11 +1758,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\LearningApp\\LearningApp.csproj",
+      "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\LearningApp.csproj",
       "projectName": "LearningApp",
-      "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\LearningApp\\LearningApp.csproj",
+      "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\LearningApp.csproj",
       "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-      "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\LearningApp\\obj\\",
+      "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1783,29 +1783,29 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Banking\\Banking.csproj": {
-              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Banking\\Banking.csproj"
+            "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Banking\\Banking.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Banking\\Banking.csproj"
             },
-            "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Catalog\\Catalog.csproj": {
-              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Catalog\\Catalog.csproj"
+            "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Catalog\\Catalog.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Catalog\\Catalog.csproj"
             },
-            "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\CRM\\CRM.csproj": {
-              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\CRM\\CRM.csproj"
+            "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\CRM\\CRM.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\CRM\\CRM.csproj"
             },
-            "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\Membership.csproj": {
-              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\Membership.csproj"
+            "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Membership\\Membership.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Membership\\Membership.csproj"
             },
-            "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj": {
-              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj"
+            "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\OrderProcessing\\OrderProcessing.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\OrderProcessing\\OrderProcessing.csproj"
             },
-            "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj": {
-              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj"
+            "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\PaymentProcessing\\PaymentProcessing.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\PaymentProcessing\\PaymentProcessing.csproj"
             },
-            "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Shipment\\Shipment.csproj": {
-              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Shipment\\Shipment.csproj"
+            "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Shipment\\Shipment.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Shipment\\Shipment.csproj"
             },
-            "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj": {
-              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj"
+            "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\ShoppingCart.csproj": {
+              "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\ShoppingCart.csproj"
             }
           }
         }

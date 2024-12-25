@@ -51,8 +51,7 @@
               "RelativeToolTip": "DAL\\CatalogDBDisconnectedManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMBAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T10:40:14.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T10:40:14.593Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "DAL\\ICatalogDBManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T10:40:07.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T10:40:07.591Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "TesterApp\\SqlDBTest.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T10:09:59.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T10:09:59.2Z"
             }
           ]
         }

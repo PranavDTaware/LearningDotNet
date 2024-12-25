@@ -1,23 +1,41 @@
+@using Catalog;
+
 @{
     ViewData["Title"] = "Product Insert Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Insert new Product</h1>
-   <hr>
-   <form action="/products/insert" method="POST">
-    <table>
-        <tr>Title:<input type="text" name="title"></tr>
-        <br>
-        <tr>Description:<input type="text" name="description"></tr>
-        <br>
-        <tr>UnitPrice:<input type="text" name="unitprice"></tr>
-        <br>
-        <tr>Quantity:<input type="text" name="quantity"></tr>
-        <br>
-        <tr>Likes:<input type="text" name="likes"></tr>
-        <br>
-        <input type="button" value="insert">
+
+<h1 class="display-4">Insert new Product</h1>
+<hr>
+<form action="/products/insert" method="POST">
+    <table style="font-family: Arial">
+        <tr>
+            <td><b>Title :</b></td>
+            <td><input type="text" name="title" ></td>
+        </tr>
+        <tr>
+            <td><b>Image :</b></td>
+            <td><input type="text" name="image"></td>
+        </tr>
+        <tr>
+            <td><b>Description :</b></td>
+            <td><input type="text" name="description"></td>
+        </tr>
+        <tr>
+            <td><b>UnitPrice :</b></td>
+            <td><input type="text" name="unitprice"></td>
+        </tr>
+        <tr>
+            <td><b>Quantity :</b></td>
+            <td><input type="text" name="quantity"></td>
+        </tr>
+        <tr>
+            <td><b>Likes:</b></td>
+            <td><input type="text" name="likes"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="insert"></td>
+        </tr>
+        
     </table>
-   </form>
-</div>
+</form>
