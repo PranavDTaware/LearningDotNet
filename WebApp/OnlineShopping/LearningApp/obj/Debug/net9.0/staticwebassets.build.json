@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mH/Y4zLhaeEZx6SdsTn6KyOUqCE7uZ+rnGoAnUeyswQ=",
+  "Hash": "aFj2y0Q+s9TMqjiRsXr9ioW8XBMZlzWCCSt5Jju2p7Q=",
   "Source": "LearningApp",
   "BasePath": "_content/LearningApp",
   "Mode": "Default",
@@ -395,12 +395,12 @@
       "OriginalItemSpec": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\9srqup3uxs-btvyvq48ay.gz",
+      "Identity": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\9srqup3uxs-p7yiurzpfh.gz",
       "SourceId": "LearningApp",
       "SourceType": "Computed",
       "ContentRoot": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LearningApp",
-      "RelativePath": "LearningApp#[.{fingerprint=btvyvq48ay}]?.styles.css.gz",
+      "RelativePath": "LearningApp#[.{fingerprint=p7yiurzpfh}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -409,8 +409,8 @@
       "RelatedAsset": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LearningApp.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pvar9wbb7p",
-      "Integrity": "K/dzB7c6oCzHbmSdjJpWAtw/HoPk9+2mD7W5aRgxjwI=",
+      "Fingerprint": "0ttp8i3i0f",
+      "Integrity": "JKP4GzWhlfNCIbZSEGtrqTJDFXi0j/1/HDSPWLBiH5o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LearningApp.styles.css"
@@ -479,12 +479,12 @@
       "OriginalItemSpec": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\cjdsg0px69-btvyvq48ay.gz",
+      "Identity": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\cjdsg0px69-p7yiurzpfh.gz",
       "SourceId": "LearningApp",
       "SourceType": "Computed",
       "ContentRoot": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LearningApp",
-      "RelativePath": "LearningApp#[.{fingerprint=btvyvq48ay}]!.bundle.scp.css.gz",
+      "RelativePath": "LearningApp#[.{fingerprint=p7yiurzpfh}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -493,8 +493,8 @@
       "RelatedAsset": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LearningApp.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pvar9wbb7p",
-      "Integrity": "K/dzB7c6oCzHbmSdjJpWAtw/HoPk9+2mD7W5aRgxjwI=",
+      "Fingerprint": "0ttp8i3i0f",
+      "Integrity": "JKP4GzWhlfNCIbZSEGtrqTJDFXi0j/1/HDSPWLBiH5o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LearningApp.bundle.scp.css"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "btvyvq48ay",
-      "Integrity": "ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs=",
+      "Fingerprint": "p7yiurzpfh",
+      "Integrity": "tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LearningApp.styles.css"
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "btvyvq48ay",
-      "Integrity": "ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs=",
+      "Fingerprint": "p7yiurzpfh",
+      "Integrity": "tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LearningApp.bundle.scp.css"
@@ -4446,13 +4446,13 @@
       ]
     },
     {
-      "Route": "LearningApp.btvyvq48ay.bundle.scp.css",
-      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\cjdsg0px69-btvyvq48ay.gz",
+      "Route": "LearningApp.bundle.scp.css",
+      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\cjdsg0px69-p7yiurzpfh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001845018450"
+          "Quality": "0.001865671642"
         }
       ],
       "ResponseHeaders": [
@@ -4462,19 +4462,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "535"
         },
         {
           "Name": "ETag",
-          "Value": "\"K/dzB7c6oCzHbmSdjJpWAtw/HoPk9+2mD7W5aRgxjwI=\""
+          "Value": "\"JKP4GzWhlfNCIbZSEGtrqTJDFXi0j/1/HDSPWLBiH5o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 10:00:47 GMT"
+          "Value": "Thu, 26 Dec 2024 05:24:36 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -4490,26 +4490,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs=\""
+          "Value": "W/\"tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "btvyvq48ay"
-        },
-        {
-          "Name": "label",
-          "Value": "LearningApp.bundle.scp.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs="
+          "Value": "sha256-tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0="
         }
       ]
     },
     {
-      "Route": "LearningApp.btvyvq48ay.bundle.scp.css",
+      "Route": "LearningApp.bundle.scp.css",
       "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LearningApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4519,7 +4511,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1129"
+          "Value": "1127"
         },
         {
           "Name": "Content-Type",
@@ -4527,11 +4519,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs=\""
+          "Value": "\"tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 10:00:47 GMT"
+          "Value": "Thu, 26 Dec 2024 05:24:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0="
+        }
+      ]
+    },
+    {
+      "Route": "LearningApp.bundle.scp.css.gz",
+      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\cjdsg0px69-p7yiurzpfh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JKP4GzWhlfNCIbZSEGtrqTJDFXi0j/1/HDSPWLBiH5o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 05:24:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JKP4GzWhlfNCIbZSEGtrqTJDFXi0j/1/HDSPWLBiH5o="
+        }
+      ]
+    },
+    {
+      "Route": "LearningApp.p7yiurzpfh.bundle.scp.css",
+      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\cjdsg0px69-p7yiurzpfh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001865671642"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JKP4GzWhlfNCIbZSEGtrqTJDFXi0j/1/HDSPWLBiH5o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 05:24:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p7yiurzpfh"
+        },
+        {
+          "Name": "label",
+          "Value": "LearningApp.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0="
+        }
+      ]
+    },
+    {
+      "Route": "LearningApp.p7yiurzpfh.bundle.scp.css",
+      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LearningApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 05:24:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4541,7 +4678,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "btvyvq48ay"
+          "Value": "p7yiurzpfh"
         },
         {
           "Name": "label",
@@ -4549,13 +4686,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs="
+          "Value": "sha256-tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0="
         }
       ]
     },
     {
-      "Route": "LearningApp.btvyvq48ay.bundle.scp.css.gz",
-      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\cjdsg0px69-btvyvq48ay.gz",
+      "Route": "LearningApp.p7yiurzpfh.bundle.scp.css.gz",
+      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\cjdsg0px69-p7yiurzpfh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4564,7 +4701,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "535"
         },
         {
           "Name": "Content-Type",
@@ -4572,11 +4709,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K/dzB7c6oCzHbmSdjJpWAtw/HoPk9+2mD7W5aRgxjwI=\""
+          "Value": "\"JKP4GzWhlfNCIbZSEGtrqTJDFXi0j/1/HDSPWLBiH5o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 10:00:47 GMT"
+          "Value": "Thu, 26 Dec 2024 05:24:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4594,7 +4731,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "btvyvq48ay"
+          "Value": "p7yiurzpfh"
         },
         {
           "Name": "label",
@@ -4602,18 +4739,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-K/dzB7c6oCzHbmSdjJpWAtw/HoPk9+2mD7W5aRgxjwI="
+          "Value": "sha256-JKP4GzWhlfNCIbZSEGtrqTJDFXi0j/1/HDSPWLBiH5o="
         }
       ]
     },
     {
-      "Route": "LearningApp.btvyvq48ay.styles.css",
-      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\9srqup3uxs-btvyvq48ay.gz",
+      "Route": "LearningApp.p7yiurzpfh.styles.css",
+      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\9srqup3uxs-p7yiurzpfh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001845018450"
+          "Quality": "0.001865671642"
         }
       ],
       "ResponseHeaders": [
@@ -4623,15 +4760,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "535"
         },
         {
           "Name": "ETag",
-          "Value": "\"K/dzB7c6oCzHbmSdjJpWAtw/HoPk9+2mD7W5aRgxjwI=\""
+          "Value": "\"JKP4GzWhlfNCIbZSEGtrqTJDFXi0j/1/HDSPWLBiH5o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 10:00:47 GMT"
+          "Value": "Thu, 26 Dec 2024 05:24:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4651,13 +4788,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs=\""
+          "Value": "W/\"tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "btvyvq48ay"
+          "Value": "p7yiurzpfh"
         },
         {
           "Name": "label",
@@ -4665,12 +4802,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs="
+          "Value": "sha256-tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0="
         }
       ]
     },
     {
-      "Route": "LearningApp.btvyvq48ay.styles.css",
+      "Route": "LearningApp.p7yiurzpfh.styles.css",
       "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LearningApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4680,7 +4817,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1129"
+          "Value": "1127"
         },
         {
           "Name": "Content-Type",
@@ -4688,11 +4825,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs=\""
+          "Value": "\"tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 10:00:47 GMT"
+          "Value": "Thu, 26 Dec 2024 05:24:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4702,7 +4839,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "btvyvq48ay"
+          "Value": "p7yiurzpfh"
         },
         {
           "Name": "label",
@@ -4710,13 +4847,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs="
+          "Value": "sha256-tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0="
         }
       ]
     },
     {
-      "Route": "LearningApp.btvyvq48ay.styles.css.gz",
-      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\9srqup3uxs-btvyvq48ay.gz",
+      "Route": "LearningApp.p7yiurzpfh.styles.css.gz",
+      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\9srqup3uxs-p7yiurzpfh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4725,7 +4862,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "535"
         },
         {
           "Name": "Content-Type",
@@ -4733,11 +4870,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K/dzB7c6oCzHbmSdjJpWAtw/HoPk9+2mD7W5aRgxjwI=\""
+          "Value": "\"JKP4GzWhlfNCIbZSEGtrqTJDFXi0j/1/HDSPWLBiH5o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 10:00:47 GMT"
+          "Value": "Thu, 26 Dec 2024 05:24:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4755,7 +4892,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "btvyvq48ay"
+          "Value": "p7yiurzpfh"
         },
         {
           "Name": "label",
@@ -4763,155 +4900,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-K/dzB7c6oCzHbmSdjJpWAtw/HoPk9+2mD7W5aRgxjwI="
-        }
-      ]
-    },
-    {
-      "Route": "LearningApp.bundle.scp.css",
-      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\cjdsg0px69-btvyvq48ay.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001845018450"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"K/dzB7c6oCzHbmSdjJpWAtw/HoPk9+2mD7W5aRgxjwI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 10:00:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs="
-        }
-      ]
-    },
-    {
-      "Route": "LearningApp.bundle.scp.css",
-      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LearningApp.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1129"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 10:00:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs="
-        }
-      ]
-    },
-    {
-      "Route": "LearningApp.bundle.scp.css.gz",
-      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\cjdsg0px69-btvyvq48ay.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"K/dzB7c6oCzHbmSdjJpWAtw/HoPk9+2mD7W5aRgxjwI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 10:00:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-K/dzB7c6oCzHbmSdjJpWAtw/HoPk9+2mD7W5aRgxjwI="
+          "Value": "sha256-JKP4GzWhlfNCIbZSEGtrqTJDFXi0j/1/HDSPWLBiH5o="
         }
       ]
     },
     {
       "Route": "LearningApp.styles.css",
-      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\9srqup3uxs-btvyvq48ay.gz",
+      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\9srqup3uxs-p7yiurzpfh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001845018450"
+          "Quality": "0.001865671642"
         }
       ],
       "ResponseHeaders": [
@@ -4921,15 +4921,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "535"
         },
         {
           "Name": "ETag",
-          "Value": "\"K/dzB7c6oCzHbmSdjJpWAtw/HoPk9+2mD7W5aRgxjwI=\""
+          "Value": "\"JKP4GzWhlfNCIbZSEGtrqTJDFXi0j/1/HDSPWLBiH5o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 10:00:47 GMT"
+          "Value": "Thu, 26 Dec 2024 05:24:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4949,13 +4949,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs=\""
+          "Value": "W/\"tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs="
+          "Value": "sha256-tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0="
         }
       ]
     },
@@ -4970,7 +4970,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1129"
+          "Value": "1127"
         },
         {
           "Name": "Content-Type",
@@ -4978,11 +4978,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs=\""
+          "Value": "\"tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 10:00:47 GMT"
+          "Value": "Thu, 26 Dec 2024 05:24:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4992,13 +4992,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ccMnoSZBY4+XEL6AlJbSQbQkdx0S7YLeV0/H53wGDzs="
+          "Value": "sha256-tReUaxS8Z9kZDYmAZ/6TLMUKXvGwlCSMyYtSQA/x/G0="
         }
       ]
     },
     {
       "Route": "LearningApp.styles.css.gz",
-      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\9srqup3uxs-btvyvq48ay.gz",
+      "AssetFile": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\Debug\\net9.0\\compressed\\9srqup3uxs-p7yiurzpfh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5007,7 +5007,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "541"
+          "Value": "535"
         },
         {
           "Name": "Content-Type",
@@ -5015,11 +5015,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K/dzB7c6oCzHbmSdjJpWAtw/HoPk9+2mD7W5aRgxjwI=\""
+          "Value": "\"JKP4GzWhlfNCIbZSEGtrqTJDFXi0j/1/HDSPWLBiH5o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 10:00:47 GMT"
+          "Value": "Thu, 26 Dec 2024 05:24:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5037,7 +5037,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-K/dzB7c6oCzHbmSdjJpWAtw/HoPk9+2mD7W5aRgxjwI="
+          "Value": "sha256-JKP4GzWhlfNCIbZSEGtrqTJDFXi0j/1/HDSPWLBiH5o="
         }
       ]
     },

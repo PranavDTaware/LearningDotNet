@@ -60,7 +60,7 @@ namespace CRM
             return customers;
         }
 
-    public static Customer GetById(int customerId,string emailId)
+    public static Customer GetById(int customerId)
         {
             Customer theCustomer=null;
             try
@@ -137,13 +137,16 @@ namespace CRM
                     if (con.State == ConnectionState.Closed)
                     con.Open();
 
-                    string query = "UPDATE customer SET Name=@Name , Email=@Email, " +
-                                    "ContactNumber=@ContactNumber " +      "WHERE Id=@Id";
+                    string query =  "UPDATE customers SET Name=@Name , Email=@Email, "  +
+                                    "ContactNumber=@ContactNumber, Location=@Location, Age=@Age " +            
+                                    "WHERE Id=@Id";
                     MySqlCommand cmd = new MySqlCommand(query, con);
                     cmd.Parameters.Add(new MySqlParameter("@Id", customer.Id));
                     cmd.Parameters.Add(new MySqlParameter("@Name", customer.Name));
                     cmd.Parameters.Add(new MySqlParameter("@ContactNumber", customer.ContactNumber));
                     cmd.Parameters.Add(new MySqlParameter("@Email", customer.Email));
+                    cmd.Parameters.Add(new MySqlParameter("@Location", customer.Location));
+                    cmd.Parameters.Add(new MySqlParameter("@Age", customer.Age));
                     
                     cmd.ExecuteNonQuery();  // DML Operation
                     if (con.State == ConnectionState.Open)
@@ -166,13 +169,15 @@ namespace CRM
                 {
                     if (con.State == ConnectionState.Closed)
                     con.Open();
-                    string query = "INSERT INTO customers (Id,Name, Email, ContactNumber) " +
-                                    "VALUES (@Id, @Name, @ContactNumber)";
+                    string query = "INSERT INTO customers (Id,Name,ContactNumber, Email, Location, Age ) " +
+                                    "VALUES (@Id, @Name, @ContactNumber, @Email, @Location, @Age)";
                     MySqlCommand cmd = new MySqlCommand(query, con);
-                     cmd.Parameters.Add(new MySqlParameter("@Id", customer.Id));
+                    cmd.Parameters.Add(new MySqlParameter("@Id", customer.Id));
                     cmd.Parameters.Add(new MySqlParameter("@Name", customer.Name));
                     cmd.Parameters.Add(new MySqlParameter("@ContactNumber", customer.ContactNumber));
                     cmd.Parameters.Add(new MySqlParameter("@Email", customer.Email));
+                    cmd.Parameters.Add(new MySqlParameter("@Location", customer.Location));
+                    cmd.Parameters.Add(new MySqlParameter("@Age", customer.Age));
                       cmd.ExecuteNonQuery();// DML
                     if (con.State == ConnectionState.Open)
                         con.Close();

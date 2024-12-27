@@ -27,6 +27,7 @@ a[b-fwtm3jrh5k] {
 .border-top[b-fwtm3jrh5k] {
   border-top: 1px solid #e5e5e5;
 }
+
 .border-bottom[b-fwtm3jrh5k] {
   border-bottom: 1px solid #e5e5e5;
 }
@@ -41,7 +42,7 @@ button.accept-policy[b-fwtm3jrh5k] {
 }
 
 .footer[b-fwtm3jrh5k] {
-  position: absolute;
+  position:fixed;
   bottom: 0;
   width: 100%;
   white-space: nowrap;

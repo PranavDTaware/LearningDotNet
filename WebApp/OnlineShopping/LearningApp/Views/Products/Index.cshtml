@@ -32,6 +32,9 @@
 </div>
 
 <h1>Todays Fresh Flowers</h1>
+        <div>
+            <a href="/Products/Insert/">Insert new Product</a>
+        </div>
 <hr/>
 <div>
     @foreach (Product  item in ViewData["products"] as List<Product>)
@@ -46,7 +49,7 @@
                     <img src="@item.ImageUrl"   width="600" height="400">
                 </a>
                 <div class="desc">
-                    @item.Title |<a href="/products/details/@item.Id">Details</a>
+                    @item.Title |<a href="/Products/Details/@item.Id">Details</a>
                 </div>
         </div>
       

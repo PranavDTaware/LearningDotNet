@@ -19,6 +19,7 @@ namespace Catalog
                                   select prod;
             return soldOutProducts as List<Product>; 
         }
+
         public static List<Product> GetProuductsInStockLessthan(int amount)
         {
             List<Product> products = GetAllProducts();
@@ -28,6 +29,7 @@ namespace Catalog
                 select prod;
             return expensiveInStockProducts as List<Product>;
         }
+
         public static List<string> GetProjectTitles()
         {
             List<Product> products = GetAllProducts();
@@ -37,6 +39,7 @@ namespace Catalog
 
             return productNames as List<string>;
         }
+
         public static dynamic GetProductDetails()
         {
             List<Product> products = GetAllProducts();
@@ -45,6 +48,7 @@ namespace Catalog
                 select new { prod.Title, prod.Category, Price = prod.UnitPrice };
             return productInfos;         
         }     
+
         public static List<Product> GetProductsOrderby()
         {
             List<Product> products = GetAllProducts();
@@ -54,6 +58,7 @@ namespace Catalog
                 select prod;
             return sortedProducts as List<Product>;
         }   
+
         public static List<Product> GetProductsByDescending()
         {
             List<Product> products = GetAllProducts();
@@ -63,6 +68,7 @@ namespace Catalog
                 select prod;
             return sortedProducts as List<Product>;
         }
+
         public static List<Product> GetProductsGroupByCategory()
         {
             List<Product> products = GetAllProducts();
@@ -73,6 +79,7 @@ namespace Catalog
 
             return orderGroups as List<Product>;
         }
+
         public static List<string> GetProductsDistinct()
         {
             List<Product> products = GetAllProducts();
@@ -81,12 +88,14 @@ namespace Catalog
                                 ).Distinct();
             return categoryNames as List<string>;
         }   
+
         public static Product Get(int id)
         {
             List<Product> products = GetAllProducts();
             Product theProduct = products.FirstOrDefault(p => p.Id == id);
             return theProduct;
         }
+
         public static dynamic  GetProductCount()
         {
             List<Product> products = GetAllProducts();
@@ -96,6 +105,7 @@ namespace Catalog
                 select new { Category = prodGroup.Key, ProductCount = prodGroup.Count() };
             return categoryCounts;
         }
+
         public static dynamic GetAveragePriceOfCategory()
         {
             List<Product> products = GetAllProducts();
@@ -105,6 +115,7 @@ namespace Catalog
                 select new { Category = prodGroup.Key, AveragePrice = prodGroup.Average(p => p.UnitPrice) };
             return categories;
         }
+
         public static List<Product> GetAllProducts()
         {
             List<Product> allProducts = new List<Product>();
@@ -127,6 +138,7 @@ namespace Catalog
             allProducts=GetAllProductsFromDatabase();
              return allProducts;
         }
+
         public static List<Product> GetAllProductsFromDatabase()
         {
             List<Product> allProducts = ProductDBManager.GetAll();
@@ -138,17 +150,18 @@ namespace Catalog
         
         public static bool Insert(Product product){
 
-            bool status=false;
-            status=ProductDBManager.Insert(product);
+            bool status = false;
+            status = ProductDBManager.Insert(product);
             return status;
         }
+
         public static bool Update(Product product){
 
             bool status=false;
-              status=ProductDBManager.Update(product);
+            status=ProductDBManager.Update(product);
             return status;
-
         }
+
         public static bool Delete(int id){
             bool status=false;
             status=ProductDBManager.Delete(id);

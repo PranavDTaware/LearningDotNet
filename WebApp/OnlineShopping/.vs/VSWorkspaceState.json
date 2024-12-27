@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Catalog",
+    "\\LearningApp",
+    "\\LearningApp\\Controllers"
   ],
-  "SelectedNode": "\\OnlineShopping.sln",
   "PreviewInSolutionExplorer": false
 }

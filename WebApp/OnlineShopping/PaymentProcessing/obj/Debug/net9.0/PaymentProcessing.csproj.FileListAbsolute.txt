@@ -1,4 +1,4 @@
-I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\bin\Debug\net9.0\PaymentProcessing.deps.json
+I:\FullStack\LearningDotNet\WebApp\onlineshopping\PaymentProcessing\bin\Debug\net9.0\PaymentProcessing.deps.json
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\bin\Debug\net9.0\PaymentProcessing.dll
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\bin\Debug\net9.0\PaymentProcessing.pdb
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.GeneratedMSBuildEditorConfig.editorconfig
@@ -9,4 +9,4 @@ I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\obj\Debug\ne
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.dll
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\obj\Debug\net9.0\refint\PaymentProcessing.dll
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.pdb
-I:\FullStack\LearningDotNet\WebApp\OnlineShopping\PaymentProcessing\obj\Debug\net9.0\ref\PaymentProcessing.dll
+I:\FullStack\LearningDotNet\WebApp\onlineshopping\PaymentProcessing\obj\Debug\net9.0\ref\PaymentProcessing.dll

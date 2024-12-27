@@ -5,18 +5,21 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Customer Details</h1>
+    <h1 class="display-4">Customers</h1>
 </div>
 
 <h1>Customer List</h1>
+    <div>
+        <a href="/Customers/Insert/">Insert new Customer</a>
+    </div>
 <hr/>
 <div>
     @foreach (Customer theCustomer in ViewData["customers"] as List<Customer>)
     {
     <div>  
 
-       <p>@theCustomer.Name</p>
-        <a href="/Customers/Details/@theCustomer.Id">Customer Details</a>
+       <b>@theCustomer.Name</b>|
+       <a href="/Customers/Details/@theCustomer.Id">Customer Details</a>
 
     </div>
     }

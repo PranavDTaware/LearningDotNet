@@ -32,30 +32,44 @@ namespace LearningApp.Controllers
             return View();
         }
 
-        public IActionResult Delete(int id)
-        {  
-           // ProductManager.Delete(id);
+        public IActionResult Insert()
+        {
+            return View();
+        }
+ 
+        [HttpPost]
+        public IActionResult Insert( int id,string title,string description,int quantity,double unitprice, string imageUrl)
+        {
+            Product product = new Product(){
+                Id=id,
+                Title=title,
+                Description=description,
+                Quantity=quantity,
+                UnitPrice=unitprice,
+                ImageUrl = imageUrl
+            };
+            ProductManager.Insert(product);
             return RedirectToAction("Index");
         }
 
-        public IActionResult Insert()
-    {
-        return View();
-    }
+        public IActionResult Update(int id)
+        {
+            Product product = ProductManager.Get(id);
+            return View(product);
+        }
  
-    [HttpPost]
-    public IActionResult Insert(string title,string description,int quantity,double unitprice)
-    {
-        Product product = new Product(){
-            Id=78,
-            Title=title,
-            Description=description,
-            Quantity=quantity,
-            UnitPrice=unitprice
-        };
-        ProductManager.Insert(product);
-        return View();
-    }
+        [HttpPost]
+        public IActionResult Update( Product updatedProduct)
+        {
+            ProductManager.Update(updatedProduct);
+            return RedirectToAction("Index", "Products");
+        }
+
+        public IActionResult Delete(int id)
+        {
+            ProductManager.Delete(id);
+            return RedirectToAction("Index", "Products");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -58,6 +58,7 @@ namespace Catalog
 
             return products;
         }
+
       public static Product Get(int productId)
         {
              Product theProduct=null;
@@ -67,7 +68,7 @@ namespace Catalog
                 if (con.State == ConnectionState.Closed)
                 con.Open();
                 
-                string query = "DELETE FROM flowers WHERE Id=@ProductId";
+                string query = "DELETE FROM products WHERE Id=@ProductId";
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 cmd.Parameters.Add(new MySqlParameter("@ProductId", productId));
                 
@@ -101,8 +102,7 @@ namespace Catalog
             }
             return theProduct;
         }
-     
-     
+
       public static bool Delete(int productId)
         {
             bool status = false;
@@ -111,7 +111,7 @@ namespace Catalog
                 MySqlConnection con = new MySqlConnection(conString);
                 if (con.State == ConnectionState.Closed)
                  con.Open();
-                string query = "DELETE FROM flowers WHERE Id=@ProductId";
+                string query = "DELETE FROM products WHERE Id=@ProductId";
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 cmd.Parameters.Add(new MySqlParameter("@ProductId", productId)); //Parameterized command handling
                 cmd.ExecuteNonQuery();  // DML Operation
@@ -125,7 +125,7 @@ namespace Catalog
             return status;
         }
 
-       public static bool Update(Product product)
+      public static bool Update(Product product)
         {
             bool status = false;
             try
@@ -135,7 +135,7 @@ namespace Catalog
                     if (con.State == ConnectionState.Closed)
                     con.Open();
 
-                    string query = "UPDATE flowers SET Title=@Title , Description=@Description, " +
+                    string query = "UPDATE products SET Title=@Title , Description=@Description, " +
                         "ImageUrl=@Image, UnitPrice=@UnitPrice, Quantity=@Quantity " +
                         "WHERE Id=@Id";
 
@@ -167,17 +167,17 @@ namespace Catalog
             bool status = false;
             try
             {
-                MySqlConnection con = new MySqlConnection(conString);
+                using(MySqlConnection con = new MySqlConnection(conString))
                 {
                     if (con.State == ConnectionState.Closed)
                     con.Open();
-                    string query = "INSERT INTO flowers (Id,Title, Description, ImageUrl, UnitPrice, Quantity) " +
-                        "VALUES (@Id, @Title, @Description, @Image, @UnitPrice, @Quantity)";
+                    string query = "INSERT INTO products (Id,Title, Description, ImageUrl, UnitPrice, Quantity) " +
+                        "VALUES (@Id, @Title, @Description, @ImageUrl, @UnitPrice, @Quantity)";
                     MySqlCommand cmd = new MySqlCommand(query, con);
                     cmd.Parameters.Add(new MySqlParameter("@Id", product.Id));
                     cmd.Parameters.Add(new MySqlParameter("@Title", product.Title));
                     cmd.Parameters.Add(new MySqlParameter("@Description", product.Description));
-                    cmd.Parameters.Add(new MySqlParameter("@Image", product.ImageUrl));
+                    cmd.Parameters.Add(new MySqlParameter("@ImageUrl", product.ImageUrl));
                     cmd.Parameters.Add(new MySqlParameter("@UnitPrice", product.UnitPrice));
                     cmd.Parameters.Add(new MySqlParameter("@Quantity", product.Quantity));  
                     cmd.ExecuteNonQuery();// DML
