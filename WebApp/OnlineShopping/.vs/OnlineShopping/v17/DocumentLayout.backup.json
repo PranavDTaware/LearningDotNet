@@ -38,8 +38,7 @@
               "RelativeToolTip": "Catalog\\ProductManager.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAAkwI8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T11:02:17.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T11:02:17.58Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "Catalog\\ProductDBManager.cs",
               "ToolTip": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Catalog\\ProductDBManager.cs",
               "RelativeToolTip": "Catalog\\ProductDBManager.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAkwB8AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T11:01:08.814Z",
               "EditorCaption": ""
@@ -64,8 +63,7 @@
               "RelativeToolTip": "LearningApp\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAD8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T11:00:47.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T11:00:47.528Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "LearningApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T10:59:50.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T10:59:50.042Z"
             }
           ]
         }
