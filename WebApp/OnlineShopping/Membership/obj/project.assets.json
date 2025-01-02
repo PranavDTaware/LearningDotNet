@@ -1609,23 +1609,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pranav\\.nuget\\packages\\": {},
+    "C:\\Users\\prana\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\Membership.csproj",
+      "projectUniqueName": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\Membership.csproj",
       "projectName": "Membership",
-      "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\Membership.csproj",
-      "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-      "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\obj\\",
+      "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\Membership.csproj",
+      "packagesPath": "C:\\Users\\prana\\.nuget\\packages\\",
+      "outputPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\prana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

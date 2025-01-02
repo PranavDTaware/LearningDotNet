@@ -11,3 +11,16 @@ I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\obj\Debug\net9.0\Banki
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\obj\Debug\net9.0\refint\Banking.dll
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\obj\Debug\net9.0\Banking.pdb
 I:\FullStack\LearningDotNet\WebApp\onlineshopping\Banking\obj\Debug\net9.0\ref\Banking.dll
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\bin\Debug\net9.0\Banking.deps.json
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\bin\Debug\net9.0\Banking.dll
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\bin\Debug\net9.0\Banking.pdb
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\obj\Debug\net9.0\Banking.csproj.AssemblyReference.cache
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\obj\Debug\net9.0\Banking.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\obj\Debug\net9.0\Banking.AssemblyInfoInputs.cache
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\obj\Debug\net9.0\Banking.AssemblyInfo.cs
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\obj\Debug\net9.0\Banking.csproj.CoreCompileInputs.cache
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\obj\Debug\net9.0\Banking.sourcelink.json
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\obj\Debug\net9.0\Banking.dll
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\obj\Debug\net9.0\refint\Banking.dll
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\obj\Debug\net9.0\Banking.pdb
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\Banking\obj\Debug\net9.0\ref\Banking.dll

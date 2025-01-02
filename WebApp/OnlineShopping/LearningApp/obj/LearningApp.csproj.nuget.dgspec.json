@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\LearningApp.csproj": {}
+    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\LearningApp\\LearningApp.csproj": {}
   },
   "projects": {
-    "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Banking\\Banking.csproj": {
+    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Banking\\Banking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Banking\\Banking.csproj",
+        "projectUniqueName": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Banking\\Banking.csproj",
         "projectName": "Banking",
-        "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Banking\\Banking.csproj",
-        "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-        "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Banking\\obj\\",
+        "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Banking\\Banking.csproj",
+        "packagesPath": "C:\\Users\\prana\\.nuget\\packages\\",
+        "outputPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Banking\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -75,20 +75,20 @@
         }
       }
     },
-    "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Catalog\\Catalog.csproj": {
+    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Catalog\\Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Catalog\\Catalog.csproj",
+        "projectUniqueName": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Catalog\\Catalog.csproj",
         "projectName": "Catalog",
-        "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Catalog\\Catalog.csproj",
-        "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-        "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Catalog\\obj\\",
+        "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Catalog\\Catalog.csproj",
+        "packagesPath": "C:\\Users\\prana\\.nuget\\packages\\",
+        "outputPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Catalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -146,20 +146,20 @@
         }
       }
     },
-    "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\CRM\\CRM.csproj": {
+    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\CRM\\CRM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\CRM\\CRM.csproj",
+        "projectUniqueName": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\CRM\\CRM.csproj",
         "projectName": "CRM",
-        "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\CRM\\CRM.csproj",
-        "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-        "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\CRM\\obj\\",
+        "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\CRM\\CRM.csproj",
+        "packagesPath": "C:\\Users\\prana\\.nuget\\packages\\",
+        "outputPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\CRM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -217,20 +217,20 @@
         }
       }
     },
-    "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\LearningApp.csproj": {
+    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\LearningApp\\LearningApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\LearningApp.csproj",
+        "projectUniqueName": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\LearningApp\\LearningApp.csproj",
         "projectName": "LearningApp",
-        "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\LearningApp.csproj",
-        "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-        "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\LearningApp\\obj\\",
+        "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\LearningApp\\LearningApp.csproj",
+        "packagesPath": "C:\\Users\\prana\\.nuget\\packages\\",
+        "outputPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\LearningApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -245,29 +245,29 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Banking\\Banking.csproj": {
-                "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Banking\\Banking.csproj"
+              "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Banking\\Banking.csproj": {
+                "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Banking\\Banking.csproj"
               },
-              "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Catalog\\Catalog.csproj": {
-                "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Catalog\\Catalog.csproj"
+              "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Catalog\\Catalog.csproj": {
+                "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Catalog\\Catalog.csproj"
               },
-              "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\CRM\\CRM.csproj": {
-                "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\CRM\\CRM.csproj"
+              "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\CRM\\CRM.csproj": {
+                "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\CRM\\CRM.csproj"
               },
-              "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Membership\\Membership.csproj": {
-                "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Membership\\Membership.csproj"
+              "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\Membership.csproj": {
+                "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\Membership.csproj"
               },
-              "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\OrderProcessing\\OrderProcessing.csproj": {
-                "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\OrderProcessing\\OrderProcessing.csproj"
+              "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj": {
+                "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj"
               },
-              "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\PaymentProcessing\\PaymentProcessing.csproj": {
-                "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\PaymentProcessing\\PaymentProcessing.csproj"
+              "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj": {
+                "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj"
               },
-              "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Shipment\\Shipment.csproj": {
-                "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Shipment\\Shipment.csproj"
+              "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Shipment\\Shipment.csproj": {
+                "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Shipment\\Shipment.csproj"
               },
-              "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\ShoppingCart.csproj": {
-                "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\ShoppingCart.csproj"
+              "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj": {
+                "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj"
               }
             }
           }
@@ -316,20 +316,20 @@
         }
       }
     },
-    "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Membership\\Membership.csproj": {
+    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\Membership.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Membership\\Membership.csproj",
+        "projectUniqueName": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\Membership.csproj",
         "projectName": "Membership",
-        "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Membership\\Membership.csproj",
-        "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-        "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Membership\\obj\\",
+        "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\Membership.csproj",
+        "packagesPath": "C:\\Users\\prana\\.nuget\\packages\\",
+        "outputPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Membership\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -387,20 +387,20 @@
         }
       }
     },
-    "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\OrderProcessing\\OrderProcessing.csproj": {
+    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\OrderProcessing\\OrderProcessing.csproj",
+        "projectUniqueName": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj",
         "projectName": "OrderProcessing",
-        "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\OrderProcessing\\OrderProcessing.csproj",
-        "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-        "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\OrderProcessing\\obj\\",
+        "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj",
+        "packagesPath": "C:\\Users\\prana\\.nuget\\packages\\",
+        "outputPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\OrderProcessing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -458,20 +458,20 @@
         }
       }
     },
-    "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\PaymentProcessing\\PaymentProcessing.csproj": {
+    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\PaymentProcessing\\PaymentProcessing.csproj",
+        "projectUniqueName": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj",
         "projectName": "PaymentProcessing",
-        "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\PaymentProcessing\\PaymentProcessing.csproj",
-        "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-        "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\PaymentProcessing\\obj\\",
+        "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj",
+        "packagesPath": "C:\\Users\\prana\\.nuget\\packages\\",
+        "outputPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\PaymentProcessing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -523,20 +523,20 @@
         }
       }
     },
-    "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Shipment\\Shipment.csproj": {
+    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Shipment\\Shipment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Shipment\\Shipment.csproj",
+        "projectUniqueName": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Shipment\\Shipment.csproj",
         "projectName": "Shipment",
-        "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Shipment\\Shipment.csproj",
-        "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-        "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\Shipment\\obj\\",
+        "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Shipment\\Shipment.csproj",
+        "packagesPath": "C:\\Users\\prana\\.nuget\\packages\\",
+        "outputPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Shipment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -588,20 +588,20 @@
         }
       }
     },
-    "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\ShoppingCart.csproj": {
+    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\ShoppingCart.csproj",
+        "projectUniqueName": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj",
         "projectName": "ShoppingCart",
-        "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\ShoppingCart.csproj",
-        "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-        "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\obj\\",
+        "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj",
+        "packagesPath": "C:\\Users\\prana\\.nuget\\packages\\",
+        "outputPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

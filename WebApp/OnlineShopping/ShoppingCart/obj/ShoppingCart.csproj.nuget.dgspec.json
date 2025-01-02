@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\ShoppingCart.csproj": {}
+    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj": {}
   },
   "projects": {
-    "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\ShoppingCart.csproj": {
+    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\ShoppingCart.csproj",
+        "projectUniqueName": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj",
         "projectName": "ShoppingCart",
-        "projectPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\ShoppingCart.csproj",
-        "packagesPath": "C:\\Users\\Pranav\\.nuget\\packages\\",
-        "outputPath": "I:\\FullStack\\LearningDotNet\\WebApp\\onlineshopping\\ShoppingCart\\obj\\",
+        "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj",
+        "packagesPath": "C:\\Users\\prana\\.nuget\\packages\\",
+        "outputPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\ShoppingCart\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pranav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

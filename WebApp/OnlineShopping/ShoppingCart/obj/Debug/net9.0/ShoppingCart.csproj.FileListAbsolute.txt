@@ -10,3 +10,15 @@ I:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\obj\Debug\net9.0\
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\obj\Debug\net9.0\refint\ShoppingCart.dll
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\obj\Debug\net9.0\ShoppingCart.pdb
 I:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\obj\Debug\net9.0\ref\ShoppingCart.dll
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\bin\Debug\net9.0\ShoppingCart.deps.json
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\bin\Debug\net9.0\ShoppingCart.dll
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\bin\Debug\net9.0\ShoppingCart.pdb
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\obj\Debug\net9.0\ShoppingCart.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\obj\Debug\net9.0\ShoppingCart.AssemblyInfoInputs.cache
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\obj\Debug\net9.0\ShoppingCart.AssemblyInfo.cs
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\obj\Debug\net9.0\ShoppingCart.csproj.CoreCompileInputs.cache
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\obj\Debug\net9.0\ShoppingCart.sourcelink.json
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\obj\Debug\net9.0\ShoppingCart.dll
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\obj\Debug\net9.0\refint\ShoppingCart.dll
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\obj\Debug\net9.0\ShoppingCart.pdb
+D:\FullStack\LearningDotNet\WebApp\OnlineShopping\ShoppingCart\obj\Debug\net9.0\ref\ShoppingCart.dll
