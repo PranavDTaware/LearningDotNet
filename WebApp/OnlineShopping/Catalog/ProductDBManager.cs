@@ -8,7 +8,7 @@ namespace Catalog
     public  static class ProductDBManager
     {
         public static string conString = @"server=localhost;user=root;database=onlineShopping;password='Senetor@2001'";
-      public static List<Product> GetAll() 
+        public static List<Product> GetAll() 
         {
             List<Product> products = new List<Product>();
             IDbConnection con = new MySqlConnection(conString);
@@ -58,8 +58,7 @@ namespace Catalog
 
             return products;
         }
-
-      public static Product Get(int productId)
+        public static Product Get(int productId)
         {
              Product theProduct=null;
             try
@@ -102,30 +101,38 @@ namespace Catalog
             }
             return theProduct;
         }
-
-      public static bool Delete(int productId)
+        public static bool Insert(Product product)
         {
             bool status = false;
             try
             {
-                MySqlConnection con = new MySqlConnection(conString);
-                if (con.State == ConnectionState.Closed)
-                 con.Open();
-                string query = "DELETE FROM products WHERE Id=@ProductId";
-                MySqlCommand cmd = new MySqlCommand(query, con);
-                cmd.Parameters.Add(new MySqlParameter("@ProductId", productId)); //Parameterized command handling
-                cmd.ExecuteNonQuery();  // DML Operation
-                if (con.State == ConnectionState.Open)
-                con.Close();
-                status = true;
+                using(MySqlConnection con = new MySqlConnection(conString))
+                {
+                    if (con.State == ConnectionState.Closed)
+                    con.Open();
+                    string query = "INSERT INTO products (Id,Title, Description, ImageUrl, UnitPrice, Quantity) " +
+                        "VALUES (@Id, @Title, @Description, @ImageUrl, @UnitPrice, @Quantity)";
+                    MySqlCommand cmd = new MySqlCommand(query, con);
+                    cmd.Parameters.Add(new MySqlParameter("@Id", product.Id));
+                    cmd.Parameters.Add(new MySqlParameter("@Title", product.Title));
+                    cmd.Parameters.Add(new MySqlParameter("@Description", product.Description));
+                    cmd.Parameters.Add(new MySqlParameter("@ImageUrl", product.ImageUrl));
+                    cmd.Parameters.Add(new MySqlParameter("@UnitPrice", product.UnitPrice));
+                    cmd.Parameters.Add(new MySqlParameter("@Quantity", product.Quantity));  
+                    cmd.ExecuteNonQuery();// DML
+                    if (con.State == ConnectionState.Open)
+                        con.Close();
+                    status = true;
+                }
             }
-            catch (MySqlException ee) {
-                string message = ee.Message;
+            catch (MySqlException ex)
+            {
+                string message = ex.Message;
+                throw ex;
             }
             return status;
         }
-
-      public static bool Update(Product product)
+        public static bool Update(Product product)
         {
             bool status = false;
             try
@@ -161,37 +168,26 @@ namespace Catalog
             }
             return status;
         }
-
-       public static bool Insert(Product product)
+        public static bool Delete(int productId)
         {
             bool status = false;
             try
             {
-                using(MySqlConnection con = new MySqlConnection(conString))
-                {
-                    if (con.State == ConnectionState.Closed)
-                    con.Open();
-                    string query = "INSERT INTO products (Id,Title, Description, ImageUrl, UnitPrice, Quantity) " +
-                        "VALUES (@Id, @Title, @Description, @ImageUrl, @UnitPrice, @Quantity)";
-                    MySqlCommand cmd = new MySqlCommand(query, con);
-                    cmd.Parameters.Add(new MySqlParameter("@Id", product.Id));
-                    cmd.Parameters.Add(new MySqlParameter("@Title", product.Title));
-                    cmd.Parameters.Add(new MySqlParameter("@Description", product.Description));
-                    cmd.Parameters.Add(new MySqlParameter("@ImageUrl", product.ImageUrl));
-                    cmd.Parameters.Add(new MySqlParameter("@UnitPrice", product.UnitPrice));
-                    cmd.Parameters.Add(new MySqlParameter("@Quantity", product.Quantity));  
-                    cmd.ExecuteNonQuery();// DML
-                    if (con.State == ConnectionState.Open)
-                        con.Close();
-                    status = true;
-                }
+                MySqlConnection con = new MySqlConnection(conString);
+                if (con.State == ConnectionState.Closed)
+                 con.Open();
+                string query = "DELETE FROM products WHERE Id=@ProductId";
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                cmd.Parameters.Add(new MySqlParameter("@ProductId", productId)); //Parameterized command handling
+                cmd.ExecuteNonQuery();  // DML Operation
+                if (con.State == ConnectionState.Open)
+                con.Close();
+                status = true;
             }
-            catch (MySqlException ex)
-            {
-                string message = ex.Message;
-                throw ex;
+            catch (MySqlException ee) {
+                string message = ee.Message;
             }
             return status;
         }
-  }
+    }
 }
