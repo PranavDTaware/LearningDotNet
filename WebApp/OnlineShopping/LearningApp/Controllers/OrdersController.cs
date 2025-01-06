@@ -20,7 +20,7 @@ namespace LearningApp.Controllers
 
         public IActionResult Index()
         {
-           List<Order> allOrders= OrderManager.GetAll();
+           List<Order> allOrders= OrderManager.GetAllOrders();
            this.ViewData["orders"]=allOrders;
             return View();  
         }

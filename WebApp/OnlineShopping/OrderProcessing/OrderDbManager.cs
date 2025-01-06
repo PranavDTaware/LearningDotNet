@@ -59,7 +59,7 @@ namespace OrderProcessing
                     MySqlConnection con = new MySqlConnection(conString);
                     if (con.State == ConnectionState.Closed)
                     con.Open();
-                    string query = "DELETE FROM orders WHERE Id=@OrderId";
+                    string query = "SELECT * FROM orders WHERE Id=@OrderId";
                     MySqlCommand cmd = new MySqlCommand(query, con);
                     cmd.Parameters.Add(new MySqlParameter("@OrderId", orderId)); //Parameterized command handling
                     IDataReader reader = cmd.ExecuteReader();

@@ -7,7 +7,7 @@ namespace OrderProcessing
 {
      public  static class OrderManager
     {   
-         public static List<Order> GetAll() 
+         public static List<Order> GetAllOrders() 
         {
             List<Order> Orders = new List<Order>();
             Orders = GetAllOrdersFromDatabase();
@@ -20,8 +20,8 @@ namespace OrderProcessing
         }
         public static Order GetById(int OrderId)
         {
-            Order theOrder=null;
-           
+            List<Order> orders = GetAllOrders();
+            Order theOrder = orders.FirstOrDefault(p=>p.Id == OrderId);
             return theOrder;
         }
         public static bool Delete(int OrderId)

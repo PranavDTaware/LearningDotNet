@@ -22,8 +22,9 @@ VALUES
 ('Vikram Singh', '9201020304', 'vikramsingh@email.com', 'Kolkata', 22),
 ('Sanya Desai', '9911223344', 'sanyadesai@email.com', 'Pune', 45);
 
+DROP TABLE Products;
 CREATE TABLE Products (
-    Id INT PRIMARY KEY,
+    Id INT AUTO_INCREMENT PRIMARY KEY,
     Title VARCHAR(255) NOT NULL,
     Category VARCHAR(255),
     Description TEXT,
@@ -33,7 +34,6 @@ CREATE TABLE Products (
     Likes INT
 );
 
-
 INSERT INTO Products (Id, Title, Category, Description, ImageUrl, UnitPrice, Quantity, Likes)
 VALUES
 (1, 'Carnation', 'Flowers', 'A beautiful carnation, symbolizing a love that endures forever.', '/images/carnation.jpg', 24, 150, 320),
@@ -42,4 +42,23 @@ VALUES
 (4, 'Jasmine', 'Flowers', 'Sweetly fragrant jasmine flowers, ideal for aromatic gardens.', '/images/jasmine.jpg', 20, 200, 370),
 (5, 'Lily', 'Flowers', 'Elegant lilies, their fragrance adds charm to any bouquet.', '/images/lily.jpg', 30, 120, 460),
 (6, 'Rose', 'Flowers', 'A classic rose, symbolizing love and beauty.', '/images/rose.jpg', 25, 130, 600);
+
+
+CREATE TABLE orders (
+    Id INT AUTO_INCREMENT PRIMARY KEY,  
+    OrderDate DATETIME,                 
+    Status VARCHAR(255),                
+    TotalAmount DOUBLE                  
+);
+
+INSERT INTO orders (OrderDate, Status, TotalAmount)
+VALUES
+    ('2025-01-01 10:30:00', 'Pending', 150),
+    ('2025-01-02 14:45:00', 'Shipped', 100),
+    ('2025-01-03 09:00:00', 'Delivered', 120),
+    ('2025-01-04 11:15:00', 'Cancelled', 200),
+    ('2025-01-05 13:30:00', 'Pending', 75),
+    ('2025-01-06 16:00:00', 'Shipped', 300);
+
+
 
