@@ -26,23 +26,23 @@ namespace CRM
             Customer theCustomer = customers.FirstOrDefault(p => p.Id == customerId);
             return theCustomer;
         }
-        public static bool Delete(int customerId)
-        {
-            bool status = false;
-            status=CustomerDBManager.Delete(customerId);
-            return status;
-        }   
-        public static bool Update(Customer customer)
-        {
-            bool status = false;
-            status=CustomerDBManager.Update(customer);
-            return status;
-        }
         public static bool Insert(Customer customer)
         {
             bool status = false;
             status = CustomerDBManager.Insert(customer);
             return status;
         }
-  }
+        public static bool Update(Customer customer)
+        {
+            bool status = false;
+            status=CustomerDBManager.Update(customer);
+            return status;
+        }
+        public static bool Delete(int customerId)
+        {
+            bool status = false;
+            status=CustomerDBManager.Delete(customerId);
+            return status;
+        }        
+    }
 }

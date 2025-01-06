@@ -13,7 +13,7 @@ namespace CRM
     public  static class CustomerDBManager
     {
        
-        public static string conString = @"server=localhost;user=root;database=onlineShopping;password='Senetor@2001'";
+    public static string conString = @"server=localhost;user=root;database=onlineShopping;password='Senetor@2001'";
     public static List<Customer> GetAll() 
         {
             List<Customer> customers = new List<Customer>();
@@ -106,27 +106,37 @@ namespace CRM
             }
             return theCustomer;
         }
-    public static bool Delete(int customerId)
+    public static bool Insert(Customer customer)
         {
             bool status = false;
             try
             {
                 MySqlConnection con = new MySqlConnection(conString);
-                if (con.State == ConnectionState.Closed)
-                 con.Open();
-                string query = "DELETE FROM customers WHERE Id=@CustomerId";
-                MySqlCommand cmd = new MySqlCommand(query, con);
-                cmd.Parameters.Add(new MySqlParameter("@CustomerId", customerId)); //Parameterized command handling
-                cmd.ExecuteNonQuery();  // DML Operation
-                if (con.State == ConnectionState.Open)
-                con.Close();
-                status = true;
+                {
+                    if (con.State == ConnectionState.Closed)
+                    con.Open();
+                    string query = "INSERT INTO customers (Id,Name,ContactNumber, Email, Location, Age ) " +
+                                    "VALUES (@Id, @Name, @ContactNumber, @Email, @Location, @Age)";
+                    MySqlCommand cmd = new MySqlCommand(query, con);
+                    cmd.Parameters.Add(new MySqlParameter("@Id", customer.Id));
+                    cmd.Parameters.Add(new MySqlParameter("@Name", customer.Name));
+                    cmd.Parameters.Add(new MySqlParameter("@ContactNumber", customer.ContactNumber));
+                    cmd.Parameters.Add(new MySqlParameter("@Email", customer.Email));
+                    cmd.Parameters.Add(new MySqlParameter("@Location", customer.Location));
+                    cmd.Parameters.Add(new MySqlParameter("@Age", customer.Age));
+                      cmd.ExecuteNonQuery();// DML
+                    if (con.State == ConnectionState.Open)
+                        con.Close();
+                    status = true;
+                }
             }
-            catch (MySqlException ee) {
-                string message = ee.Message;
+            catch (MySqlException ex)
+            {
+                string message = ex.Message;
+                throw ex;
             }
             return status;
-        }   
+        }
     public static bool Update(Customer customer)
         {
             bool status = false;
@@ -160,36 +170,26 @@ namespace CRM
             }
             return status;
         }
-    public static bool Insert(Customer customer)
+    public static bool Delete(int customerId)
         {
             bool status = false;
             try
             {
                 MySqlConnection con = new MySqlConnection(conString);
-                {
-                    if (con.State == ConnectionState.Closed)
-                    con.Open();
-                    string query = "INSERT INTO customers (Id,Name,ContactNumber, Email, Location, Age ) " +
-                                    "VALUES (@Id, @Name, @ContactNumber, @Email, @Location, @Age)";
-                    MySqlCommand cmd = new MySqlCommand(query, con);
-                    cmd.Parameters.Add(new MySqlParameter("@Id", customer.Id));
-                    cmd.Parameters.Add(new MySqlParameter("@Name", customer.Name));
-                    cmd.Parameters.Add(new MySqlParameter("@ContactNumber", customer.ContactNumber));
-                    cmd.Parameters.Add(new MySqlParameter("@Email", customer.Email));
-                    cmd.Parameters.Add(new MySqlParameter("@Location", customer.Location));
-                    cmd.Parameters.Add(new MySqlParameter("@Age", customer.Age));
-                      cmd.ExecuteNonQuery();// DML
-                    if (con.State == ConnectionState.Open)
-                        con.Close();
-                    status = true;
-                }
+                if (con.State == ConnectionState.Closed)
+                 con.Open();
+                string query = "DELETE FROM customers WHERE Id=@CustomerId";
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                cmd.Parameters.Add(new MySqlParameter("@CustomerId", customerId)); //Parameterized command handling
+                cmd.ExecuteNonQuery();  // DML Operation
+                if (con.State == ConnectionState.Open)
+                con.Close();
+                status = true;
             }
-            catch (MySqlException ex)
-            {
-                string message = ex.Message;
-                throw ex;
+            catch (MySqlException ee) {
+                string message = ee.Message;
             }
             return status;
         }
-  }
-}
+    }
+}  
