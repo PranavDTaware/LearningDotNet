@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k4kPy/rAaeA=",
+  "dgSpecHash": "82Yz3e0QXlk=",
   "success": true,
-  "projectFilePath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\learningApp\\LearningApp.csproj",
+  "projectFilePath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\LearningApp\\LearningApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prana\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\prana\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",

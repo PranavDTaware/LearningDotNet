@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\learningApp\\LearningApp.csproj": {}
+    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\LearningApp\\LearningApp.csproj": {}
   },
   "projects": {
     "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\Banking\\Banking.csproj": {
@@ -217,14 +217,14 @@
         }
       }
     },
-    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\learningApp\\LearningApp.csproj": {
+    "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\LearningApp\\LearningApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\learningApp\\LearningApp.csproj",
+        "projectUniqueName": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\LearningApp\\LearningApp.csproj",
         "projectName": "LearningApp",
-        "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\learningApp\\LearningApp.csproj",
+        "projectPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\LearningApp\\LearningApp.csproj",
         "packagesPath": "C:\\Users\\prana\\.nuget\\packages\\",
-        "outputPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\learningApp\\obj\\",
+        "outputPath": "D:\\FullStack\\LearningDotNet\\WebApp\\OnlineShopping\\LearningApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
