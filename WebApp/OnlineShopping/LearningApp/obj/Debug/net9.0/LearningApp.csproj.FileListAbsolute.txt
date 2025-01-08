@@ -264,4 +264,3 @@ D:\FullStack\LearningDotNet\WebApp\OnlineShopping\LearningApp\obj\Debug\net9.0\r
 D:\FullStack\LearningDotNet\WebApp\OnlineShopping\LearningApp\obj\Debug\net9.0\LearningApp.pdb
 D:\FullStack\LearningDotNet\WebApp\OnlineShopping\LearningApp\obj\Debug\net9.0\LearningApp.genruntimeconfig.cache
 D:\FullStack\LearningDotNet\WebApp\OnlineShopping\LearningApp\obj\Debug\net9.0\ref\LearningApp.dll
-D:\FullStack\LearningDotNet\WebApp\OnlineShopping\LearningApp\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
