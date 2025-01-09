@@ -32,6 +32,36 @@ namespace LearningApp.Controllers
             return View();
         }
 
+        public IActionResult Insert()
+        {
+            return View();
+        }
+ 
+        [HttpPost]
+        public IActionResult Insert( int id,DateTime orderDate,string status, double totalAmount)
+        {
+            Order order = new Order(){
+                Id = id,
+                OrderDate = orderDate,
+                Status = status,
+                TotalAmount = totalAmount
+            };
+            OrderManager.Insert(order);
+            return RedirectToAction("Index");
+        }
+        public IActionResult Update(int id)
+        {
+            Order order = OrderManager.GetById(id);
+            return View(order);
+        }
+
+        [HttpPost]
+        public IActionResult Update( Order updatedOrder)
+        {
+            OrderManager.Update(updatedOrder);
+            return RedirectToAction("Index", "Orders");
+        }
+
         public ActionResult Delete(int id)
         {
             OrderManager.Delete(id);

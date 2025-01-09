@@ -29,7 +29,7 @@ namespace LearningApp.Controllers
             return View();
         }
 
-         public IActionResult Insert()
+        public IActionResult Insert()
         {
             return View();
         }
@@ -37,7 +37,6 @@ namespace LearningApp.Controllers
         [HttpPost]
         public IActionResult Insert( int id,string name,string contactnumber,string email, string location, int age)
         {
-            Console.WriteLine("POST HTTP insert method is invoked after form submition");
             Customer customer = new Customer(){
                 Id = id,
                 Name = name,

@@ -24,23 +24,23 @@ namespace OrderProcessing
             Order theOrder = orders.FirstOrDefault(p=>p.Id == OrderId);
             return theOrder;
         }
-        public static bool Delete(int OrderId)
-        {
-            bool status = false;
-         
-            return status;
-        }   
-        public static bool Update(Order Order)
-        {
-            bool status = false;
-            
-            return status;
-        }
         public static bool Insert(Order Order)
         {
             bool status = false;
-               
+            status = OrderDBManager.Insert(Order);
             return status;
         }
+        public static bool Update(Order order)
+        {
+            bool status = false;
+            status=OrderDBManager.Update(order);
+            return status;
+        }
+        public static bool Delete(int OrderId)
+        {
+            bool status = false;
+            status = OrderDBManager.Delete(OrderId);
+            return status;
+        }     
   }
 }

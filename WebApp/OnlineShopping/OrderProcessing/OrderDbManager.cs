@@ -87,87 +87,83 @@ namespace OrderProcessing
                 }
                 return theOrder;
             }
-        public static bool Delete(int orderId)
+        public static bool Insert(Order order)
+        {
+            bool status = false;
+            try
             {
-                bool status = false;
-                try
+                MySqlConnection con = new MySqlConnection(conString);
                 {
-                    MySqlConnection con = new MySqlConnection(conString);
                     if (con.State == ConnectionState.Closed)
                     con.Open();
-                    string query = "DELETE FROM orders WHERE Id=@OrderId";
+                    string query = "INSERT INTO orders (Id,OrderDate, TotalAmount, Status) " +
+                                    "VALUES (@Id, @OrderDate,@TotalAmount, @Status)";
                     MySqlCommand cmd = new MySqlCommand(query, con);
-                    cmd.Parameters.Add(new MySqlParameter("@OrderId", orderId)); //Parameterized command handling
-                    cmd.ExecuteNonQuery();  // DML Operation
+                    cmd.Parameters.Add(new MySqlParameter("@Id", order.Id));
+                    cmd.Parameters.Add(new MySqlParameter("@OrderDate", order.OrderDate));
+                    cmd.Parameters.Add(new MySqlParameter("@TotalAmount", order.TotalAmount));
+                    cmd.Parameters.Add(new MySqlParameter("@Status", order.Status));
+                    cmd.ExecuteNonQuery();// DML
                     if (con.State == ConnectionState.Open)
-                    con.Close();
+                        con.Close();
                     status = true;
                 }
-                catch (MySqlException ee) {
-                    string message = ee.Message;
-                }
-                return status;
-            }   
+            }
+            catch (MySqlException ex)
+            {
+                string message = ex.Message;
+                throw ex;
+            }
+            return status;
+        }
         public static bool Update(Order order)
+        {
+            bool status = false;
+            try
             {
-                bool status = false;
-                try
+            MySqlConnection con = new MySqlConnection(conString);
                 {
+                    if (con.State == ConnectionState.Closed)
+                    con.Open();
+                    string query = "UPDATE orders SET OrderDate=@OrderDate , TotalAmount=@TotalAmount, " +
+                                    "Status=@Status " + "WHERE Id=@Id";
+                    MySqlCommand cmd = new MySqlCommand(query, con);
+                cmd.Parameters.Add(new MySqlParameter("@Id", order.Id));
+                    cmd.Parameters.Add(new MySqlParameter("@OrderDate", order.OrderDate));
+                    cmd.Parameters.Add(new MySqlParameter("@TotalAmount", order.TotalAmount));
+                    cmd.Parameters.Add(new MySqlParameter("@Status", order.Status));
+                    cmd.ExecuteNonQuery();  // DML Operation
+                    if (con.State == ConnectionState.Open)
+                        con.Close();
+                    status = true;
+                }
+            }
+            catch (MySqlException ex)
+            {
+                throw ex;
+            }
+            return status;
+        }
+        public static bool Delete(int orderId)
+        {
+            bool status = false;
+            try
+            {
                 MySqlConnection con = new MySqlConnection(conString);
-                    {
-                        if (con.State == ConnectionState.Closed)
-                        con.Open();
-
-                        string query = "UPDATE order SET Name=@Name , Email=@Email, " +
-                                        "ContactNumber=@ContactNumber " + "WHERE Id=@Id";
-                        MySqlCommand cmd = new MySqlCommand(query, con);
-                    cmd.Parameters.Add(new MySqlParameter("@Id", order.Id));
-                        cmd.Parameters.Add(new MySqlParameter("@OrderDate", order.OrderDate));
-                        cmd.Parameters.Add(new MySqlParameter("@TotalAmount", order.TotalAmount));
-                        cmd.Parameters.Add(new MySqlParameter("@Status", order.Status));
-                        cmd.ExecuteNonQuery();  // DML Operation
-                        if (con.State == ConnectionState.Open)
-                            con.Close();
-                        status = true;
-                    }
-                }
-                catch (MySqlException ex)
-                {
-                    throw ex;
-                }
-                return status;
+                if (con.State == ConnectionState.Closed)
+                con.Open();
+                string query = "DELETE FROM orders WHERE Id=@OrderId";
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                cmd.Parameters.Add(new MySqlParameter("@OrderId", orderId)); //Parameterized command handling
+                cmd.ExecuteNonQuery();  // DML Operation
+                if (con.State == ConnectionState.Open)
+                con.Close();
+                status = true;
             }
-        public static bool Insert(Order order)
-            {
-                bool status = false;
-                try
-                {
-                    MySqlConnection con = new MySqlConnection(conString);
-                    {
-                        if (con.State == ConnectionState.Closed)
-
-                        con.Open();
-                        string query = "INSERT INTO orders (Id,OrderDate, TotalAmount, Status) " +
-                                        "VALUES (@Id, @OrderDate,@TotalAmount, @Status)";
-
-                        MySqlCommand cmd = new MySqlCommand(query, con);
-                        cmd.Parameters.Add(new MySqlParameter("@Id", order.Id));
-                        cmd.Parameters.Add(new MySqlParameter("@OrderDate", order.OrderDate));
-                        cmd.Parameters.Add(new MySqlParameter("@TotalAmount", order.TotalAmount));
-                        cmd.Parameters.Add(new MySqlParameter("@Status", order.Status));
-                        cmd.ExecuteNonQuery();// DML
-
-                        if (con.State == ConnectionState.Open)
-                            con.Close();
-                        status = true;
-                    }
-                }
-                catch (MySqlException ex)
-                {
-                    string message = ex.Message;
-                    throw ex;
-                }
-                return status;
+            catch (MySqlException ee) {
+                string message = ee.Message;
             }
+            return status;
+        } 
     }
 }
