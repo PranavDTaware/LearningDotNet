@@ -18,11 +18,15 @@ namespace LearningApp.Controllers
             _logger = logger;
         }
 
-         public ActionResult Index()
+         public IActionResult Index()
         {
-            return View();
+            return View("Cart");
         }
 
+        public IActionResult AddToCart()
+        {
+
+        }
 
         [HttpGet]
         public ActionResult RemoveFromCart(int id)

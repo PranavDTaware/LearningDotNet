@@ -13,7 +13,6 @@ namespace PaymentProcessing{
         {   
             this.cash=val;
         }
-
         public override  void PaymentDetails()
         {
             Console.WriteLine("The payment of cash:  $" + this.cash);

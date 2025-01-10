@@ -16,11 +16,13 @@ namespace ShoppingCart
         }
     
         // Item constructor just needs a productId
-        public Item(int productId) {
+        public Item(int productId) 
+        {
             this.ProductId = productId;
         }
     
-        public bool Equals(Item item) {
+        public bool Equals(Item item) 
+        {
             return item.ProductId == this.ProductId;
         }
     }

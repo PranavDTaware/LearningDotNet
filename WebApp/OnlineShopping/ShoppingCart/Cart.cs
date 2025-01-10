@@ -10,19 +10,24 @@ namespace ShoppingCart
     
         protected Cart() { }
     
-        
-        public void AddItem(int productId) {
+        public void AddItem(int productId) 
+        {
             Item newItem = new Item(productId);
             // If this item already exists in our list of items, increase the quantity
             // Otherwise, add the new item to the list
-            if (Items.Contains(newItem)) {
-                foreach (Item item in Items) {
-                    if (item.Equals(newItem)) {
+            if (Items.Contains(newItem))
+            {
+                foreach (Item item in Items) 
+                {
+                    if (item.Equals(newItem)) 
+                    {
                         item.Quantity++;
                         return;
                     }
                 }
-            } else {
+            } 
+            else 
+            {
                 newItem.Quantity = 1;
                 Items.Add(newItem);
             }
@@ -37,12 +42,12 @@ namespace ShoppingCart
                 RemoveItem(productId);
                 return;
             }
-    
             // Find the item and update the quantity
             Item updatedItem = new Item(productId);
-    
-            foreach (Item item in Items) {
-                if (item.Equals(updatedItem)) {
+            foreach (Item item in Items)
+            {
+                if (item.Equals(updatedItem)) 
+                {
                     item.Quantity = quantity;
                     return;
                 }

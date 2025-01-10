@@ -58,7 +58,6 @@ namespace CRM
             }
             return customers;
         }
-
         public static Customer GetById(int customerId)
         {
             Customer customer = null;
@@ -66,7 +65,7 @@ namespace CRM
             IDbConnection con = new MySqlConnection();
             con.ConnectionString = connectionString;
       
-            string query = "SELECT * FROM customers WHERE Id=" + customerId;
+            string query = "SELECT * FROM customers WHERE Id=@Id" + customerId;
             MySqlCommand cmd = new MySqlCommand(query, con as MySqlConnection);
 
             MySqlDataAdapter da = new MySqlDataAdapter(cmd);
