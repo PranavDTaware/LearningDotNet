@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "wEcq/RXwirQAi7YU3xA+05YdDMOucx4IujgYYnCAC8E=",
+  "Source": "EmptyWebApp",
+  "BasePath": "_content/EmptyWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -8,7 +8,15 @@ namespace SimpleConsoleApp
 
     class Program
     {
+        // At operation system level:
+        // Kernel object are used for execution
         // need to execute  both functions is independent manner
+        // Process 
+        // Thread
+        // Mutex, semaphore, Event, Crritical Section
+        // Side effects of Multithreading
+
+        // System.Threading 
         static void StoreData()
         {
             Thread theTread=Thread.CurrentThread;
@@ -27,7 +35,6 @@ namespace SimpleConsoleApp
             //access data from external applications using  RPC
              Console.WriteLine("Data is received from Remote Server");
         }
-
         static void Main(string[] args)
         {
             // Primary Thread
