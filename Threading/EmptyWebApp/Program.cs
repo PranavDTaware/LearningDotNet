@@ -6,10 +6,10 @@ app.MapGet("/aboutus", () => "Welcome to transflower!");
 app.MapGet("/contact", () => "Welcome to transflower!");
 
 app.UseRoutiong();
-app.MapControllerRoute(
+app.MapControllerRoute
+(
     name: "default",
     pattern: "{}"
-    )
 )
 
 app.Run();
