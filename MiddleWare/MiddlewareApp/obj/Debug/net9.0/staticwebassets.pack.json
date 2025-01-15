@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\FullStack\\LearningDotNet\\MiddleWare\\middlewareApp\\wwwroot\\js\\hello.js",
+      "PackagePath": "staticwebassets\\js\\hello.js"
+    },
+    {
+      "Id": "D:\\FullStack\\LearningDotNet\\MiddleWare\\middlewareApp\\wwwroot\\test.html",
+      "PackagePath": "staticwebassets\\test.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.middlewareApp.props",
+      "PackagePath": "build\\middlewareApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.middlewareApp.props",
+      "PackagePath": "buildMultiTargeting\\middlewareApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.middlewareApp.props",
+      "PackagePath": "buildTransitive\\middlewareApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.middlewareApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.middlewareApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
