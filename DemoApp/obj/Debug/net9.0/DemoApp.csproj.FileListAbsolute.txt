@@ -96,3 +96,6 @@ D:\FullStack\LearningDotNet\DemoApp\obj\Debug\net9.0\refint\DemoApp.dll
 D:\FullStack\LearningDotNet\DemoApp\obj\Debug\net9.0\DemoApp.pdb
 D:\FullStack\LearningDotNet\DemoApp\obj\Debug\net9.0\DemoApp.genruntimeconfig.cache
 D:\FullStack\LearningDotNet\DemoApp\obj\Debug\net9.0\ref\DemoApp.dll
+D:\FullStack\LearningDotNet\DemoApp\obj\Debug\net9.0\DemoApp.csproj.AssemblyReference.cache
+D:\FullStack\LearningDotNet\DemoApp\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\FullStack\LearningDotNet\DemoApp\obj\Debug\net9.0\DemoApp.csproj.Up2Date
