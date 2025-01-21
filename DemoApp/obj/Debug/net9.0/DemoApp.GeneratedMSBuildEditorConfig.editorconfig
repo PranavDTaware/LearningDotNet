@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[D:/FullStack/LearningDotNet/DemoApp/Views/Flowers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxvd2Vyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/FullStack/LearningDotNet/DemoApp/Views/Home/Connect.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25uZWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,6 +34,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/FullStack/LearningDotNet/DemoApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FullStack/LearningDotNet/DemoApp/Views/Home/ShoppingCart/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wcGluZ0NhcnRcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FullStack/LearningDotNet/DemoApp/Views/Home/ShoppingCart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wcGluZ0NhcnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/FullStack/LearningDotNet/DemoApp/Views/Shared/Error.cshtml]

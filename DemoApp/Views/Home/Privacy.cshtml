@@ -1,6 +1,17 @@
-﻿@{
+﻿@using DemoApp.Controllers;
+ 
+@{
     ViewData["Title"] = "Privacy Policy";
 }
 <h1>@ViewData["Title"]</h1>
-
-<p>Use this page to detail your site's privacy policy.</p>
+ 
+<p>@ViewBag.data</p>
+<hr/>
+<p>Session Data</p>
+<hr/>
+@{
+    Cart theCart = ViewData["cart"] as Cart;
+    foreach(string items in theCart.Items){
+        <p>@items</p>
+    }
+}

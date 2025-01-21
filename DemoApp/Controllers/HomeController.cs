@@ -2,8 +2,26 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using DemoApp.Models;
 using Microsoft.Extensions.Configuration;
+using System.Text.Json;
+using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace DemoApp.Controllers;
+
+[Serializable]
+
+public class Cart{
+
+     public List<string> Items = new List<string>();
+
+     public Cart()
+     {
+        Items.Add("Smart Phone");
+        Items.Add("Laptop");
+        Items.Add("Camera");
+        Items.Add("desktop");
+     }
+}
 
 public class HomeController : Controller
 {
@@ -18,6 +36,22 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        string SessionKeyName = "product";
+        string SessionKeyAge = "age";
+        HttpContext.Session.SetString(SessionKeyName,"Dell Computer");
+        HttpContext.Session.SetInt32(SessionKeyAge,45);
+        var theCart = new Cart();
+        var str = JsonSerializer.Serialize(theCart);
+        HttpContext.Session.SetString("cart",str);
+        return View();
+    }
+
+    public IActionResult Privacy()
+    {
+        ViewBag.data = HttpContext.Session.GetString("product");
+        ViewBag.data = HttpContext.Session.GetInt32("age");
+        var strTheCart = HttpContext.Session.GetString("cart");
+        ViewData["cart"] = JsonSerializer.Deserialize<Cart>(strTheCart);
         return View();
     }
 
@@ -64,11 +98,7 @@ public class HomeController : Controller
         return new JsonResult(result);
     }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
+    
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
