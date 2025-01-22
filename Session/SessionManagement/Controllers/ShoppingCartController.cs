@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using SessionManagement.Models;
 using  Core.Models;
-using Microsoft.AspNetCore.Http;
 using Core.Services.Interfaces;
 using SessionManagement.Helpers;
 
@@ -24,6 +23,7 @@ namespace SessionManagement.Controllers
             return View(theCart);
         }
 
+
         [HttpGet]
         public IActionResult  Add(int id){  
             Flower theFlower=_flowerService.GetById(id);
@@ -31,11 +31,12 @@ namespace SessionManagement.Controllers
             theItem.theFlower=theFlower;
             theItem.Quantity=0;
             return View(theItem);
-        }  
+        }
 
         [HttpPost]
-        public IActionResult Add(Item newItem){  
-            Cart theCart= SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");
+        public IActionResult Add(Item newItem){
+            Console.WriteLine("new Item = {0}", newItem.ID);  
+            Cart theCart = SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");
             if (theCart == null)
                 {
                     theCart = new Cart();
@@ -44,13 +45,17 @@ namespace SessionManagement.Controllers
             theCart.Items.Add(newItem);
             SessionHelper.SetObjectAsJson(HttpContext.Session, "cart", theCart);
             return RedirectToAction("Index","shoppingcart");
-        }  
-        public IActionResult  Remove(int  id){  
+        }
+        public IActionResult  Remove(int  id){
+            Console.WriteLine("id = {0}", id );  
             Cart theCart= SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");  
             var found = theCart.Items.Find(x => x.theFlower.ID == id);
-            if(found != null) theCart.Items.Remove(found);
+            if(found != null){
+                Console.WriteLine("found = {0}", found );
+                theCart.Items.Remove(found);
+                }
             SessionHelper.SetObjectAsJson(HttpContext.Session, "cart", theCart);        
             return RedirectToAction("Index","ShoppingCart");
-        }          
+        }
     }
 }
