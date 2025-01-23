@@ -57,5 +57,6 @@ namespace SessionManagement.Controllers
             SessionHelper.SetObjectAsJson(HttpContext.Session, "cart", theCart);        
             return RedirectToAction("Index","ShoppingCart");
         }
+
     }
 }
