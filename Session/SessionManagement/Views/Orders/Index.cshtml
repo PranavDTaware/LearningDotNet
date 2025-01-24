@@ -1,0 +1,25 @@
+@using Core.Models;
+
+@{
+    ViewData["Title"] = "Orders Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Orders</h1>
+</div>
+
+<h1>Order List</h1>
+    <div>
+        <a href="/Orders/Insert/">Insert new Order</a>
+    </div>
+<hr/>
+<div>
+    @foreach (Order theOrder in ViewData["orders"] as List<Order>)
+    {
+    <div>  
+
+       <b>@theOrder.Id</b> | 
+       <a href="/Orders/Details/@theOrder.Id">Order Details</a>
+    </div>
+    }
+</div>

@@ -9,6 +9,7 @@ namespace Core.Repositories
     {
         public DbSet<Flower> Flowers {get;set;}
         
+        public DbSet<Order> Orders {get;set;}
         public DbSet<Fruit> Fruits{get;set;}
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -33,6 +34,14 @@ namespace Core.Repositories
                 entity.Property(e => e.MovieName).IsRequired();
                 entity.Property(e => e.SalePrice).IsRequired();
                 entity.Property(e => e.Quantity).IsRequired();
+            });
+
+            modelBuilder.Entity<Order>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.OrderDate).IsRequired();
+                entity.Property(e => e.Status).IsRequired();
+                entity.Property(e => e.TotalAmount).IsRequired();
             });
         }
     }

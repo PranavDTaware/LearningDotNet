@@ -9,8 +9,8 @@ namespace BIApp.Controllers
 {
     public class DashboardController : Controller
     {
-        public JsonResult CityRevenue(){
-     
+        public JsonResult CityRevenue()
+        {
             var revenueList=RevenueDataAccessLayer.GetCityRevenueList();
             return Json(revenueList);
         }

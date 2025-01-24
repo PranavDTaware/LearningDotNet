@@ -32,6 +32,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/FullStack/LearningDotNet/Session/SessionManagement/Views/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FullStack/LearningDotNet/Session/SessionManagement/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FullStack/LearningDotNet/Session/SessionManagement/Views/Orders/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FullStack/LearningDotNet/Session/SessionManagement/Views/Orders/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/FullStack/LearningDotNet/Session/SessionManagement/Views/Payments/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudHNcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

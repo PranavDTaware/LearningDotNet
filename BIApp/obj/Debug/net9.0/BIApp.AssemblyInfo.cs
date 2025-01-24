@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BIApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95bdba616e2c2bb6fd184f4cc69c0d871f974ae6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bafd7761f2a9f7e07972f243756ac3dab9513953")]
 [assembly: System.Reflection.AssemblyProductAttribute("BIApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BIApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

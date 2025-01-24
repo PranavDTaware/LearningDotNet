@@ -6,6 +6,8 @@ namespace EntityTestApp
     public class CollectionContext:DbContext
     {
         public DbSet<Product> Products {get;set;}
+
+        
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -23,6 +25,8 @@ namespace EntityTestApp
                 entity.Property(e => e.UnitPrice).IsRequired();
                 entity.Property(e => e.Quantity).IsRequired();
             });
+
+            
         }
     }
 }

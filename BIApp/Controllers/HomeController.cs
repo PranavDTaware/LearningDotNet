@@ -59,6 +59,12 @@ public class HomeController : Controller
     
         }
 
+        public IActionResult ClientSide()
+        {
+            
+            return View();
+        }
+
     public IActionResult Privacy()
     {
         return View();
