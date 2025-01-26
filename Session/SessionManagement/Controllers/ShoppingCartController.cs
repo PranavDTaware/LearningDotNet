@@ -34,7 +34,8 @@ namespace SessionManagement.Controllers
         }
 
         [HttpPost]
-        public IActionResult Add(Item newItem){
+        public IActionResult Add(Item newItem)
+        {
             Console.WriteLine("new Item = {0}", newItem.ID);  
             Cart theCart = SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");
             if (theCart == null)
@@ -46,7 +47,8 @@ namespace SessionManagement.Controllers
             SessionHelper.SetObjectAsJson(HttpContext.Session, "cart", theCart);
             return RedirectToAction("Index","shoppingcart");
         }
-        public IActionResult  Remove(int  id){
+        public IActionResult  Remove(int  id)
+        {
             Console.WriteLine("id = {0}", id );  
             Cart theCart= SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");  
             var found = theCart.Items.Find(x => x.theFlower.ID == id);

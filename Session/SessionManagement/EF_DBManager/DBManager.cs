@@ -41,7 +41,6 @@ namespace EntityTestApp
                 context.SaveChanges();   ////
             }
         }
-
         public void Update(Product product)
         {
             using(var context = new CollectionContext())
