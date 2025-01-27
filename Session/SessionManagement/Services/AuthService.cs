@@ -1,6 +1,6 @@
 ﻿namespace SessionManagement.Services
 {
-    public class Loginservice
+    public class AuthService
     {
     }
 }

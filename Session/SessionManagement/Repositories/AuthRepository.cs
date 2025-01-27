@@ -1,6 +1,6 @@
 ﻿namespace SessionManagement.Repositories
 {
-    public class LoginRepository
+    public class AuthRepository
     {
     }
 }

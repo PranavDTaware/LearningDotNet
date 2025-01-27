@@ -17,7 +17,6 @@ namespace SessionManagement.Controllers
             var loginModel = new Login();
             return View(loginModel);
         }
-
         public IActionResult Registration()
         {
             var register = new Registration();

@@ -1,6 +1,6 @@
 ﻿namespace SessionManagement.Services.Interfaces
 {
-    public interface ILoginService
+    public interface IAuthService
     {
     }
 }

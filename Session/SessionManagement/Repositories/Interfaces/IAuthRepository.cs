@@ -1,6 +1,6 @@
 ﻿namespace Core.Repositories.Interfaces
 {
-    public interface ILoginRepository
+    public interface IAuthRepository
     {
     }
 }
