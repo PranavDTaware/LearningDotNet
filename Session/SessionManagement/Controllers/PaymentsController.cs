@@ -7,8 +7,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SessionManagement.Models;
 
-
-
 namespace SessionManagement.Controllers
 {
     public class PaymentsController : Controller
