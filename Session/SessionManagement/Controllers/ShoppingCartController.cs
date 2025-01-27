@@ -59,6 +59,17 @@ namespace SessionManagement.Controllers
             SessionHelper.SetObjectAsJson(HttpContext.Session, "cart", theCart);        
             return RedirectToAction("Index","ShoppingCart");
         }
+        public IActionResult BuyNow()
+        {
+            Cart theCart = SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");
+            if (theCart == null || theCart.Items == null || ! theCart.Items.Any())
+                {
+                    return RedirectToAction("Index", "ShoppingCart");
+                }
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "buyNowCart", theCart);
+            return View(theCart);
+
+        }
 
     }
 }

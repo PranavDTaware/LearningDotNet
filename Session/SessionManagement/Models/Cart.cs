@@ -6,5 +6,12 @@ namespace SessionManagement.Models{
     public class Cart{
         public List<Item> Items=new List<Item>();
         public Cart(){ }
+        public decimal TotalPrice
+        {
+            get
+            {
+                return Items?.Sum(item => item.theFlower.SalePrice * item.Quantity) ?? 0;
+            }
+        }
     }
 }

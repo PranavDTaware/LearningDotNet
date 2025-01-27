@@ -1,0 +1,32 @@
+﻿@using Core.Models;
+@model Cart
+
+<h2>Buy Now</h2>
+
+@if (Model != null && Model.Items != null && Model.Items.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Flower Name</th>
+                <th>Quantity</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.theFlower.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>@(item.theFlower.SalePrice * item.Quantity)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<h3>Total Price: @Model.TotalPrice</h3>
+
+@* <form asp-action="ProcessPayment" method="post"> *@
+@*     <button type="submit">Proceed to Payment</button> *@
+@* </form> *@

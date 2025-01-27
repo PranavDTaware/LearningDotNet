@@ -13,10 +13,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddTransient<IFruitRepository, FruitRepository>();
+builder.Services.AddTransient<IFruitService, FruitService>();
 builder.Services.AddTransient<IFlowerRepository, FlowerRepository>();
 builder.Services.AddTransient<IFlowerService, FlowerService>();
-builder.Services.AddTransient<IFruitService, FruitService>();
 builder.Services.AddTransient<IFinancialsService, FinancialsService>();
+builder.Services.AddTransient<IOrderService, OrderService>();
+builder.Services.AddTransient<IOrderRepository, OrderRepository>();
+
 
 builder.Services.AddDistributedMemoryCache();
 //setting session state enviornment at starup level

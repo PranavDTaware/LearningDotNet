@@ -1,3 +1,4 @@
+@model IEnumerable<Core.Models.Order>
 @using Core.Models;
 
 @{
@@ -14,12 +15,28 @@
     </div>
 <hr/>
 <div>
-    @foreach (Order theOrder in ViewData["orders"] as List<Order>)
-    {
-    <div>  
-
-       <b>@theOrder.Id</b> | 
-       <a href="/Orders/Details/@theOrder.Id">Order Details</a>
+    <div>
+       <a href="/Orders/Details/">Order Details</a>
     </div>
-    }
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Id)</th>
+                <th>@Html.DisplayNameFor(model => model.Status)</th>
+                <th>@Html.DisplayNameFor(model => model.OrderDate)</th>
+                <th>@Html.DisplayNameFor(model => model.TotalAmount)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                    <td>@Html.DisplayFor(modelItem => item.OrderDate)</td>
+                    <td>@Html.DisplayFor(modelItem => item.TotalAmount)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>
