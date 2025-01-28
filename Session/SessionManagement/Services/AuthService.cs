@@ -1,6 +1,17 @@
-﻿namespace SessionManagement.Services
+﻿using Core.Models;
+using Core.Repositories.Interfaces;
+using Core.Services.Interfaces;
+
+namespace Core.Services
 {
-    public class AuthService
+    public class AuthService : IAuthService
     {
+        private readonly IAuthRepository _authRepo;
+        public AuthService(IAuthRepository authRepo)
+        {
+            _authRepo = authRepo;
+        }
+        public bool Validate(string username, string password) => _authRepo.Validate(username,password);
+        public void Insert(User register) => _authRepo.Insert(register);
     }
 }

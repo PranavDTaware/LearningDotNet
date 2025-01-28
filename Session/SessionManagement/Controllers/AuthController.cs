@@ -1,26 +1,64 @@
 ﻿using Core.Models;
+using Core.Services;
+using Core.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using SessionManagement.Models;
+using System.Xml.Linq;
 
 namespace SessionManagement.Controllers
 {
     public class AuthController : Controller
     {
-        private readonly ILogger<AuthController> _logger;
-
-        public AuthController(ILogger<AuthController> logger)
+        private readonly IAuthService _authService;
+        public AuthController(IAuthService authService)
         {
-            _logger = logger;
+            _authService = authService;
         }
+
+        [HttpGet]
         public IActionResult Login()
         {
-            var loginModel = new Login();
-            return View(loginModel);
+            return View();
         }
+        [HttpPost]
+        public IActionResult Login(string username, string password)
+        {
+            var user = _authService.Validate(username, password);
+            if(user != null)
+            {
+                //ViewBag.Message = "Login Succesful";
+                return RedirectToAction("BuyNow", "ShoppingCart");
+            }
+            else
+            {
+                ViewBag.ErrorMessage = "Invalid email or password, Please try again.";
+                return View();
+            }
+        }
+
+        [HttpGet]
         public IActionResult Registration()
         {
-            var register = new Registration();
-            return View(register);
+            return View();
+        }
+
+        [HttpPost]
+
+        public IActionResult Registration(int id, string name, string username, string email,string phoneNumber, string location, string password)
+        {
+            User register = new User()
+            {
+                Id = id,
+                Name = name,
+                UserName = username,
+                Password = password,
+                PhoneNumber = phoneNumber,
+                Email = email,
+                Location = location,
+            };
+            _authService.Insert(register);
+            return RedirectToAction("Login");
         }
     }
 }

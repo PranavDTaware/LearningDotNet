@@ -1,5 +1,7 @@
 using System;
+using Core.Managers;
 using Core.Repositories;
+using Core.Repositories.Intefaces;
 using Core.Repositories.Interfaces;
 using Core.Services;
 using Core.Services.Interfaces;
@@ -19,6 +21,10 @@ builder.Services.AddTransient<IFlowerService, FlowerService>();
 builder.Services.AddTransient<IFinancialsService, FinancialsService>();
 builder.Services.AddTransient<IOrderService, OrderService>();
 builder.Services.AddTransient<IOrderRepository, OrderRepository>();
+builder.Services.AddTransient<IAuthService, AuthService>();
+builder.Services.AddTransient<IAuthRepository, AuthRepository>();
+builder.Services.AddTransient<IPaymentRepository, PaymentRepository>();
+builder.Services.AddTransient<IPaymentService, PaymentService>();
 
 
 builder.Services.AddDistributedMemoryCache();

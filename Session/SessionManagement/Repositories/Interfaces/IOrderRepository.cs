@@ -3,8 +3,8 @@ using System.Collections.Generic;
 
 namespace Core.Repositories.Interfaces
 {
-
-public interface IOrderRepository{
+    public interface IOrderRepository
+    {
         List<Order> GetAll();
         Order GetById(int id);
         // void Insert(Order order);

@@ -2,7 +2,5 @@
 
 namespace Core.Services.Interfaces
 {
-    public interface IFlowerService : IFlowerRepository { 
-        
-    }
+    public interface IFlowerService : IFlowerRepository { }
 }
