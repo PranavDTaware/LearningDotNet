@@ -48,7 +48,7 @@ CREATE TABLE orders (
     Id INT AUTO_INCREMENT PRIMARY KEY,  
     OrderDate DATETIME,                 
     Status VARCHAR(255),                
-    TotalAmount DOUBLE                  
+    TotalAmount DOUBLE
 );
 
 INSERT INTO orders (OrderDate, Status, TotalAmount)
@@ -60,5 +60,22 @@ VALUES
     ('2025-01-05 13:30:00', 'Pending', 75),
     ('2025-01-06 16:00:00', 'Shipped', 300);
 
+
+CREATE TABLE payments (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    OrderId INT NOT NULL,
+    Amount DOUBLE NOT NULL,
+    PaymentDate DATETIME NOT NULL,
+    PaymentMode VARCHAR(50) NOT NULL
+);
+
+
+INSERT INTO payments (OrderId, Amount, PaymentDate, PaymentMode)
+VALUES
+    (1001, 250.75, '2025-01-15 10:30:00', 'Credit Card'),
+    (1002, 130.50, '2025-01-16 14:45:00', 'PayPal'),
+    (1003, 450.00, '2025-01-17 09:00:00', 'Bank Transfer'),
+    (1004, 95.99, '2025-01-18 12:30:00', 'Debit Card'),
+    (1005, 320.20, '2025-01-19 16:15:00', 'Cash');
 
 

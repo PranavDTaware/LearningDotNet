@@ -7,16 +7,19 @@
 <h2>Login</h2>
 
 
-<form method="post" action="Login" class="tab">
-    <div>
-        <label for="UserName">Username</label>
-        <input type="text" id="UserName" name="UserName" />
-    </div>
-    <div>
-        <label for="Password">Password</label>
-        <input type="password" id="Password" name="Password" />
-    </div>
-
+<form method="post" action="Login">
+    <table>
+        <tr>
+            <td><b>Username</b></td>
+            <td><input type="text" id="UserName" name="UserName" required/></td>
+        </tr>
+        <tr>
+            <td><b>Password</b></td>
+            <td><input type="password" id="Password" name="Password" required/></td>
+        </tr>
+    </table>
     <button type="submit">Login</button>
 </form>
-<p>Don't have an accout Register <a href="registration">Here</a>.</p>
+<br>
+<a href="/auth/forgotpassword">Forgot Password</a>
+<p>Don't have an accout Register <a href="registration">Here</a></p>

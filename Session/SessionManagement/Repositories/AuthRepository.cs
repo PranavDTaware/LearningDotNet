@@ -15,13 +15,35 @@ namespace Core.Repositories
                 return user != null && user.Password == password;
             }
         }
-        public void Insert(User register)
+        public void Register(User register)
         {
             using (var context = new RepoCollectionContext())
-            if (register.Id == 0)
+                if (register.Id == 0)
+                {
+                    context.Users.Add(register);
+                    context.SaveChanges();
+                }
+        }
+
+        public User ForgotPassword(string username, string newPassword, string confirmPassword)
+        {
+            if (newPassword != confirmPassword)
             {
-                context.Users.Add(register);
+                return null;
+            }
+
+            using (var context = new RepoCollectionContext())
+            {
+                var user = context.Users.FirstOrDefault(u => u.Email == username);
+
+                if (user == null)
+                {
+                    return null;
+                }
+
+                user.Password = newPassword;
                 context.SaveChanges();
+                return user;
             }
         }
     }
