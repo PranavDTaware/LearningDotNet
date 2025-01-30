@@ -25,7 +25,7 @@ namespace SessionManagement.Controllers
         public IActionResult Login(string username, string password)
         {
             var user = _authService.Validate(username, password);
-            if(user != null)
+            if (user != null)
             {
                 //ViewBag.Message = "Login Succesful";
                 return RedirectToAction("BuyNow", "ShoppingCart");
@@ -45,7 +45,7 @@ namespace SessionManagement.Controllers
 
         [HttpPost]
 
-        public IActionResult Registration(int id, string name, string username, string email,string phoneNumber, string location, string password)
+        public IActionResult Registration(int id, string name, string username, string email, string phoneNumber, string location, string password)
         {
             User register = new User()
             {
@@ -73,11 +73,12 @@ namespace SessionManagement.Controllers
             if (user != null)
             {
                 HttpContext.Session.SetString("UserId", user.ToString());
-                return RedirectToAction("Login", "auth");
+                return RedirectToAction("Login", "Auth");
             }
 
             ViewBag.Message = "Failed to update password. Please check your inputs.";
             return View();
+
         }
     }
 }

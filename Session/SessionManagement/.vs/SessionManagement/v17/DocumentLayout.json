@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|d:\\fullstack\\learningdotnet\\session\\sessionmanagement\\views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|solutionrelative:views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|d:\\fullstack\\learningdotnet\\session\\sessionmanagement\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,12 +19,12 @@
       "RelativeMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|solutionrelative:repositories\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|d:\\fullstack\\learningdotnet\\session\\sessionmanagement\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|solutionrelative:repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|d:\\fullstack\\learningdotnet\\session\\sessionmanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|d:\\fullstack\\learningdotnet\\session\\sessionmanagement\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|solutionrelative:repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|d:\\fullstack\\learningdotnet\\session\\sessionmanagement\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|d:\\fullstack\\learningdotnet\\session\\sessionmanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|d:\\fullstack\\learningdotnet\\session\\sessionmanagement\\views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B54E0E80-ED4F-82BA-5A33-DEAF06668282}|SessionManagement.csproj|solutionrelative:views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,43 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Services\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T09:41:30.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AuthRepository.cs",
-              "DocumentMoniker": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Repositories\\AuthRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\AuthRepository.cs",
-              "ToolTip": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Repositories\\AuthRepository.cs",
-              "RelativeToolTip": "Repositories\\AuthRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T09:40:16.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "IAuthRepository.cs",
               "DocumentMoniker": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Repositories\\Interfaces\\IAuthRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\IAuthRepository.cs",
               "ToolTip": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Repositories\\Interfaces\\IAuthRepository.cs",
               "RelativeToolTip": "Repositories\\Interfaces\\IAuthRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T09:39:07.886Z",
               "EditorCaption": ""
@@ -95,7 +69,7 @@
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAAFAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T08:02:56.072Z",
               "EditorCaption": ""
@@ -103,6 +77,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Repositories\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AuthRepository.cs",
+              "ToolTip": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Repositories\\AuthRepository.cs",
+              "RelativeToolTip": "Repositories\\AuthRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T09:40:16.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T09:41:30.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ShoppingCartController.cs",
               "DocumentMoniker": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Controllers\\ShoppingCartController.cs",
               "RelativeDocumentMoniker": "Controllers\\ShoppingCartController.cs",
@@ -110,12 +110,11 @@
               "RelativeToolTip": "Controllers\\ShoppingCartController.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T08:02:19.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T08:02:19.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BuyNow.cshtml",
               "DocumentMoniker": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Views\\ShoppingCart\\BuyNow.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\BuyNow.cshtml",
@@ -127,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -139,25 +138,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Views\\Auth\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "Views\\Auth\\ForgotPassword.cshtml",
               "ToolTip": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Views\\Auth\\ForgotPassword.cshtml",
               "RelativeToolTip": "Views\\Auth\\ForgotPassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T06:37:07.633Z"
+              "WhenOpened": "2025-01-29T06:37:07.633Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Views\\Auth\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
               "ToolTip": "D:\\FullStack\\LearningDotNet\\Session\\SessionManagement\\Views\\Auth\\Login.cshtml",
               "RelativeToolTip": "Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-29T06:53:51.079Z",
               "EditorCaption": ""

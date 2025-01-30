@@ -34,7 +34,7 @@ namespace Core.Repositories
 
             using (var context = new RepoCollectionContext())
             {
-                var user = context.Users.FirstOrDefault(u => u.Email == username);
+                var user = context.Users.FirstOrDefault(u => u.UserName == username);
 
                 if (user == null)
                 {

@@ -45,9 +45,9 @@ VALUES
 
 
 CREATE TABLE orders (
-    Id INT AUTO_INCREMENT PRIMARY KEY,  
-    OrderDate DATETIME,                 
-    Status VARCHAR(255),                
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    OrderDate DATETIME,
+    Status VARCHAR(255),
     TotalAmount DOUBLE
 );
 
@@ -59,23 +59,54 @@ VALUES
     ('2025-01-04 11:15:00', 'Cancelled', 200),
     ('2025-01-05 13:30:00', 'Pending', 75),
     ('2025-01-06 16:00:00', 'Shipped', 300);
+    
+CREATE TABLE users (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(255) NOT NULL,
+    UserName VARCHAR(255) NOT NULL UNIQUE,
+    Password VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) NOT NULL UNIQUE,
+    PhoneNumber VARCHAR(15),
+    Location VARCHAR(255)
+);
 
 
+DROP table FLowers;
+CREATE TABLE Flowers (
+    ID INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    Name VARCHAR(255),
+    SalePrice DECIMAL(10, 2),
+    UnitPrice DECIMAL(10, 2),
+    Quantity INT
+);
+
+INSERT INTO Flowers (Name, SalePrice, UnitPrice, Quantity) VALUES 
+('Rose', 2.50, 1.80, 100),
+('Tulip', 1.20, 0.80, 200),
+('Orchid', 5.00, 3.80, 50),
+('Marigold', 3.00, 3.80, 300);
+
+DROP TABLE payments;
 CREATE TABLE payments (
     Id INT AUTO_INCREMENT PRIMARY KEY,
     OrderId INT NOT NULL,
     Amount DOUBLE NOT NULL,
-    PaymentDate DATETIME NOT NULL,
-    PaymentMode VARCHAR(50) NOT NULL
+    PaymentDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PaymentMode ENUM('Credit Card', 'Debit Card', 'PayPal', 'Bank Transfer') NOT NULL,
+    payment_status ENUM('Completed', 'Pending', 'Failed') DEFAULT 'Pending',
+    FOREIGN KEY (OrderId) REFERENCES orders(Id)
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
 );
 
-
-INSERT INTO payments (OrderId, Amount, PaymentDate, PaymentMode)
+INSERT INTO payments (OrderId, Amount, PaymentDate, PaymentMode, Payment_status) 
 VALUES
-    (1001, 250.75, '2025-01-15 10:30:00', 'Credit Card'),
-    (1002, 130.50, '2025-01-16 14:45:00', 'PayPal'),
-    (1003, 450.00, '2025-01-17 09:00:00', 'Bank Transfer'),
-    (1004, 95.99, '2025-01-18 12:30:00', 'Debit Card'),
-    (1005, 320.20, '2025-01-19 16:15:00', 'Cash');
+    (1, 100.50,'2025-01-15 10:30:00', 'Credit Card', 'Completed'),
+    (2, 250.75,'2025-01-16 14:45:00', 'PayPal', 'Pending'),
+    (3, 450.00,'2025-01-17 09:00:00', 'Bank Transfer', 'Failed'),
+    (4, 120.00,'2025-01-18 12:30:00', 'Debit Card', 'Completed'),
+    (5, 300.00,'2025-01-19 16:15:00', 'Credit Card', 'Pending');
+
+
 
 
