@@ -18,7 +18,6 @@ namespace Core.Repositories
              string conString = "server=localhost;user=root;database=onlineShopping;password='Senetor@2001'";
              optionsBuilder.UseMySql(conString,ServerVersion.AutoDetect(conString));
         }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

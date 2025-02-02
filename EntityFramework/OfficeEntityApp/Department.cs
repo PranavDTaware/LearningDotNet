@@ -4,7 +4,6 @@ namespace OfficeEntityApp.Models
     {
         public int DepartmentId { get; set; }  // Primary Key
         public string Name { get; set; }
-
         // Navigation Property
         public ICollection<Employee> Employees { get; set; }
     }
