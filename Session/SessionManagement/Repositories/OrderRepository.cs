@@ -17,10 +17,19 @@ namespace Core.Repositories
         }
         public Order GetById(int id)
         {
-            List<Order> allOrders=GetAll();
-            var found = allOrders.Find(x => x.Id == id);
-            Order theOrder=found as Order;
-            return theOrder;
+            using (var context = new RepoCollectionContext())
+            {
+                var order = context.Orders.Find(id);
+                return order;
+            }
+        }
+        public void Insert(Order order)
+        {
+            using (var context = new RepoCollectionContext())
+            {
+                context.Orders.Add(order);
+                context.SaveChanges();
+            }
         }
     }
 }

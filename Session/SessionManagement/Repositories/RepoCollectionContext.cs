@@ -45,6 +45,11 @@ namespace Core.Repositories
                 entity.Property(e => e.TotalAmount).IsRequired();
             });
 
+            modelBuilder.Entity<Order>()
+            .HasOne(e => e.User)
+            .WithMany(d => d.Orders)
+            .HasForeignKey(e => e.UserID);
+
             modelBuilder.Entity<User>(entity =>
             {
                 entity.HasKey(e => e.Id);

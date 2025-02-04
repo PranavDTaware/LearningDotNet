@@ -27,8 +27,8 @@ namespace SessionManagement.Controllers
             var user = _authService.Validate(username, password);
             if (user != null)
             {
-                //ViewBag.Message = "Login Succesful";
-                return RedirectToAction("BuyNow", "ShoppingCart");
+                HttpContext.Session.SetInt32("UserID", user.Id);
+                return RedirectToAction("orderconfirmation", "Orders");
             }
             else
             {

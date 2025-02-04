@@ -3,6 +3,18 @@
 @{
     ViewData["Title"] = "Order Insert Page";
 }
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h2>Error</h2>
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger">
+        @ViewBag.ErrorMessage
+    </div>
+}
 
 
 <h1 class="display-4">Insert new Order</h1>

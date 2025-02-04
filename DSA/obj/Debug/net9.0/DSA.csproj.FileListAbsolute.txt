@@ -1,0 +1,15 @@
+d:\FullStack\LearningDotNet\DSA\bin\Debug\net9.0\DSA.exe
+D:\FullStack\LearningDotNet\DSA\bin\Debug\net9.0\DSA.deps.json
+D:\FullStack\LearningDotNet\DSA\bin\Debug\net9.0\DSA.runtimeconfig.json
+d:\FullStack\LearningDotNet\DSA\bin\Debug\net9.0\DSA.dll
+d:\FullStack\LearningDotNet\DSA\bin\Debug\net9.0\DSA.pdb
+d:\FullStack\LearningDotNet\DSA\obj\Debug\net9.0\DSA.GeneratedMSBuildEditorConfig.editorconfig
+d:\FullStack\LearningDotNet\DSA\obj\Debug\net9.0\DSA.AssemblyInfoInputs.cache
+d:\FullStack\LearningDotNet\DSA\obj\Debug\net9.0\DSA.AssemblyInfo.cs
+d:\FullStack\LearningDotNet\DSA\obj\Debug\net9.0\DSA.csproj.CoreCompileInputs.cache
+d:\FullStack\LearningDotNet\DSA\obj\Debug\net9.0\DSA.sourcelink.json
+d:\FullStack\LearningDotNet\DSA\obj\Debug\net9.0\DSA.dll
+d:\FullStack\LearningDotNet\DSA\obj\Debug\net9.0\refint\DSA.dll
+d:\FullStack\LearningDotNet\DSA\obj\Debug\net9.0\DSA.pdb
+D:\FullStack\LearningDotNet\DSA\obj\Debug\net9.0\DSA.genruntimeconfig.cache
+D:\FullStack\LearningDotNet\DSA\obj\Debug\net9.0\ref\DSA.dll
