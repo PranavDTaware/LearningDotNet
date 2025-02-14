@@ -9,7 +9,7 @@ namespace ProductWebApi.Manager
         public bool Delete(int id)
         {
             bool status=false;
-            using (var context = new CollectionContext())
+           using(var context=new CollectionContext())
            {
             context.Products.Remove(context.Products.Find(id));
             context.SaveChanges();
