@@ -12,9 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IProductRepo, ProductRepo>();
-
 builder.Services.AddTransient<IProductService, ProductService>();
-
 builder.Services.AddTransient<IProductManager,ProductManager>();
 
 var app = builder.Build();

@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using ProductsWebAPI.Models;
 using ProductsWebAPI.Services;
 
-
 namespace ProductWebApi.Controller
 {
     [ApiController]
@@ -34,7 +33,6 @@ namespace ProductWebApi.Controller
             }
         }
 
-
         [HttpPost("api/insert")]
         public IActionResult Insert([FromBody] Product p)
         {
@@ -52,8 +50,6 @@ namespace ProductWebApi.Controller
                 return BadRequest();
             }
         }
-
-
 
         [HttpPut("api/update")]
         public IActionResult Update([FromBody] Product p)
