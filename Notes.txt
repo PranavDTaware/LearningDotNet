@@ -12,27 +12,3 @@ How It Works:
 When you create a value type, such as an int or a struct, the actual data is stored in the stack.
 The stack is much faster than the heap for allocating memory but is more limited in terms of size and scope. Typically, the stack is used for local variables and method calls.
 
-
-Dotnet core CLI commnads to create solution and projects 
-
-dotnet new sln
-
-dotnet new classlib -o Catalog
-dotnet new classlib -o CRM
-dotnet new classlib -o OrderProcessing
-dotnet new console -o Tester
-
-dotnet sln add Catalog/Catalog.csproj
-dotnet sln add CRM/CRM.csproj
-dotnet sln add OrderProcessing/OrderProcessing.csproj
-dotnet sln add tester/tester.csproj
-
-
-dotnet add Tester/Tester.csproj reference Catalog/Catalog.csproj
-dotnet add Tester/Tester.csproj reference CRM/CRM.csproj
-dotnet add Tester/Tester.csproj reference OrderProcessing/OrderProcessing.csproj
-dotnet add test/test.csproj reference Membership/Membership.csproj
-
-dotnet build  
-cd tester
-dotnet run --project tester/tester.csproj
