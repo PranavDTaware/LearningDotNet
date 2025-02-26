@@ -1,0 +1,8 @@
+D:\FullStack\LearningDotNet\JWTAuthentication\obj\Debug\net9.0\JWTAuthentication.csproj.AssemblyReference.cache
+D:\FullStack\LearningDotNet\JWTAuthentication\obj\Debug\net9.0\JWTAuthentication.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStack\LearningDotNet\JWTAuthentication\obj\Debug\net9.0\JWTAuthentication.AssemblyInfoInputs.cache
+D:\FullStack\LearningDotNet\JWTAuthentication\obj\Debug\net9.0\JWTAuthentication.AssemblyInfo.cs
+D:\FullStack\LearningDotNet\JWTAuthentication\obj\Debug\net9.0\JWTAuthentication.csproj.CoreCompileInputs.cache
+D:\FullStack\LearningDotNet\JWTAuthentication\obj\Debug\net9.0\JWTAuthentication.MvcApplicationPartsAssemblyInfo.cs
+D:\FullStack\LearningDotNet\JWTAuthentication\obj\Debug\net9.0\JWTAuthentication.MvcApplicationPartsAssemblyInfo.cache
+D:\FullStack\LearningDotNet\JWTAuthentication\obj\Debug\net9.0\JWTAuthentication.sourcelink.json
