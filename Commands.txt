@@ -21,3 +21,116 @@ dotnet add test/test.csproj reference Membership/Membership.csproj
 dotnet build  
 cd tester
 dotnet run --project tester/tester.csproj
+
+
+
+
+Basic Command
+To create a new project, the general format is:
+
+bash
+Copy
+dotnet new <template> -n <ProjectName>
+Where <template> is the type of project you want to create (e.g., console, web, etc.), and <ProjectName> is the name you want to assign to the project.
+
+Common Project Templates
+Console Application:
+
+bash
+Copy
+dotnet new console -n MyConsoleApp
+This creates a basic console application.
+
+ASP.NET Core Web Application:
+
+bash
+Copy
+dotnet new web -n MyWebApp
+This creates a basic web application using ASP.NET Core.
+
+ASP.NET Core Web API:
+
+bash
+Copy
+dotnet new webapi -n MyWebApi
+This creates a Web API project.
+
+Class Library:
+
+bash
+Copy
+dotnet new classlib -n MyClassLibrary
+This creates a class library project.
+
+Unit Test Project:
+
+bash
+Copy
+dotnet new xunit -n MyTestProject
+This creates a unit test project using xUnit.
+
+Blazor WebAssembly App:
+
+bash
+Copy
+dotnet new blazorwasm -n MyBlazorApp
+This creates a Blazor WebAssembly application.
+
+Razor Pages Application:
+
+bash
+Copy
+dotnet new razor -n MyRazorPagesApp
+This creates a Razor Pages application.
+
+WPF (Windows Presentation Foundation) App:
+
+bash
+Copy
+dotnet new wpf -n MyWpfApp
+This creates a WPF application (Windows desktop app).
+
+WinForms Application:
+
+bash
+Copy
+dotnet new winforms -n MyWinFormsApp
+This creates a WinForms application (Windows desktop app).
+
+Worker Service:
+
+bash
+Copy
+dotnet new worker -n MyWorkerService
+This creates a background service (a worker service).
+
+Additional Options
+You can customize the templates with additional options:
+
+-f: Specifies the framework version (e.g., net6.0, net5.0).
+-o: Specifies the output directory.
+-lang: Specifies the programming language (C#, F#, VB).
+Example with framework version:
+
+bash
+Copy
+dotnet new console -n MyConsoleApp -f net6.0
+Listing Available Templates
+To see a full list of available project templates, run:
+
+bash
+Copy
+dotnet new --list
+This will display a list of all the templates that are available in your .NET installation.
+
+Creating a Solution
+If you want to create a solution that contains multiple projects:
+
+bash
+Copy
+dotnet new sln -n MySolution
+You can add projects to the solution with:
+
+bash
+Copy
+dotnet sln MySolution.sln add <ProjectPath>

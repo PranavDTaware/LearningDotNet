@@ -1,0 +1,4 @@
+Dotnet Addpackages commands
+
+dotnet add package System.IdentityModel.Tokens.Jwt
+	

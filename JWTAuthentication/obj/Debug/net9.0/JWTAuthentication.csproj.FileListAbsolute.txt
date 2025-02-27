@@ -40,3 +40,9 @@ D:\FullStack\LearningDotNet\JWTAuthentication\obj\Debug\net9.0\refint\JWTAuthent
 D:\FullStack\LearningDotNet\JWTAuthentication\obj\Debug\net9.0\JWTAuthentication.pdb
 D:\FullStack\LearningDotNet\JWTAuthentication\obj\Debug\net9.0\JWTAuthentication.genruntimeconfig.cache
 D:\FullStack\LearningDotNet\JWTAuthentication\obj\Debug\net9.0\ref\JWTAuthentication.dll
+D:\FullStack\LearningDotNet\JWTAuthentication\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\FullStack\LearningDotNet\JWTAuthentication\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\FullStack\LearningDotNet\JWTAuthentication\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FullStack\LearningDotNet\JWTAuthentication\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\FullStack\LearningDotNet\JWTAuthentication\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\FullStack\LearningDotNet\JWTAuthentication\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
