@@ -30,12 +30,10 @@ namespace WebApi.Services
         };
 
         private readonly AppSettings _appSettings;
-
         public UserService(IOptions<AppSettings> appSettings)
         {
             _appSettings = appSettings.Value;
         }
-
         public AuthenticateResponse Authenticate(AuthenticateRequest model)
         {
             var user = _users.SingleOrDefault(x => x.Username == model.Username && x.Password == model.Password);
@@ -48,19 +46,16 @@ namespace WebApi.Services
 
             return new AuthenticateResponse(user, token);
         }
-
         public IEnumerable<User> GetAll()
         {
             return _users;
         }
-
         public User GetById(int id)
         {
             return _users.FirstOrDefault(x => x.Id == id);
         }
 
         // helper methods
-
         private string generateJwtToken(User user)
         {
             // generate token that is valid for 7 days

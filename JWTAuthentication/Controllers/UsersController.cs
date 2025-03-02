@@ -11,12 +11,10 @@ namespace JWTAuthentication.Controllers
     public class UsersController : ControllerBase
     {
         private IUserService _userService;
-
         public UsersController(IUserService userService)
         {
             _userService = userService;
         }
-
         [HttpPost("authenticate")]
         public IActionResult Authenticate(AuthenticateRequest model)
         {
@@ -26,7 +24,7 @@ namespace JWTAuthentication.Controllers
                 return BadRequest(new { message = "Username or password is incorrect" });
             return Ok(response);
         }
- 
+        
         [Authorize]
         [HttpGet]
         public IActionResult GetAll()
