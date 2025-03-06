@@ -65,7 +65,6 @@ namespace CRM
             Customer theCustomer=null;
             try
             {
-                
                 MySqlConnection con = new MySqlConnection(conString);
                 if (con.State == ConnectionState.Closed)
                  con.Open();
@@ -83,9 +82,9 @@ namespace CRM
                     string name = reader["Name"].ToString();
                     string email = reader["Email"].ToString();
                     string contactNumber = reader["ContactNumber"].ToString();
-                     string location = reader["Location"].ToString();
+                    string location = reader["Location"].ToString();
                     int age = int.Parse(reader["Age"].ToString());
-     
+
                     theCustomer=new Customer()
                     {
                         Id = id,
@@ -95,7 +94,6 @@ namespace CRM
                         Location = location,
                         Age = age
                     };
-
                 }
                 reader.Close();
                 if (con.State == ConnectionState.Open)
@@ -115,7 +113,7 @@ namespace CRM
                 {
                     if (con.State == ConnectionState.Closed)
                     con.Open();
-                    string query = "INSERT INTO customers (Id,Name,ContactNumber, Email, Location, Age ) " +
+                    string query =  "INSERT INTO customers (Id,Name,ContactNumber, Email, Location, Age ) " +
                                     "VALUES (@Id, @Name, @ContactNumber, @Email, @Location, @Age)";
                     MySqlCommand cmd = new MySqlCommand(query, con);
                     cmd.Parameters.Add(new MySqlParameter("@Id", customer.Id));
@@ -124,7 +122,7 @@ namespace CRM
                     cmd.Parameters.Add(new MySqlParameter("@Email", customer.Email));
                     cmd.Parameters.Add(new MySqlParameter("@Location", customer.Location));
                     cmd.Parameters.Add(new MySqlParameter("@Age", customer.Age));
-                      cmd.ExecuteNonQuery();// DML
+                    cmd.ExecuteNonQuery();// DML
                     if (con.State == ConnectionState.Open)
                         con.Close();
                     status = true;
