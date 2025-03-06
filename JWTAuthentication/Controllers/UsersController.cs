@@ -1,36 +1,40 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebApi.Services;
 using WebApi.Models;
-using MailKit.Net.Smtp;
-using MimeKit;
 
 namespace JWTAuthentication.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class UsersController : ControllerBase
     {
-        private IUserService _userService;
+        private readonly IUserService _userService;
+
         public UsersController(IUserService userService)
         {
             _userService = userService;
         }
-        [HttpPost("authenticate")]
-        public IActionResult Authenticate(AuthenticateRequest model)
-        {
-            var response = _userService.Authenticate(model);
 
-            if (response == null)
+        [AllowAnonymous]
+        [HttpPost("authenticate")]
+        public IActionResult Authenticate([FromBody]AuthenticateRequest model)
+        {
+            var user = _userService.Authenticate(model.Username, model.Password);
+
+            if (user == null)
                 return BadRequest(new { message = "Username or password is incorrect" });
-            return Ok(response);
+
+            return Ok(user);
         }
-        
-        [Authorize]
+
+        [Authorize] 
         [HttpGet]
         public IActionResult GetAll()
         {
             var users = _userService.GetAll();
             return Ok(users);
-        }        
+        }
     }
 }
