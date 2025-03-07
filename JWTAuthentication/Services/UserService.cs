@@ -18,7 +18,8 @@ namespace WebApi.Services
             new User { Id = 1, FirstName = "Ganesh", LastName = "Shinde", Username = "ganesh", Password = "test" },
             new User { Id = 2, FirstName = "Ankur", LastName = "Prasad", Username = "ankur", Password = "test" },
             new User { Id = 3, FirstName = "Neha", LastName = "Bhor", Username = "neha", Password = "test" },
-            new User { Id = 4, FirstName = "Vishwambhar", LastName = "Kapre", Username = "vishwambhar", Password = "test" }
+            new User { Id = 4, FirstName = "Vishwambhar", LastName = "Kapre", Username = "vishwambhar", Password = "test" },
+            new User { Id = 4, FirstName = "Pranav", LastName = "Taware", Username = "pranav", Password = "test" }
         };
 
         private readonly IConfiguration _configuration;
