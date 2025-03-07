@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Services;
 using WebApi.Models;
+using WebApi.Entities;
 
 namespace JWTAuthentication.Controllers
 {
@@ -29,7 +30,7 @@ namespace JWTAuthentication.Controllers
             return Ok(user);
         }
 
-        [Authorize] 
+        [Authorize(Roles = Role.Admin)] 
         [HttpGet]
         public IActionResult GetAll()
         {
