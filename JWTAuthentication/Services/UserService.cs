@@ -29,12 +29,15 @@ namespace WebApi.Services
         {
             _configuration = configuration;
             _appSettings = appSettings.Value;
+            // initialize repository for database users 
         }
 
         public User Authenticate(string username, string password)
         {
+            //access validate method of repository
             var user = _users.SingleOrDefault(x => x.Username == username && x.Password == password);
 
+            //return null if user not found 
             if (user == null) 
                 return null;
 
