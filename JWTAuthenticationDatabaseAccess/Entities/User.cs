@@ -14,7 +14,6 @@ namespace WebApi.Entities
 
         // Foreign key for Role
         public int RoleId { get; set; } // Add this property as a foreign key to the Role table
-        [NotMapped]
         public Role Role { get; set; } // Navigation property to the Role
         
         public string Token { get; set; }
