@@ -22,7 +22,7 @@ public class JWAContext : DbContext
         modelBuilder.Entity<User>()
             .HasOne(u => u.Role)                // User has one Role
             .WithMany(r => r.Users)        // Role has many Users
-            .HasForeignKey(u => u.Role)    // Foreign key in User for Role
+            .HasForeignKey(u => u.RoleId)    // Foreign key in User for Role
             .OnDelete(DeleteBehavior.SetNull); // Set to null if Role is deleted
         
         // You can configure any other relationships or constraints as needed.

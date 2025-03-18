@@ -2,7 +2,7 @@ namespace WebApi.Entities
 {
     public class Role
     {
-        public int Id { get; set; }          // Primary Key
+        public int RoleId { get; set; }          // Primary Key
         public string Name { get; set; }     // Role name (Admin, User, etc.)
         
         // Navigation property 
