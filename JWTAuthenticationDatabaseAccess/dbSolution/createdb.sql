@@ -1,8 +1,8 @@
-Drop database office;
+Drop database hr;
 
-create database office;
+create database hr;
 
-use office;
+use hr;
 
 CREATE TABLE Users (
     Id INT AUTO_INCREMENT PRIMARY KEY,
@@ -15,11 +15,11 @@ CREATE TABLE Users (
 );
 
 CREATE TABLE Roles (
-    Id INT AUTO_INCREMENT PRIMARY KEY,
-    Name VARCHAR(50) NOT NULL UNIQUE -- E.g., Admin, User, Manager
+    RoleId INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL UNIQUE -- E.g., Admin, User
 );
 
-INSERT INTO Roles (Name) VALUES ('Admin'), ('User'), ('Manager');
+INSERT INTO Roles (Name) VALUES ('Admin'), ('User');
 
 
 -- Insert 6 sample users into the Users table
@@ -29,7 +29,7 @@ VALUES
     ('Ankur', 'Prasad', 'ankur', 'password123', 'Admin'),
     ('Neha', 'Bhor', 'neha', 'password123', 'User'),
     ('Vishwambhar', 'Kapre', 'vishwambhar', 'password123', 'User'),
-    ('Pranav', 'Taware', 'pranav', 'password123', 'Manager'),
-    ('Ravi', 'Kumar', 'ravi', 'password123', 'Distributor');
+    ('Pranav', 'Taware', 'pranav', 'password123', 'User'),
+    ('Ravi', 'Kumar', 'ravi', 'password123', 'User');
 
 select * from Users;
