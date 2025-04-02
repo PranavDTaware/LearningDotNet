@@ -1,0 +1,6 @@
+Key Points about Interfaces:
+No Implementation: An interface only declares the method signatures or properties, and it’s up to the class or struct that implements the interface to provide the actual behavior (implementation).
+
+Multiple Inheritance: A class can implement multiple interfaces, which provides a form of multiple inheritance (something C# does not support with classes).
+
+Polymorphism: Interfaces allow for polymorphism, meaning different types can be treated the same way if they implement the same interface, even if they are unrelated in terms of class hierarchy.
