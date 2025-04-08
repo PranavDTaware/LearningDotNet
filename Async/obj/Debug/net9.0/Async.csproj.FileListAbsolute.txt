@@ -1,0 +1,15 @@
+C:\Users\tfladmin\Desktop\Pranav\LearningDotNet\async\bin\Debug\net9.0\Async.exe
+C:\Users\tfladmin\Desktop\Pranav\LearningDotNet\async\bin\Debug\net9.0\Async.deps.json
+C:\Users\tfladmin\Desktop\Pranav\LearningDotNet\async\bin\Debug\net9.0\Async.runtimeconfig.json
+C:\Users\tfladmin\Desktop\Pranav\LearningDotNet\async\bin\Debug\net9.0\Async.dll
+C:\Users\tfladmin\Desktop\Pranav\LearningDotNet\async\bin\Debug\net9.0\Async.pdb
+C:\Users\tfladmin\Desktop\Pranav\LearningDotNet\async\obj\Debug\net9.0\Async.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tfladmin\Desktop\Pranav\LearningDotNet\async\obj\Debug\net9.0\Async.AssemblyInfoInputs.cache
+C:\Users\tfladmin\Desktop\Pranav\LearningDotNet\async\obj\Debug\net9.0\Async.AssemblyInfo.cs
+C:\Users\tfladmin\Desktop\Pranav\LearningDotNet\async\obj\Debug\net9.0\Async.csproj.CoreCompileInputs.cache
+C:\Users\tfladmin\Desktop\Pranav\LearningDotNet\async\obj\Debug\net9.0\Async.sourcelink.json
+C:\Users\tfladmin\Desktop\Pranav\LearningDotNet\async\obj\Debug\net9.0\Async.dll
+C:\Users\tfladmin\Desktop\Pranav\LearningDotNet\async\obj\Debug\net9.0\refint\Async.dll
+C:\Users\tfladmin\Desktop\Pranav\LearningDotNet\async\obj\Debug\net9.0\Async.pdb
+C:\Users\tfladmin\Desktop\Pranav\LearningDotNet\async\obj\Debug\net9.0\Async.genruntimeconfig.cache
+C:\Users\tfladmin\Desktop\Pranav\LearningDotNet\async\obj\Debug\net9.0\ref\Async.dll
