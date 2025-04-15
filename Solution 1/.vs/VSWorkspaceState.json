@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BLL",
-    "\\Catalog",
-    "\\DAL",
-    "\\TesterApp"
+    "\\DAL"
   ],
-  "SelectedNode": "\\DAL\\CatalogDBConnectedManager.cs",
+  "SelectedNode": "\\CRM",
   "PreviewInSolutionExplorer": false
 }

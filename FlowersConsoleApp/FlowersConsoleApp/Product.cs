@@ -70,7 +70,7 @@ namespace FlowersConsoleApp
             return this.productId + " " + this.title + " " + this.description + " " + this.category + " " + this.Quantity + " " + this.price;
         }
 
-        float getTotalPrice()
+        float GetTotalPrice() const { return quantity * price; }
 
         public void Display()
         {
