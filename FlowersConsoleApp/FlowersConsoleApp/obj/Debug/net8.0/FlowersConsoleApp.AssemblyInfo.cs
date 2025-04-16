@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlowersConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a0f7ea3fcd9aba81365191c2555123695d1a831")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f39339f355a5b0ce547cc8928381a19c320e7c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlowersConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlowersConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

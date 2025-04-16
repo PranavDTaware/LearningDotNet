@@ -28,7 +28,7 @@ namespace FlowersConsoleApp
             }
         }
 
-        public Product GetProduct(int index)
+        public Product? GetProduct(int index)
         {
             if (index >= 0 && index < products.Count)
             {
@@ -37,11 +37,11 @@ namespace FlowersConsoleApp
             return null;
         }
 
-        public Product FindProductById(int id)
+        public Product? FindProductById(int id)
         {
             foreach (var product in products)
             {
-                if (product.GetProductId() == id)
+                if (product.ProductId == id)
                 {
                     return product;
                 }
@@ -49,11 +49,11 @@ namespace FlowersConsoleApp
             return null;
         }
 
-        public Product FindProductByTitle(string title)
+        public Product? FindProductByTitle(string title)
         {
             foreach (var product in products)
             {
-                if (product.GetTitle() == title)
+                if (product.Title == title)
                 {
                     return product;
                 }
@@ -78,11 +78,11 @@ namespace FlowersConsoleApp
             if (index >= 0 && index < products.Count)
             {
                 var existingProduct = products[index];
-                existingProduct.SetTitle(product.GetTitle());
-                existingProduct.SetDescription(product.GetDescription());
-                existingProduct.SetCategory(product.GetCategory());
-                existingProduct.SetQuantity(product.GetQuantity());
-                existingProduct.SetPrice(product.GetPrice());
+                existingProduct.Title = product.Title;
+                existingProduct.Description = product.Description;
+                existingProduct.Category = product.Category;
+                existingProduct.Quantity = product.Quantity;
+                existingProduct.UnitPrice = product.UnitPrice;
             }
             else
             {
@@ -99,3 +99,4 @@ namespace FlowersConsoleApp
             }
         }
     }
+}

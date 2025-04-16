@@ -20,8 +20,8 @@ namespace FlowersConsoleApp
             Product product = repo.FindProductById(productId);
             if (product != null)
             {
-                double discountedPrice = product.GetDiscountedPrice(discount);
-                product.SetPrice(discountedPrice);
+                float discountedPrice = product.GetDiscountedPrice();  //product.UnitPrice = (float)discountedPrice;
+                product.UnitPrice = discountedPrice;
             }
             else
             {
@@ -35,7 +35,7 @@ namespace FlowersConsoleApp
             if (product != null)
             {
                 double totalPrice = product.GetTotalPrice();
-                Console.WriteLine($"Total Price for {product.GetTitle()}: ${totalPrice}");
+                Console.WriteLine($"Total Price for {product.Title}: ${totalPrice}");
             }
             else
             {
@@ -56,3 +56,4 @@ namespace FlowersConsoleApp
             }
         }
     }
+}

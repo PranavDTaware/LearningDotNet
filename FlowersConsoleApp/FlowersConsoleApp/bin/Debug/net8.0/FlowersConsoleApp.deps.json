@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FlowersConsoleApp/1.0.0": {
+        "runtime": {
+          "FlowersConsoleApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FlowersConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

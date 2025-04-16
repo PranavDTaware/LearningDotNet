@@ -13,7 +13,7 @@ namespace FlowersConsoleApp
         private string description;
         private string category;
         private int quantity;
-        private float price;
+        private float unitPrice;
 
         public int ProductId 
         {
@@ -45,32 +45,40 @@ namespace FlowersConsoleApp
             get { return this.quantity; }
         }
 
-        public float Price
+        public float UnitPrice
         {
-            set { this.price = value; }
-            get { return this.price; }
+            set { this.unitPrice = value; }
+            get { return this.unitPrice; }
         }
 
         public Product () { }
 
-        public Product(int productid, string title, string description , string category, int quantity, float price)
+        public Product(int productid, string title, string description , string category, int quantity, float unitprice)
         {
             this.productId = productid;
             this.title = title;
             this.description = description;
             this.category = category;
             this.quantity = quantity;
-            this.price = price;
+            this.unitPrice = unitprice;
         }
 
         ~Product () { }
 
         public override string ToString()
         {
-            return this.productId + " " + this.title + " " + this.description + " " + this.category + " " + this.Quantity + " " + this.price;
+            return this.productId + " " + this.title + " " + this.description + " " + this.category + " " + this.Quantity + " " + this.unitPrice;
         }
 
-        float GetTotalPrice() const { return quantity * price; }
+        public float GetTotalPrice()
+        { 
+            return this.quantity * this.unitPrice; 
+        }
+
+        public float GetDiscountedPrice()
+        {
+            return unitPrice * 0.9f; // 10% discount
+        }
 
         public void Display()
         {
@@ -79,7 +87,7 @@ namespace FlowersConsoleApp
             Console.WriteLine("Description: " + this.description);
             Console.WriteLine("Category: " + this.category);
             Console.WriteLine("Quantity: " + this.quantity);
-            Console.WriteLine("Price: $" + this.price);
+            Console.WriteLine("Price: $" + this.unitPrice);
             Console.WriteLine("--------------------------");
         }
     }

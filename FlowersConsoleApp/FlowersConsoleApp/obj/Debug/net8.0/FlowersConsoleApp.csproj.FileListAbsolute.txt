@@ -1,0 +1,15 @@
+D:\FullStack\LearningDotNet\FlowersConsoleApp\FlowersConsoleApp\obj\Debug\net8.0\FlowersConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStack\LearningDotNet\FlowersConsoleApp\FlowersConsoleApp\obj\Debug\net8.0\FlowersConsoleApp.AssemblyInfoInputs.cache
+D:\FullStack\LearningDotNet\FlowersConsoleApp\FlowersConsoleApp\obj\Debug\net8.0\FlowersConsoleApp.AssemblyInfo.cs
+D:\FullStack\LearningDotNet\FlowersConsoleApp\FlowersConsoleApp\obj\Debug\net8.0\FlowersConsoleApp.csproj.CoreCompileInputs.cache
+D:\FullStack\LearningDotNet\FlowersConsoleApp\FlowersConsoleApp\obj\Debug\net8.0\FlowersConsoleApp.sourcelink.json
+D:\FullStack\LearningDotNet\FlowersConsoleApp\FlowersConsoleApp\bin\Debug\net8.0\FlowersConsoleApp.exe
+D:\FullStack\LearningDotNet\FlowersConsoleApp\FlowersConsoleApp\bin\Debug\net8.0\FlowersConsoleApp.deps.json
+D:\FullStack\LearningDotNet\FlowersConsoleApp\FlowersConsoleApp\bin\Debug\net8.0\FlowersConsoleApp.runtimeconfig.json
+D:\FullStack\LearningDotNet\FlowersConsoleApp\FlowersConsoleApp\bin\Debug\net8.0\FlowersConsoleApp.dll
+D:\FullStack\LearningDotNet\FlowersConsoleApp\FlowersConsoleApp\bin\Debug\net8.0\FlowersConsoleApp.pdb
+D:\FullStack\LearningDotNet\FlowersConsoleApp\FlowersConsoleApp\obj\Debug\net8.0\FlowersConsoleApp.dll
+D:\FullStack\LearningDotNet\FlowersConsoleApp\FlowersConsoleApp\obj\Debug\net8.0\refint\FlowersConsoleApp.dll
+D:\FullStack\LearningDotNet\FlowersConsoleApp\FlowersConsoleApp\obj\Debug\net8.0\FlowersConsoleApp.pdb
+D:\FullStack\LearningDotNet\FlowersConsoleApp\FlowersConsoleApp\obj\Debug\net8.0\FlowersConsoleApp.genruntimeconfig.cache
+D:\FullStack\LearningDotNet\FlowersConsoleApp\FlowersConsoleApp\obj\Debug\net8.0\ref\FlowersConsoleApp.dll
